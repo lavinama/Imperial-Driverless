@@ -1,0 +1,5 @@
+[console_scripts]
+control_command_converter = fsds_simulator.control_command_converter:main
+fs_track_to_conemap = fsds_simulator.fs_track_to_conemap:main
+grab_cone_gt = fsds_simulator.grab_cone_gt:main
+

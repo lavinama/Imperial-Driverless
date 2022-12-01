@@ -1,0 +1,73 @@
+[0.043s] Invoking command in '/home/mario/Driverless/build/velodyne_pointcloud': AMENT_PREFIX_PATH=/home/mario/Driverless/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/galactic:/home/mario/Driverless/install/velodyne_msgs LD_LIBRARY_PATH=/home/mario/Driverless/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mario/Driverless/install/velodyne_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/mario/Driverless/src/velodyne/velodyne_pointcloud -DCMAKE_INSTALL_PREFIX=/home/mario/Driverless/install/velodyne_pointcloud
+[0.293s] -- The C compiler identification is GNU 9.4.0
+[0.548s] -- The CXX compiler identification is GNU 9.4.0
+[0.561s] -- Check for working C compiler: /usr/bin/cc
+[0.885s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.887s] -- Detecting C compiler ABI info
+[1.187s] -- Detecting C compiler ABI info - done
+[1.211s] -- Detecting C compile features
+[1.212s] -- Detecting C compile features - done
+[1.217s] -- Check for working CXX compiler: /usr/bin/c++
+[1.529s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.531s] -- Detecting CXX compiler ABI info
+[1.847s] -- Detecting CXX compiler ABI info - done
+[1.893s] -- Detecting CXX compile features
+[1.894s] -- Detecting CXX compile features - done
+[1.897s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[1.935s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.935s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.076s] -- Found angles: 1.12.4 (/opt/ros/galactic/share/angles/cmake)
+[2.079s] -- Found diagnostic_updater: 2.1.3 (/opt/ros/galactic/share/diagnostic_updater/cmake)
+[2.157s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.168s] -- Found rosidl_adapter: 2.2.2 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[2.314s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.369s] -- Found FastRTPS: /opt/ros/galactic/include  
+[2.538s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.812s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[2.818s] -- Found rmw_cyclonedds_cpp: 0.22.5 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[2.855s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.857s] -- Looking for pthread.h
+[2.973s] -- Looking for pthread.h - found
+[2.974s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.089s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.090s] -- Looking for pthread_create in pthreads
+[3.281s] -- Looking for pthread_create in pthreads - not found
+[3.281s] -- Looking for pthread_create in pthread
+[3.519s] -- Looking for pthread_create in pthread - found
+[3.519s] -- Found Threads: TRUE  
+[3.823s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[3.905s] -- Found message_filters: 3.2.6 (/opt/ros/galactic/share/message_filters/cmake)
+[3.980s] -- Checking for module 'eigen3'
+[4.060s] --   Found eigen3, version 3.3.7
+[4.124s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[4.124s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[4.218s] -- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex 
+[4.221s] -- looking for PCL_COMMON
+[4.223s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[4.225s] -- Found PCL: pcl_common;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so  
+[4.227s] -- Found rclcpp_components: 9.2.1 (/opt/ros/galactic/share/rclcpp_components/cmake)
+[4.330s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[4.467s] -- Found tf2: 0.17.3 (/opt/ros/galactic/share/tf2/cmake)
+[4.485s] -- Found tf2_ros: 0.17.3 (/opt/ros/galactic/share/tf2_ros/cmake)
+[5.048s] -- Found velodyne_msgs: 2.2.0 (/opt/ros/galactic/share/velodyne_msgs/cmake)
+[5.114s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[5.116s] -- Checking for module 'yaml-cpp'
+[5.141s] --   Found yaml-cpp, version 0.6.2
+[5.315s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[5.447s] -- Found gtest sources under '/opt/ros/galactic/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[5.452s] -- Check if compiler accepts -pthread
+[5.571s] -- Check if compiler accepts -pthread - yes
+[5.581s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.585s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.585s] -- Configured cppcheck include dirs: /home/mario/Driverless/src/velodyne/velodyne_pointcloud/include
+[5.585s] -- Configured cppcheck exclude dirs and/or files: 
+[5.588s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.588s] -- Configured cpplint exclude dirs and/or files: 
+[5.589s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.595s] -- Added test 'lint_cmake' to check CMake code style
+[5.596s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[5.599s] -- Added test 'uncrustify' to check C / C++ code style
+[5.599s] -- Configured uncrustify additional arguments: 
+[5.604s] -- Configuring done
+[5.698s] -- Generating done
+[5.701s] -- Build files have been written to: /home/mario/Driverless/build/velodyne_pointcloud

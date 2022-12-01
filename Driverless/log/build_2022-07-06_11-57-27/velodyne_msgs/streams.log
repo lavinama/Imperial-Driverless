@@ -1,0 +1,35 @@
+[0.042s] Invoking command in '/home/mario/Driverless/build/velodyne_msgs': /usr/bin/cmake /home/mario/Driverless/src/velodyne/velodyne_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/mario/Driverless/install/velodyne_msgs
+[0.662s] -- The C compiler identification is GNU 9.4.0
+[0.663s] -- The CXX compiler identification is GNU 9.4.0
+[0.663s] -- Check for working C compiler: /usr/bin/cc
+[0.663s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.663s] -- Detecting C compiler ABI info
+[0.663s] -- Detecting C compiler ABI info - done
+[0.663s] -- Detecting C compile features
+[0.663s] -- Detecting C compile features - done
+[0.663s] -- Check for working CXX compiler: /usr/bin/c++
+[0.663s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.663s] -- Detecting CXX compiler ABI info
+[0.777s] -- Detecting CXX compiler ABI info - done
+[0.804s] -- Detecting CXX compile features
+[0.806s] -- Detecting CXX compile features - done
+[0.827s] CMake Error at CMakeLists.txt:4 (find_package):
+[0.827s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.827s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.827s]   CMake did not find one.
+[0.827s] 
+[0.827s]   Could not find a package configuration file provided by "catkin" with any
+[0.828s]   of the following names:
+[0.829s] 
+[0.829s]     catkinConfig.cmake
+[0.829s]     catkin-config.cmake
+[0.829s] 
+[0.829s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.829s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.829s]   provides a separate development package or SDK, be sure it has been
+[0.829s]   installed.
+[0.830s] 
+[0.830s] 
+[0.830s] -- Configuring incomplete, errors occurred!
+[0.831s] See also "/home/mario/Driverless/build/velodyne_msgs/CMakeFiles/CMakeOutput.log".
+[0.835s] Invoked command in '/home/mario/Driverless/build/velodyne_msgs' returned '1': /usr/bin/cmake /home/mario/Driverless/src/velodyne/velodyne_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/mario/Driverless/install/velodyne_msgs

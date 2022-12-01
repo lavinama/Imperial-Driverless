@@ -1,0 +1,46 @@
+running egg_info
+creating ../../build/path_generators/path_generators.egg-info
+writing ../../build/path_generators/path_generators.egg-info/PKG-INFO
+writing dependency_links to ../../build/path_generators/path_generators.egg-info/dependency_links.txt
+writing entry points to ../../build/path_generators/path_generators.egg-info/entry_points.txt
+writing top-level names to ../../build/path_generators/path_generators.egg-info/top_level.txt
+writing manifest file '../../build/path_generators/path_generators.egg-info/SOURCES.txt'
+reading manifest file '../../build/path_generators/path_generators.egg-info/SOURCES.txt'
+writing manifest file '../../build/path_generators/path_generators.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/mario/Driverless/build/path_generators/build
+creating /home/mario/Driverless/build/path_generators/build/lib
+creating /home/mario/Driverless/build/path_generators/build/lib/path_generators
+copying path_generators/example_generator.py -> /home/mario/Driverless/build/path_generators/build/lib/path_generators
+copying path_generators/__init__.py -> /home/mario/Driverless/build/path_generators/build/lib/path_generators
+copying path_generators/triangulation.py -> /home/mario/Driverless/build/path_generators/build/lib/path_generators
+copying path_generators/ros_node.py -> /home/mario/Driverless/build/path_generators/build/lib/path_generators
+copying path_generators/path_generator_base.py -> /home/mario/Driverless/build/path_generators/build/lib/path_generators
+running install
+running install_lib
+creating /home/mario/Driverless/install/path_generators/lib/python3.8/site-packages/path_generators
+copying /home/mario/Driverless/build/path_generators/build/lib/path_generators/example_generator.py -> /home/mario/Driverless/install/path_generators/lib/python3.8/site-packages/path_generators
+copying /home/mario/Driverless/build/path_generators/build/lib/path_generators/__init__.py -> /home/mario/Driverless/install/path_generators/lib/python3.8/site-packages/path_generators
+copying /home/mario/Driverless/build/path_generators/build/lib/path_generators/triangulation.py -> /home/mario/Driverless/install/path_generators/lib/python3.8/site-packages/path_generators
+copying /home/mario/Driverless/build/path_generators/build/lib/path_generators/ros_node.py -> /home/mario/Driverless/install/path_generators/lib/python3.8/site-packages/path_generators
+copying /home/mario/Driverless/build/path_generators/build/lib/path_generators/path_generator_base.py -> /home/mario/Driverless/install/path_generators/lib/python3.8/site-packages/path_generators
+byte-compiling /home/mario/Driverless/install/path_generators/lib/python3.8/site-packages/path_generators/example_generator.py to example_generator.cpython-38.pyc
+byte-compiling /home/mario/Driverless/install/path_generators/lib/python3.8/site-packages/path_generators/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/mario/Driverless/install/path_generators/lib/python3.8/site-packages/path_generators/triangulation.py to triangulation.cpython-38.pyc
+byte-compiling /home/mario/Driverless/install/path_generators/lib/python3.8/site-packages/path_generators/ros_node.py to ros_node.cpython-38.pyc
+byte-compiling /home/mario/Driverless/install/path_generators/lib/python3.8/site-packages/path_generators/path_generator_base.py to path_generator_base.cpython-38.pyc
+running install_data
+creating /home/mario/Driverless/install/path_generators/share/ament_index
+creating /home/mario/Driverless/install/path_generators/share/ament_index/resource_index
+creating /home/mario/Driverless/install/path_generators/share/ament_index/resource_index/packages
+copying resource/path_generators -> /home/mario/Driverless/install/path_generators/share/ament_index/resource_index/packages
+copying package.xml -> /home/mario/Driverless/install/path_generators/share/path_generators
+creating /home/mario/Driverless/install/path_generators/share/path_generators/launch
+copying launch/triangulation_gt.launch.py -> /home/mario/Driverless/install/path_generators/share/path_generators/launch
+running install_egg_info
+Copying ../../build/path_generators/path_generators.egg-info to /home/mario/Driverless/install/path_generators/lib/python3.8/site-packages/path_generators-1.2.2-py3.8.egg-info
+running install_scripts
+Installing example_generator script to /home/mario/Driverless/install/path_generators/lib/path_generators
+Installing triangulation script to /home/mario/Driverless/install/path_generators/lib/path_generators
+writing list of installed files to '/home/mario/Driverless/build/path_generators/install.log'

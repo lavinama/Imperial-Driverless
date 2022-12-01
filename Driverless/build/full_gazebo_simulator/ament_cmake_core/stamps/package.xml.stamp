@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>full_gazebo_simulator</name>
+  <version>0.3.1</version>
+  <description>A gazebo-based FS-AI simulator by Imperial Driverless</description>
+
+  <maintainer email="imperial.driverless@gmail.com">Imperial Driverless</maintainer>
+
+  <license>TODO</license>
+
+  <depend>ament_index_python</depend>
+
+  <depend>gazebo_plugins</depend>
+  <depend>gazebo_ros</depend>
+  <depend>rclpy</depend>
+  <depend>xacro</depend>
+
+  <!-- our packages -->
+  <depend>imperial_driverless_gazebo_plugins</depend>
+  <depend>vehicle_controllers</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

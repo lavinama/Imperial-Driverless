@@ -1,0 +1,12 @@
+<library path="id_rviz_plugins">
+  <class
+    name="id_rviz_plugins/ConeMap"
+    type="id::rviz_plugins::ConeMapDisplay"
+    base_class_type="rviz_common::Display"
+  >
+    <description>
+      Convert Imperial Driverless interfaces messages to Rviz2 visualisations.
+    </description>
+    <message_type>imperial_driverless_interfaces/msg/ConeMap</message_type>
+  </class>
+</library>

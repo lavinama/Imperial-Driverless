@@ -1,0 +1,138 @@
+[0.045s] Invoking command in '/home/mario/Driverless/build/imperial_driverless_gazebo_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mario/Driverless/install/lidar_camera_fusion:/home/mario/Driverless/install/vehicle_controllers:/home/mario/Driverless/install/path_generators:/home/mario/Driverless/install/lidar_only_cone_detector:/home/mario/Driverless/install/id_track_utils:/home/mario/Driverless/install/car_keyop:/home/mario/Driverless/install/ackermann_drive_teleop:/opt/ros/galactic /usr/bin/cmake /home/mario/Driverless/src/full_gazebo_simulator/imperial_driverless_gazebo_plugins -DCMAKE_INSTALL_PREFIX=/home/mario/Driverless/install/imperial_driverless_gazebo_plugins
+[0.144s] -- The C compiler identification is GNU 9.4.0
+[0.236s] -- The CXX compiler identification is GNU 9.4.0
+[0.246s] -- Check for working C compiler: /usr/bin/cc
+[0.350s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.350s] -- Detecting C compiler ABI info
+[0.458s] -- Detecting C compiler ABI info - done
+[0.478s] -- Detecting C compile features
+[0.479s] -- Detecting C compile features - done
+[0.483s] -- Check for working CXX compiler: /usr/bin/c++
+[0.644s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.647s] -- Detecting CXX compiler ABI info
+[0.794s] -- Detecting CXX compiler ABI info - done
+[0.823s] -- Detecting CXX compile features
+[0.825s] -- Detecting CXX compile features - done
+[0.830s] -- Found ament_cmake: 1.1.4 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.882s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.882s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.048s] -- Found gazebo_dev: 3.5.2 (/opt/ros/galactic/share/gazebo_dev/cmake)
+[1.059s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[1.069s] -- Checking for module 'bullet>=2.82'
+[1.100s] --   Found bullet, version 2.88
+[1.339s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[1.456s] -- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+[1.571s] -- Found assimp: /usr/include (found version "5.0.0") 
+[1.623s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[2.198s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[2.305s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[2.323s] -- Looking for ignition-math6 -- found version 6.10.0
+[2.336s] -- Searching for dependencies of ignition-math6
+[2.340s] -- Looking for OGRE...
+[2.342s] -- OGRE_PREFIX_WATCH changed.
+[2.350s] -- Checking for module 'OGRE'
+[2.413s] --   Found OGRE, version 1.9.0
+[2.507s] -- Found Ogre Ghadamon (1.9.0)
+[2.532s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[2.553s] -- Looking for OGRE_Paging...
+[2.573s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[2.573s] -- Looking for OGRE_Terrain...
+[2.593s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[2.593s] -- Looking for OGRE_Property...
+[2.614s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[2.615s] -- Looking for OGRE_RTShaderSystem...
+[2.635s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[2.635s] -- Looking for OGRE_Volume...
+[2.657s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[2.657s] -- Looking for OGRE_Overlay...
+[2.678s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[3.133s] -- Looking for ignition-math6 -- found version 6.10.0
+[3.138s] -- Looking for ignition-transport8 -- found version 8.2.1
+[3.139s] -- Searching for dependencies of ignition-transport8
+[3.176s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[3.199s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[3.208s] -- Checking for module 'libzmq >= 4'
+[3.241s] --   Found libzmq , version 4.3.2
+[3.322s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[3.333s] -- Checking for module 'uuid'
+[3.365s] --   Found uuid, version 2.34.0
+[3.443s] -- Found UUID: TRUE  
+[3.447s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[3.448s] -- Searching for dependencies of ignition-msgs5
+[3.486s] -- Looking for ignition-math6 -- found version 6.10.0
+[3.496s] -- Checking for module 'tinyxml2'
+[3.528s] --   Found tinyxml2, version 6.2.0
+[3.610s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[3.614s] -- Looking for ignition-common3 -- found version 3.14.0
+[3.615s] -- Searching for dependencies of ignition-common3
+[3.616s] -- Looking for dlfcn.h - found
+[3.618s] -- Looking for libdl - found
+[3.622s] -- Found DL: TRUE  
+[3.645s] -- Searching for <ignition-common3> component [graphics]
+[3.650s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[3.651s] -- Searching for dependencies of ignition-common3-graphics
+[3.651s] -- Looking for ignition-math6 -- found version 6.10.0
+[3.658s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[3.659s] -- Searching for dependencies of ignition-fuel_tools4
+[3.807s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+[3.823s] -- Checking for module 'jsoncpp'
+[3.855s] --   Found jsoncpp, version 1.7.4
+[3.934s] -- Found JSONCPP: TRUE  
+[3.947s] -- Checking for module 'libzip'
+[3.979s] --   Found libzip, version 1.5.1
+[4.058s] -- Found ZIP: TRUE  
+[4.058s] -- Looking for ignition-common3 -- found version 3.14.0
+[4.058s] -- Looking for ignition-math6 -- found version 6.10.0
+[4.059s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[4.062s] -- Gazebo version: 11.10
+[4.066s] -- Found gazebo_ros: 3.5.2 (/opt/ros/galactic/share/gazebo_ros/cmake)
+[4.196s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.213s] -- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[4.390s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[4.449s] -- Found FastRTPS: /opt/ros/galactic/include  
+[4.634s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.783s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[4.791s] -- Found rmw_cyclonedds_cpp: 0.22.4 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[4.841s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[4.844s] -- Found Threads: TRUE  
+[5.233s] -- Found geometry_msgs: 2.2.3 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[5.361s] -- Found tf2: 0.17.2 (/opt/ros/galactic/share/tf2/cmake)
+[5.402s] -- Found tf2_ros: 0.17.2 (/opt/ros/galactic/share/tf2_ros/cmake)
+[6.894s] -- Found imperial_driverless_interfaces: 1.0.0 (/opt/ros/galactic/share/imperial_driverless_interfaces/cmake)
+[7.413s] -- Configuring done
+[7.481s] -- Generating done
+[7.486s] -- Build files have been written to: /home/mario/Driverless/build/imperial_driverless_gazebo_plugins
+[7.520s] Invoked command in '/home/mario/Driverless/build/imperial_driverless_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mario/Driverless/install/lidar_camera_fusion:/home/mario/Driverless/install/vehicle_controllers:/home/mario/Driverless/install/path_generators:/home/mario/Driverless/install/lidar_only_cone_detector:/home/mario/Driverless/install/id_track_utils:/home/mario/Driverless/install/car_keyop:/home/mario/Driverless/install/ackermann_drive_teleop:/opt/ros/galactic /usr/bin/cmake /home/mario/Driverless/src/full_gazebo_simulator/imperial_driverless_gazebo_plugins -DCMAKE_INSTALL_PREFIX=/home/mario/Driverless/install/imperial_driverless_gazebo_plugins
+[7.525s] Invoking command in '/home/mario/Driverless/build/imperial_driverless_gazebo_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mario/Driverless/install/lidar_camera_fusion:/home/mario/Driverless/install/vehicle_controllers:/home/mario/Driverless/install/path_generators:/home/mario/Driverless/install/lidar_only_cone_detector:/home/mario/Driverless/install/id_track_utils:/home/mario/Driverless/install/car_keyop:/home/mario/Driverless/install/ackermann_drive_teleop:/opt/ros/galactic /usr/bin/cmake --build /home/mario/Driverless/build/imperial_driverless_gazebo_plugins -- -j4 -l4
+[7.739s] [35m[1mScanning dependencies of target gazebo_racecar_interface_plugin[0m
+[8.313s] [ 50%] [32mBuilding CXX object gazebo_racecar_interface_plugin/CMakeFiles/gazebo_racecar_interface_plugin.dir/src/gazebo_racecar_interface_plugin.cpp.o[0m
+[46.105s] [100%] [32m[1mLinking CXX shared library libgazebo_racecar_interface_plugin.so[0m
+[47.960s] [100%] Built target gazebo_racecar_interface_plugin
+[47.981s] Invoked command in '/home/mario/Driverless/build/imperial_driverless_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mario/Driverless/install/lidar_camera_fusion:/home/mario/Driverless/install/vehicle_controllers:/home/mario/Driverless/install/path_generators:/home/mario/Driverless/install/lidar_only_cone_detector:/home/mario/Driverless/install/id_track_utils:/home/mario/Driverless/install/car_keyop:/home/mario/Driverless/install/ackermann_drive_teleop:/opt/ros/galactic /usr/bin/cmake --build /home/mario/Driverless/build/imperial_driverless_gazebo_plugins -- -j4 -l4
+[48.029s] Invoking command in '/home/mario/Driverless/build/imperial_driverless_gazebo_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mario/Driverless/install/lidar_camera_fusion:/home/mario/Driverless/install/vehicle_controllers:/home/mario/Driverless/install/path_generators:/home/mario/Driverless/install/lidar_only_cone_detector:/home/mario/Driverless/install/id_track_utils:/home/mario/Driverless/install/car_keyop:/home/mario/Driverless/install/ackermann_drive_teleop:/opt/ros/galactic /usr/bin/cmake --install /home/mario/Driverless/build/imperial_driverless_gazebo_plugins
+[48.045s] -- Install configuration: ""
+[48.045s] -- Installing: /home/mario/Driverless/install/imperial_driverless_gazebo_plugins/share/ament_index/resource_index/package_run_dependencies/imperial_driverless_gazebo_plugins
+[48.045s] -- Installing: /home/mario/Driverless/install/imperial_driverless_gazebo_plugins/share/ament_index/resource_index/parent_prefix_path/imperial_driverless_gazebo_plugins
+[48.045s] -- Installing: /home/mario/Driverless/install/imperial_driverless_gazebo_plugins/share/imperial_driverless_gazebo_plugins/environment/ament_prefix_path.sh
+[48.046s] -- Installing: /home/mario/Driverless/install/imperial_driverless_gazebo_plugins/share/imperial_driverless_gazebo_plugins/environment/ament_prefix_path.dsv
+[48.046s] -- Installing: /home/mario/Driverless/install/imperial_driverless_gazebo_plugins/share/imperial_driverless_gazebo_plugins/environment/path.sh
+[48.046s] -- Installing: /home/mario/Driverless/install/imperial_driverless_gazebo_plugins/share/imperial_driverless_gazebo_plugins/environment/path.dsv
+[48.046s] -- Installing: /home/mario/Driverless/install/imperial_driverless_gazebo_plugins/share/imperial_driverless_gazebo_plugins/local_setup.bash
+[48.046s] -- Installing: /home/mario/Driverless/install/imperial_driverless_gazebo_plugins/share/imperial_driverless_gazebo_plugins/local_setup.sh
+[48.047s] -- Installing: /home/mario/Driverless/install/imperial_driverless_gazebo_plugins/share/imperial_driverless_gazebo_plugins/local_setup.zsh
+[48.047s] -- Installing: /home/mario/Driverless/install/imperial_driverless_gazebo_plugins/share/imperial_driverless_gazebo_plugins/local_setup.dsv
+[48.047s] -- Installing: /home/mario/Driverless/install/imperial_driverless_gazebo_plugins/share/imperial_driverless_gazebo_plugins/package.dsv
+[48.047s] -- Installing: /home/mario/Driverless/install/imperial_driverless_gazebo_plugins/share/ament_index/resource_index/packages/imperial_driverless_gazebo_plugins
+[48.048s] -- Installing: /home/mario/Driverless/install/imperial_driverless_gazebo_plugins/share/imperial_driverless_gazebo_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[48.048s] -- Installing: /home/mario/Driverless/install/imperial_driverless_gazebo_plugins/share/imperial_driverless_gazebo_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+[48.048s] -- Installing: /home/mario/Driverless/install/imperial_driverless_gazebo_plugins/share/imperial_driverless_gazebo_plugins/cmake/imperial_driverless_gazebo_pluginsConfig.cmake
+[48.048s] -- Installing: /home/mario/Driverless/install/imperial_driverless_gazebo_plugins/share/imperial_driverless_gazebo_plugins/cmake/imperial_driverless_gazebo_pluginsConfig-version.cmake
+[48.049s] -- Installing: /home/mario/Driverless/install/imperial_driverless_gazebo_plugins/share/imperial_driverless_gazebo_plugins/package.xml
+[48.049s] -- Installing: /home/mario/Driverless/install/imperial_driverless_gazebo_plugins/share/imperial_driverless_gazebo_plugins/environment/library_path.sh
+[48.050s] -- Installing: /home/mario/Driverless/install/imperial_driverless_gazebo_plugins/share/imperial_driverless_gazebo_plugins/environment/library_path.dsv
+[48.050s] -- Installing: /home/mario/Driverless/install/imperial_driverless_gazebo_plugins/lib/libgazebo_racecar_interface_plugin.so
+[48.060s] -- Set runtime path of "/home/mario/Driverless/install/imperial_driverless_gazebo_plugins/lib/libgazebo_racecar_interface_plugin.so" to ""
+[48.060s] -- Installing: /home/mario/Driverless/install/imperial_driverless_gazebo_plugins/include/include
+[48.061s] -- Installing: /home/mario/Driverless/install/imperial_driverless_gazebo_plugins/include/include/gazebo_racecar_interface_plugin
+[48.061s] -- Installing: /home/mario/Driverless/install/imperial_driverless_gazebo_plugins/include/include/gazebo_racecar_interface_plugin/gazebo_racecar_interface_plugin.hpp
+[48.066s] Invoked command in '/home/mario/Driverless/build/imperial_driverless_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mario/Driverless/install/lidar_camera_fusion:/home/mario/Driverless/install/vehicle_controllers:/home/mario/Driverless/install/path_generators:/home/mario/Driverless/install/lidar_only_cone_detector:/home/mario/Driverless/install/id_track_utils:/home/mario/Driverless/install/car_keyop:/home/mario/Driverless/install/ackermann_drive_teleop:/opt/ros/galactic /usr/bin/cmake --install /home/mario/Driverless/build/imperial_driverless_gazebo_plugins

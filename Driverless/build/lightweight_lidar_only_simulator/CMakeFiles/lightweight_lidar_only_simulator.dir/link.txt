@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblightweight_lidar_only_simulator.a  CMakeFiles/lightweight_lidar_only_simulator.dir/src/ackermann_kinematics.cpp.o CMakeFiles/lightweight_lidar_only_simulator.dir/src/distance_transform.cpp.o CMakeFiles/lightweight_lidar_only_simulator.dir/src/scan_simulator_2d.cpp.o
+/usr/bin/ranlib liblightweight_lidar_only_simulator.a

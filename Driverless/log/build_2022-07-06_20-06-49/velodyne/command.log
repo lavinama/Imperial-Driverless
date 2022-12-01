@@ -1,0 +1,6 @@
+Invoking command in '/home/mario/Driverless/build/velodyne': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/mario/Driverless/src/velodyne/velodyne -DCMAKE_INSTALL_PREFIX=/home/mario/Driverless/install/velodyne
+Invoked command in '/home/mario/Driverless/build/velodyne' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/mario/Driverless/src/velodyne/velodyne -DCMAKE_INSTALL_PREFIX=/home/mario/Driverless/install/velodyne
+Invoking command in '/home/mario/Driverless/build/velodyne': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/mario/Driverless/build/velodyne -- -j4 -l4
+Invoked command in '/home/mario/Driverless/build/velodyne' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/mario/Driverless/build/velodyne -- -j4 -l4
+Invoking command in '/home/mario/Driverless/build/velodyne': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/mario/Driverless/build/velodyne
+Invoked command in '/home/mario/Driverless/build/velodyne' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/mario/Driverless/build/velodyne

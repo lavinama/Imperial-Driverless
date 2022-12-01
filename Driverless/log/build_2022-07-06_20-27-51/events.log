@@ -1,0 +1,447 @@
+[0.000000] (-) TimerEvent: {}
+[0.000429] (-) JobUnselected: {'identifier': 'ackermann_drive_teleop'}
+[0.000468] (-) JobUnselected: {'identifier': 'camera_cone_detector'}
+[0.000921] (-) JobUnselected: {'identifier': 'car_keyop'}
+[0.001213] (-) JobUnselected: {'identifier': 'f110_gym'}
+[0.001258] (-) JobUnselected: {'identifier': 'fsds_simulator'}
+[0.001279] (-) JobUnselected: {'identifier': 'full_gazebo_simulator'}
+[0.001312] (-) JobUnselected: {'identifier': 'id_rviz_plugins'}
+[0.001330] (-) JobUnselected: {'identifier': 'id_track_utils'}
+[0.001358] (-) JobUnselected: {'identifier': 'imperial_driverless_gazebo_plugins'}
+[0.001736] (-) JobUnselected: {'identifier': 'imperial_driverless_utils'}
+[0.001901] (-) JobUnselected: {'identifier': 'lidar_camera_fusion'}
+[0.001971] (-) JobUnselected: {'identifier': 'lidar_only_cone_detector'}
+[0.002013] (-) JobUnselected: {'identifier': 'lightweight_lidar_only_simulator'}
+[0.002051] (-) JobUnselected: {'identifier': 'path_followers'}
+[0.002090] (-) JobUnselected: {'identifier': 'path_generators'}
+[0.002167] (-) JobUnselected: {'identifier': 'vehicle_controllers'}
+[0.002192] (-) JobUnselected: {'identifier': 'vehicle_descriptions'}
+[0.002222] (-) JobUnselected: {'identifier': 'velodyne'}
+[0.002239] (-) JobUnselected: {'identifier': 'velodyne_driver'}
+[0.002385] (-) JobUnselected: {'identifier': 'velodyne_laserscan'}
+[0.002420] (-) JobUnselected: {'identifier': 'velodyne_msgs'}
+[0.002466] (velodyne_pointcloud) JobQueued: {'identifier': 'velodyne_pointcloud', 'dependencies': OrderedDict([('velodyne_msgs', '/home/mario/Driverless/install/velodyne_msgs')])}
+[0.002531] (velodyne_pointcloud) JobStarted: {'identifier': 'velodyne_pointcloud'}
+[0.013530] (velodyne_pointcloud) JobProgress: {'identifier': 'velodyne_pointcloud', 'progress': 'cmake'}
+[0.014319] (velodyne_pointcloud) JobProgress: {'identifier': 'velodyne_pointcloud', 'progress': 'build'}
+[0.015321] (velodyne_pointcloud) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mario/Driverless/build/velodyne_pointcloud', '--', '-j4', '-l4'], 'cwd': '/home/mario/Driverless/build/velodyne_pointcloud', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mario'), ('LC_TIME', 'es_ES.UTF-8'), ('SSH_AGENT_PID', '1290'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mario/Driverless/install/velodyne_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/mario'), ('OLDPWD', '/home/mario/Driverless/src/velodyne'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('MANAGERPID', '1052'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'mario'), ('SUMO_HOME', '/usr/share/sumo'), ('JOURNAL_STREAM', '8:40177'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mario'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/mario/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/mario-ubuntu:@/tmp/.ICE-unix/1353,unix/mario-ubuntu:/tmp/.ICE-unix/1353'), ('INVOCATION_ID', '0a476064c14c4815991771e6a9274022'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9282a680_1a73_45aa_ad69_75cd12df03ec'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.115'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mario/Driverless/install/velodyne_msgs:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mario/Driverless/build/velodyne_pointcloud'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mario/Driverless/install/velodyne_msgs/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic:/home/mario/Driverless/install/velodyne_msgs')]), 'shell': False}
+[0.062925] (velodyne_pointcloud) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gtest\x1b[0m\n'}
+[0.063182] (velodyne_pointcloud) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target velodyne_rawdata\x1b[0m\n'}
+[0.063304] (velodyne_pointcloud) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target velodyne_cloud_types\x1b[0m\n'}
+[0.063523] (velodyne_pointcloud) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gtest_main\x1b[0m\n'}
+[0.081469] (velodyne_pointcloud) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[0.088334] (velodyne_pointcloud) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[0.099990] (-) TimerEvent: {}
+[0.189016] (velodyne_pointcloud) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object src/lib/CMakeFiles/velodyne_cloud_types.dir/pointcloudXYZIRT.cpp.o\x1b[0m\n'}
+[0.199053] (velodyne_pointcloud) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object src/lib/CMakeFiles/velodyne_rawdata.dir/rawdata.cpp.o\x1b[0m\n'}
+[0.200079] (-) TimerEvent: {}
+[0.300463] (-) TimerEvent: {}
+[0.400891] (-) TimerEvent: {}
+[0.501322] (-) TimerEvent: {}
+[0.601732] (-) TimerEvent: {}
+[0.702159] (-) TimerEvent: {}
+[0.802813] (-) TimerEvent: {}
+[0.903236] (-) TimerEvent: {}
+[1.003638] (-) TimerEvent: {}
+[1.104072] (-) TimerEvent: {}
+[1.131118] (velodyne_pointcloud) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[1.179039] (velodyne_pointcloud) StdoutLine: {'line': b'[ 25%] Built target gtest_main\n'}
+[1.193496] (velodyne_pointcloud) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object src/lib/CMakeFiles/velodyne_cloud_types.dir/organized_cloudXYZIRT.cpp.o\x1b[0m\n'}
+[1.204178] (-) TimerEvent: {}
+[1.304594] (-) TimerEvent: {}
+[1.405010] (-) TimerEvent: {}
+[1.505421] (-) TimerEvent: {}
+[1.605829] (-) TimerEvent: {}
+[1.706238] (-) TimerEvent: {}
+[1.806641] (-) TimerEvent: {}
+[1.907044] (-) TimerEvent: {}
+[2.007465] (-) TimerEvent: {}
+[2.107881] (-) TimerEvent: {}
+[2.208284] (-) TimerEvent: {}
+[2.308621] (-) TimerEvent: {}
+[2.408959] (-) TimerEvent: {}
+[2.509280] (-) TimerEvent: {}
+[2.609611] (-) TimerEvent: {}
+[2.709943] (-) TimerEvent: {}
+[2.810269] (-) TimerEvent: {}
+[2.910608] (-) TimerEvent: {}
+[3.010932] (-) TimerEvent: {}
+[3.111257] (-) TimerEvent: {}
+[3.211584] (-) TimerEvent: {}
+[3.311901] (-) TimerEvent: {}
+[3.412225] (-) TimerEvent: {}
+[3.512548] (-) TimerEvent: {}
+[3.612881] (-) TimerEvent: {}
+[3.685210] (velodyne_pointcloud) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object src/lib/CMakeFiles/velodyne_rawdata.dir/calibration.cpp.o\x1b[0m\n'}
+[3.712989] (-) TimerEvent: {}
+[3.813319] (-) TimerEvent: {}
+[3.913657] (-) TimerEvent: {}
+[4.013998] (-) TimerEvent: {}
+[4.114368] (-) TimerEvent: {}
+[4.214716] (-) TimerEvent: {}
+[4.315051] (-) TimerEvent: {}
+[4.415377] (-) TimerEvent: {}
+[4.515699] (-) TimerEvent: {}
+[4.604518] (velodyne_pointcloud) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX shared library libvelodyne_cloud_types.so\x1b[0m\n'}
+[4.615816] (-) TimerEvent: {}
+[4.716189] (-) TimerEvent: {}
+[4.814941] (velodyne_pointcloud) StdoutLine: {'line': b'[ 40%] Built target velodyne_cloud_types\n'}
+[4.816299] (-) TimerEvent: {}
+[4.916726] (-) TimerEvent: {}
+[5.017030] (-) TimerEvent: {}
+[5.117374] (-) TimerEvent: {}
+[5.217869] (-) TimerEvent: {}
+[5.218810] (velodyne_pointcloud) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[5.300709] (velodyne_pointcloud) StdoutLine: {'line': b'[ 45%] Built target gtest\n'}
+[5.315781] (velodyne_pointcloud) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target test_row_step\x1b[0m\n'}
+[5.317971] (-) TimerEvent: {}
+[5.388189] (velodyne_pointcloud) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object tests/CMakeFiles/test_row_step.dir/test_row_step.cpp.o\x1b[0m\n'}
+[5.418095] (-) TimerEvent: {}
+[5.518834] (-) TimerEvent: {}
+[5.619223] (-) TimerEvent: {}
+[5.719560] (-) TimerEvent: {}
+[5.819893] (-) TimerEvent: {}
+[5.924935] (-) TimerEvent: {}
+[6.025365] (-) TimerEvent: {}
+[6.125790] (-) TimerEvent: {}
+[6.226102] (-) TimerEvent: {}
+[6.326417] (-) TimerEvent: {}
+[6.426744] (-) TimerEvent: {}
+[6.527075] (-) TimerEvent: {}
+[6.627422] (-) TimerEvent: {}
+[6.727854] (-) TimerEvent: {}
+[6.829056] (-) TimerEvent: {}
+[6.929377] (-) TimerEvent: {}
+[7.029730] (-) TimerEvent: {}
+[7.130073] (-) TimerEvent: {}
+[7.230415] (-) TimerEvent: {}
+[7.316344] (velodyne_pointcloud) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX shared library libvelodyne_rawdata.so\x1b[0m\n'}
+[7.331306] (-) TimerEvent: {}
+[7.431675] (-) TimerEvent: {}
+[7.511955] (velodyne_pointcloud) StdoutLine: {'line': b'[ 55%] Built target velodyne_rawdata\n'}
+[7.526203] (velodyne_pointcloud) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target transform\x1b[0m\n'}
+[7.526461] (velodyne_pointcloud) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target convert\x1b[0m\n'}
+[7.531767] (-) TimerEvent: {}
+[7.632129] (-) TimerEvent: {}
+[7.639089] (velodyne_pointcloud) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/transform.dir/src/conversions/transform.cpp.o\x1b[0m\n'}
+[7.642132] (velodyne_pointcloud) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/convert.dir/src/conversions/convert.cpp.o\x1b[0m\n'}
+[7.732243] (-) TimerEvent: {}
+[7.832653] (-) TimerEvent: {}
+[7.933089] (-) TimerEvent: {}
+[8.033523] (-) TimerEvent: {}
+[8.133963] (-) TimerEvent: {}
+[8.234404] (-) TimerEvent: {}
+[8.334826] (-) TimerEvent: {}
+[8.347116] (velodyne_pointcloud) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX executable test_row_step\x1b[0m\n'}
+[8.434930] (-) TimerEvent: {}
+[8.535337] (-) TimerEvent: {}
+[8.543276] (velodyne_pointcloud) StdoutLine: {'line': b'[ 70%] Built target test_row_step\n'}
+[8.635461] (-) TimerEvent: {}
+[8.735744] (-) TimerEvent: {}
+[8.836114] (-) TimerEvent: {}
+[8.936410] (-) TimerEvent: {}
+[9.036671] (-) TimerEvent: {}
+[9.137005] (-) TimerEvent: {}
+[9.237320] (-) TimerEvent: {}
+[9.337611] (-) TimerEvent: {}
+[9.437887] (-) TimerEvent: {}
+[9.538186] (-) TimerEvent: {}
+[9.638517] (-) TimerEvent: {}
+[9.738814] (-) TimerEvent: {}
+[9.839139] (-) TimerEvent: {}
+[9.939392] (-) TimerEvent: {}
+[10.039676] (-) TimerEvent: {}
+[10.139993] (-) TimerEvent: {}
+[10.240284] (-) TimerEvent: {}
+[10.340574] (-) TimerEvent: {}
+[10.440873] (-) TimerEvent: {}
+[10.541174] (-) TimerEvent: {}
+[10.641442] (-) TimerEvent: {}
+[10.741755] (-) TimerEvent: {}
+[10.842045] (-) TimerEvent: {}
+[10.942370] (-) TimerEvent: {}
+[11.042656] (-) TimerEvent: {}
+[11.142953] (-) TimerEvent: {}
+[11.243294] (-) TimerEvent: {}
+[11.343584] (-) TimerEvent: {}
+[11.443911] (-) TimerEvent: {}
+[11.544233] (-) TimerEvent: {}
+[11.644601] (-) TimerEvent: {}
+[11.744918] (-) TimerEvent: {}
+[11.845179] (-) TimerEvent: {}
+[11.945501] (-) TimerEvent: {}
+[12.045805] (-) TimerEvent: {}
+[12.146099] (-) TimerEvent: {}
+[12.246408] (-) TimerEvent: {}
+[12.346682] (-) TimerEvent: {}
+[12.447003] (-) TimerEvent: {}
+[12.547296] (-) TimerEvent: {}
+[12.647629] (-) TimerEvent: {}
+[12.747948] (-) TimerEvent: {}
+[12.848274] (-) TimerEvent: {}
+[12.948617] (-) TimerEvent: {}
+[13.048930] (-) TimerEvent: {}
+[13.149259] (-) TimerEvent: {}
+[13.249532] (-) TimerEvent: {}
+[13.349824] (-) TimerEvent: {}
+[13.450142] (-) TimerEvent: {}
+[13.550441] (-) TimerEvent: {}
+[13.650741] (-) TimerEvent: {}
+[13.751090] (-) TimerEvent: {}
+[13.851392] (-) TimerEvent: {}
+[13.951716] (-) TimerEvent: {}
+[14.052027] (-) TimerEvent: {}
+[14.152343] (-) TimerEvent: {}
+[14.252667] (-) TimerEvent: {}
+[14.352991] (-) TimerEvent: {}
+[14.453315] (-) TimerEvent: {}
+[14.553644] (-) TimerEvent: {}
+[14.653959] (-) TimerEvent: {}
+[14.754280] (-) TimerEvent: {}
+[14.854605] (-) TimerEvent: {}
+[14.954907] (-) TimerEvent: {}
+[15.055220] (-) TimerEvent: {}
+[15.155546] (-) TimerEvent: {}
+[15.255855] (-) TimerEvent: {}
+[15.356168] (-) TimerEvent: {}
+[15.456491] (-) TimerEvent: {}
+[15.556820] (-) TimerEvent: {}
+[15.657152] (-) TimerEvent: {}
+[15.757471] (-) TimerEvent: {}
+[15.857806] (-) TimerEvent: {}
+[15.958191] (-) TimerEvent: {}
+[16.058541] (-) TimerEvent: {}
+[16.158933] (-) TimerEvent: {}
+[16.259260] (-) TimerEvent: {}
+[16.359570] (-) TimerEvent: {}
+[16.459879] (-) TimerEvent: {}
+[16.560215] (-) TimerEvent: {}
+[16.660527] (-) TimerEvent: {}
+[16.760849] (-) TimerEvent: {}
+[16.861194] (-) TimerEvent: {}
+[16.961539] (-) TimerEvent: {}
+[17.061870] (-) TimerEvent: {}
+[17.162242] (-) TimerEvent: {}
+[17.262586] (-) TimerEvent: {}
+[17.362900] (-) TimerEvent: {}
+[17.463211] (-) TimerEvent: {}
+[17.563532] (-) TimerEvent: {}
+[17.663862] (-) TimerEvent: {}
+[17.764192] (-) TimerEvent: {}
+[17.864513] (-) TimerEvent: {}
+[17.964925] (-) TimerEvent: {}
+[18.065316] (-) TimerEvent: {}
+[18.165683] (-) TimerEvent: {}
+[18.266039] (-) TimerEvent: {}
+[18.366510] (-) TimerEvent: {}
+[18.466861] (-) TimerEvent: {}
+[18.567236] (-) TimerEvent: {}
+[18.667506] (-) TimerEvent: {}
+[18.767759] (-) TimerEvent: {}
+[18.868032] (-) TimerEvent: {}
+[18.968304] (-) TimerEvent: {}
+[19.068547] (-) TimerEvent: {}
+[19.168790] (-) TimerEvent: {}
+[19.269070] (-) TimerEvent: {}
+[19.369356] (-) TimerEvent: {}
+[19.469634] (-) TimerEvent: {}
+[19.569944] (-) TimerEvent: {}
+[19.670215] (-) TimerEvent: {}
+[19.770586] (-) TimerEvent: {}
+[19.870881] (-) TimerEvent: {}
+[19.971183] (-) TimerEvent: {}
+[20.071427] (-) TimerEvent: {}
+[20.171695] (-) TimerEvent: {}
+[20.271979] (-) TimerEvent: {}
+[20.372282] (-) TimerEvent: {}
+[20.472578] (-) TimerEvent: {}
+[20.572890] (-) TimerEvent: {}
+[20.673299] (-) TimerEvent: {}
+[20.773655] (-) TimerEvent: {}
+[20.788849] (velodyne_pointcloud) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libconvert.so\x1b[0m\n'}
+[20.873772] (-) TimerEvent: {}
+[20.974133] (-) TimerEvent: {}
+[21.074567] (-) TimerEvent: {}
+[21.175117] (-) TimerEvent: {}
+[21.275504] (-) TimerEvent: {}
+[21.375883] (-) TimerEvent: {}
+[21.474974] (velodyne_pointcloud) StdoutLine: {'line': b'[ 75%] Built target convert\n'}
+[21.475949] (-) TimerEvent: {}
+[21.486759] (velodyne_pointcloud) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target velodyne_convert_node\x1b[0m\n'}
+[21.559019] (velodyne_pointcloud) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/velodyne_convert_node.dir/src/conversions/convert_node.cpp.o\x1b[0m\n'}
+[21.576055] (-) TimerEvent: {}
+[21.622801] (velodyne_pointcloud) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX shared library libtransform.so\x1b[0m\n'}
+[21.676187] (-) TimerEvent: {}
+[21.776538] (-) TimerEvent: {}
+[21.876927] (-) TimerEvent: {}
+[21.977261] (-) TimerEvent: {}
+[22.077695] (-) TimerEvent: {}
+[22.178089] (-) TimerEvent: {}
+[22.278527] (-) TimerEvent: {}
+[22.379240] (-) TimerEvent: {}
+[22.456428] (velodyne_pointcloud) StdoutLine: {'line': b'[ 85%] Built target transform\n'}
+[22.468829] (velodyne_pointcloud) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target velodyne_transform_node\x1b[0m\n'}
+[22.479337] (-) TimerEvent: {}
+[22.541597] (velodyne_pointcloud) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/velodyne_transform_node.dir/src/conversions/transform_node.cpp.o\x1b[0m\n'}
+[22.579445] (-) TimerEvent: {}
+[22.679775] (-) TimerEvent: {}
+[22.780148] (-) TimerEvent: {}
+[22.880465] (-) TimerEvent: {}
+[22.980794] (-) TimerEvent: {}
+[23.081111] (-) TimerEvent: {}
+[23.181423] (-) TimerEvent: {}
+[23.281751] (-) TimerEvent: {}
+[23.382069] (-) TimerEvent: {}
+[23.482413] (-) TimerEvent: {}
+[23.582728] (-) TimerEvent: {}
+[23.683090] (-) TimerEvent: {}
+[23.783496] (-) TimerEvent: {}
+[23.883796] (-) TimerEvent: {}
+[23.984101] (-) TimerEvent: {}
+[24.084411] (-) TimerEvent: {}
+[24.184717] (-) TimerEvent: {}
+[24.285031] (-) TimerEvent: {}
+[24.385423] (-) TimerEvent: {}
+[24.485732] (-) TimerEvent: {}
+[24.587093] (-) TimerEvent: {}
+[24.687424] (-) TimerEvent: {}
+[24.787737] (-) TimerEvent: {}
+[24.888050] (-) TimerEvent: {}
+[24.988361] (-) TimerEvent: {}
+[25.088686] (-) TimerEvent: {}
+[25.189012] (-) TimerEvent: {}
+[25.289319] (-) TimerEvent: {}
+[25.389636] (-) TimerEvent: {}
+[25.489934] (-) TimerEvent: {}
+[25.590302] (-) TimerEvent: {}
+[25.690632] (-) TimerEvent: {}
+[25.790956] (-) TimerEvent: {}
+[25.891292] (-) TimerEvent: {}
+[25.991599] (-) TimerEvent: {}
+[26.091917] (-) TimerEvent: {}
+[26.192255] (-) TimerEvent: {}
+[26.292570] (-) TimerEvent: {}
+[26.392901] (-) TimerEvent: {}
+[26.411175] (velodyne_pointcloud) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX executable velodyne_convert_node\x1b[0m\n'}
+[26.493141] (-) TimerEvent: {}
+[26.593557] (-) TimerEvent: {}
+[26.694006] (-) TimerEvent: {}
+[26.794420] (-) TimerEvent: {}
+[26.854116] (velodyne_pointcloud) StdoutLine: {'line': b'[ 95%] Built target velodyne_convert_node\n'}
+[26.894526] (-) TimerEvent: {}
+[26.994871] (-) TimerEvent: {}
+[27.095175] (-) TimerEvent: {}
+[27.195500] (-) TimerEvent: {}
+[27.295834] (-) TimerEvent: {}
+[27.396165] (-) TimerEvent: {}
+[27.496486] (-) TimerEvent: {}
+[27.596807] (-) TimerEvent: {}
+[27.697138] (-) TimerEvent: {}
+[27.797462] (-) TimerEvent: {}
+[27.897793] (-) TimerEvent: {}
+[27.998168] (-) TimerEvent: {}
+[28.098463] (-) TimerEvent: {}
+[28.198761] (-) TimerEvent: {}
+[28.299079] (-) TimerEvent: {}
+[28.399399] (-) TimerEvent: {}
+[28.499736] (-) TimerEvent: {}
+[28.600057] (-) TimerEvent: {}
+[28.700326] (-) TimerEvent: {}
+[28.800630] (-) TimerEvent: {}
+[28.900925] (-) TimerEvent: {}
+[29.001225] (-) TimerEvent: {}
+[29.101530] (-) TimerEvent: {}
+[29.201836] (-) TimerEvent: {}
+[29.302139] (-) TimerEvent: {}
+[29.402411] (-) TimerEvent: {}
+[29.502704] (-) TimerEvent: {}
+[29.602963] (-) TimerEvent: {}
+[29.703257] (-) TimerEvent: {}
+[29.803564] (-) TimerEvent: {}
+[29.903868] (-) TimerEvent: {}
+[30.004182] (-) TimerEvent: {}
+[30.104444] (-) TimerEvent: {}
+[30.204744] (-) TimerEvent: {}
+[30.305044] (-) TimerEvent: {}
+[30.405331] (-) TimerEvent: {}
+[30.505636] (-) TimerEvent: {}
+[30.605929] (-) TimerEvent: {}
+[30.706207] (-) TimerEvent: {}
+[30.806540] (-) TimerEvent: {}
+[30.906859] (-) TimerEvent: {}
+[31.007193] (-) TimerEvent: {}
+[31.026230] (velodyne_pointcloud) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable velodyne_transform_node\x1b[0m\n'}
+[31.107327] (-) TimerEvent: {}
+[31.207689] (-) TimerEvent: {}
+[31.308108] (-) TimerEvent: {}
+[31.408533] (-) TimerEvent: {}
+[31.508865] (-) TimerEvent: {}
+[31.594738] (velodyne_pointcloud) StdoutLine: {'line': b'[100%] Built target velodyne_transform_node\n'}
+[31.605320] (velodyne_pointcloud) CommandEnded: {'returncode': 0}
+[31.608998] (-) TimerEvent: {}
+[31.633616] (velodyne_pointcloud) JobProgress: {'identifier': 'velodyne_pointcloud', 'progress': 'install'}
+[31.643818] (velodyne_pointcloud) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mario/Driverless/build/velodyne_pointcloud'], 'cwd': '/home/mario/Driverless/build/velodyne_pointcloud', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mario'), ('LC_TIME', 'es_ES.UTF-8'), ('SSH_AGENT_PID', '1290'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mario/Driverless/install/velodyne_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/mario'), ('OLDPWD', '/home/mario/Driverless/src/velodyne'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('MANAGERPID', '1052'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'mario'), ('SUMO_HOME', '/usr/share/sumo'), ('JOURNAL_STREAM', '8:40177'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mario'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/mario/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/mario-ubuntu:@/tmp/.ICE-unix/1353,unix/mario-ubuntu:/tmp/.ICE-unix/1353'), ('INVOCATION_ID', '0a476064c14c4815991771e6a9274022'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9282a680_1a73_45aa_ad69_75cd12df03ec'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.115'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mario/Driverless/install/velodyne_msgs:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mario/Driverless/build/velodyne_pointcloud'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mario/Driverless/install/velodyne_msgs/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic:/home/mario/Driverless/install/velodyne_msgs')]), 'shell': False}
+[31.654448] (velodyne_pointcloud) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[31.654763] (velodyne_pointcloud) StdoutLine: {'line': b'-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/lib/libconvert.so\n'}
+[31.659723] (velodyne_pointcloud) StdoutLine: {'line': b'-- Set runtime path of "/home/mario/Driverless/install/velodyne_pointcloud/lib/libconvert.so" to ""\n'}
+[31.659918] (velodyne_pointcloud) StdoutLine: {'line': b'-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/lib/velodyne_pointcloud/velodyne_convert_node\n'}
+[31.660457] (velodyne_pointcloud) StdoutLine: {'line': b'-- Set runtime path of "/home/mario/Driverless/install/velodyne_pointcloud/lib/velodyne_pointcloud/velodyne_convert_node" to ""\n'}
+[31.660573] (velodyne_pointcloud) StdoutLine: {'line': b'-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/lib/libtransform.so\n'}
+[31.666106] (velodyne_pointcloud) StdoutLine: {'line': b'-- Set runtime path of "/home/mario/Driverless/install/velodyne_pointcloud/lib/libtransform.so" to ""\n'}
+[31.666286] (velodyne_pointcloud) StdoutLine: {'line': b'-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/lib/velodyne_pointcloud/velodyne_transform_node\n'}
+[31.669962] (velodyne_pointcloud) StdoutLine: {'line': b'-- Set runtime path of "/home/mario/Driverless/install/velodyne_pointcloud/lib/velodyne_pointcloud/velodyne_transform_node" to ""\n'}
+[31.670167] (velodyne_pointcloud) StdoutLine: {'line': b'-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/include/velodyne_pointcloud\n'}
+[31.670287] (velodyne_pointcloud) StdoutLine: {'line': b'-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/include/velodyne_pointcloud/datacontainerbase.hpp\n'}
+[31.670396] (velodyne_pointcloud) StdoutLine: {'line': b'-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/include/velodyne_pointcloud/convert.hpp\n'}
+[31.670486] (velodyne_pointcloud) StdoutLine: {'line': b'-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/include/velodyne_pointcloud/transform.hpp\n'}
+[31.670577] (velodyne_pointcloud) StdoutLine: {'line': b'-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/include/velodyne_pointcloud/rawdata.hpp\n'}
+[31.670663] (velodyne_pointcloud) StdoutLine: {'line': b'-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/include/velodyne_pointcloud/pointcloudXYZIRT.hpp\n'}
+[31.670762] (velodyne_pointcloud) StdoutLine: {'line': b'-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/include/velodyne_pointcloud/organized_cloudXYZIRT.hpp\n'}
+[31.670863] (velodyne_pointcloud) StdoutLine: {'line': b'-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/include/velodyne_pointcloud/calibration.hpp\n'}
+[31.670974] (velodyne_pointcloud) StdoutLine: {'line': b'-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/config\n'}
+[31.671068] (velodyne_pointcloud) StdoutLine: {'line': b'-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/config/VLP32C-velodyne_transform_node-params.yaml\n'}
+[31.671183] (velodyne_pointcloud) StdoutLine: {'line': b'-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/config/VLP16-velodyne_convert_node-params.yaml\n'}
+[31.671276] (velodyne_pointcloud) StdoutLine: {'line': b'-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/config/VLP16-velodyne_transform_node-params.yaml\n'}
+[31.671368] (velodyne_pointcloud) StdoutLine: {'line': b'-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/config/VLP32C-velodyne_convert_node-params.yaml\n'}
+[31.671456] (velodyne_pointcloud) StdoutLine: {'line': b'-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/launch\n'}
+[31.671568] (velodyne_pointcloud) StdoutLine: {'line': b'-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_convert_node-VLP16-launch.py\n'}
+[31.671657] (velodyne_pointcloud) StdoutLine: {'line': b'-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_transform_node-VLP16-launch.py\n'}
+[31.671748] (velodyne_pointcloud) StdoutLine: {'line': b'-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_transform_node-VLP32C-composed-launch.py\n'}
+[31.671810] (velodyne_pointcloud) StdoutLine: {'line': b'-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_convert_node-VLP32C-launch.py\n'}
+[31.671866] (velodyne_pointcloud) StdoutLine: {'line': b'-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_convert_node-VLP32C-composed-launch.py\n'}
+[31.671923] (velodyne_pointcloud) StdoutLine: {'line': b'-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_transform_node-VLP32C-launch.py\n'}
+[31.671979] (velodyne_pointcloud) StdoutLine: {'line': b'-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_convert_node-VLP16-composed-launch.py\n'}
+[31.672039] (velodyne_pointcloud) StdoutLine: {'line': b'-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_transform_node-VLP16-composed-launch.py\n'}
+[31.672095] (velodyne_pointcloud) StdoutLine: {'line': b'-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/params\n'}
+[31.679246] (velodyne_pointcloud) StdoutLine: {'line': b'-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/params/rviz_points.vcg\n'}
+[31.679868] (velodyne_pointcloud) StdoutLine: {'line': b'-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/params/VLP16_hires_db.yaml\n'}
+[31.680339] (velodyne_pointcloud) StdoutLine: {'line': b'-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/params/VeloView-VLP-32C.yaml\n'}
+[31.680768] (velodyne_pointcloud) StdoutLine: {'line': b'-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/params/64e_utexas.yaml\n'}
+[31.681178] (velodyne_pointcloud) StdoutLine: {'line': b'-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/params/32db.yaml\n'}
+[31.681565] (velodyne_pointcloud) StdoutLine: {'line': b'-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/params/64e_s3-xiesc.yaml\n'}
+[31.681914] (velodyne_pointcloud) StdoutLine: {'line': b'-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/params/64e_s2.1-sztaki.yaml\n'}
+[31.682148] (velodyne_pointcloud) StdoutLine: {'line': b'-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/params/VLP16db.yaml\n'}
+[31.682685] (velodyne_pointcloud) StdoutLine: {'line': b'-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/ament_index/resource_index/package_run_dependencies/velodyne_pointcloud\n'}
+[31.683589] (velodyne_pointcloud) StdoutLine: {'line': b'-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/ament_index/resource_index/parent_prefix_path/velodyne_pointcloud\n'}
+[31.684215] (velodyne_pointcloud) StdoutLine: {'line': b'-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/ament_prefix_path.sh\n'}
+[31.684708] (velodyne_pointcloud) StdoutLine: {'line': b'-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/ament_prefix_path.dsv\n'}
+[31.685265] (velodyne_pointcloud) StdoutLine: {'line': b'-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/path.sh\n'}
+[31.685603] (velodyne_pointcloud) StdoutLine: {'line': b'-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/path.dsv\n'}
+[31.685938] (velodyne_pointcloud) StdoutLine: {'line': b'-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/local_setup.bash\n'}
+[31.686217] (velodyne_pointcloud) StdoutLine: {'line': b'-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/local_setup.sh\n'}
+[31.686543] (velodyne_pointcloud) StdoutLine: {'line': b'-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/local_setup.zsh\n'}
+[31.686879] (velodyne_pointcloud) StdoutLine: {'line': b'-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/local_setup.dsv\n'}
+[31.687173] (velodyne_pointcloud) StdoutLine: {'line': b'-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/package.dsv\n'}
+[31.687528] (velodyne_pointcloud) StdoutLine: {'line': b'-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/ament_index/resource_index/packages/velodyne_pointcloud\n'}
+[31.687943] (velodyne_pointcloud) StdoutLine: {'line': b'-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/ament_index/resource_index/rclcpp_components/velodyne_pointcloud\n'}
+[31.688338] (velodyne_pointcloud) StdoutLine: {'line': b'-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/cmake/velodyne_pointcloudConfig.cmake\n'}
+[31.688615] (velodyne_pointcloud) StdoutLine: {'line': b'-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/cmake/velodyne_pointcloudConfig-version.cmake\n'}
+[31.688901] (velodyne_pointcloud) StdoutLine: {'line': b'-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/package.xml\n'}
+[31.689688] (velodyne_pointcloud) StdoutLine: {'line': b'-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/lib/libvelodyne_cloud_types.so\n'}
+[31.691068] (velodyne_pointcloud) StdoutLine: {'line': b'-- Set runtime path of "/home/mario/Driverless/install/velodyne_pointcloud/lib/libvelodyne_cloud_types.so" to ""\n'}
+[31.691344] (velodyne_pointcloud) StdoutLine: {'line': b'-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/lib/libvelodyne_rawdata.so\n'}
+[31.692404] (velodyne_pointcloud) StdoutLine: {'line': b'-- Set runtime path of "/home/mario/Driverless/install/velodyne_pointcloud/lib/libvelodyne_rawdata.so" to ""\n'}
+[31.696404] (velodyne_pointcloud) CommandEnded: {'returncode': 0}
+[31.709992] (-) TimerEvent: {}
+[31.750795] (velodyne_pointcloud) JobEnded: {'identifier': 'velodyne_pointcloud', 'rc': 0}
+[31.751588] (-) EventReactorShutdown: {}

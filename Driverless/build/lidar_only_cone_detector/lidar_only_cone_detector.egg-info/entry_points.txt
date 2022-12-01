@@ -1,0 +1,3 @@
+[console_scripts]
+circle_approximation_detector = lidar_only_cone_detector.circle_approximation_detector:main
+

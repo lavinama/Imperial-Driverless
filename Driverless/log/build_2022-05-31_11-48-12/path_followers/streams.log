@@ -1,0 +1,248 @@
+[0.047s] Invoking command in '/home/mario/Driverless/build/path_followers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mario/Driverless/install/lidar_camera_fusion:/home/mario/Driverless/install/vehicle_controllers:/home/mario/Driverless/install/path_generators:/home/mario/Driverless/install/lidar_only_cone_detector:/home/mario/Driverless/install/id_track_utils:/home/mario/Driverless/install/car_keyop:/home/mario/Driverless/install/ackermann_drive_teleop:/opt/ros/galactic /usr/bin/cmake /home/mario/Driverless/src/path_followers -DCMAKE_INSTALL_PREFIX=/home/mario/Driverless/install/path_followers
+[0.303s] -- The C compiler identification is GNU 9.4.0
+[0.472s] -- The CXX compiler identification is GNU 9.4.0
+[0.483s] -- Check for working C compiler: /usr/bin/cc
+[0.706s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.708s] -- Detecting C compiler ABI info
+[0.922s] -- Detecting C compiler ABI info - done
+[0.960s] -- Detecting C compile features
+[0.961s] -- Detecting C compile features - done
+[0.967s] -- Check for working CXX compiler: /usr/bin/c++
+[1.137s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.139s] -- Detecting CXX compiler ABI info
+[1.319s] -- Detecting CXX compiler ABI info - done
+[1.350s] -- Detecting CXX compile features
+[1.352s] -- Detecting CXX compile features - done
+[1.357s] -- Found ament_cmake_auto: 1.1.4 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[1.424s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.424s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.089s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.107s] -- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[2.380s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.488s] -- Found FastRTPS: /opt/ros/galactic/include  
+[2.676s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.833s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[2.841s] -- Found rmw_cyclonedds_cpp: 0.22.4 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[2.889s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.890s] -- Looking for pthread.h
+[3.141s] -- Looking for pthread.h - found
+[3.142s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.537s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.538s] -- Looking for pthread_create in pthreads
+[3.782s] -- Looking for pthread_create in pthreads - not found
+[3.783s] -- Looking for pthread_create in pthread
+[4.189s] -- Looking for pthread_create in pthread - found
+[4.192s] -- Found Threads: TRUE  
+[6.466s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+[6.486s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[21.775s] -- Found ament_lint_auto: 0.10.6 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[21.883s] -- Configuring done
+[22.360s] -- Generating done
+[22.365s] -- Build files have been written to: /home/mario/Driverless/build/path_followers
+[22.388s] Invoked command in '/home/mario/Driverless/build/path_followers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mario/Driverless/install/lidar_camera_fusion:/home/mario/Driverless/install/vehicle_controllers:/home/mario/Driverless/install/path_generators:/home/mario/Driverless/install/lidar_only_cone_detector:/home/mario/Driverless/install/id_track_utils:/home/mario/Driverless/install/car_keyop:/home/mario/Driverless/install/ackermann_drive_teleop:/opt/ros/galactic /usr/bin/cmake /home/mario/Driverless/src/path_followers -DCMAKE_INSTALL_PREFIX=/home/mario/Driverless/install/path_followers
+[22.389s] Invoking command in '/home/mario/Driverless/build/path_followers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mario/Driverless/install/lidar_camera_fusion:/home/mario/Driverless/install/vehicle_controllers:/home/mario/Driverless/install/path_generators:/home/mario/Driverless/install/lidar_only_cone_detector:/home/mario/Driverless/install/id_track_utils:/home/mario/Driverless/install/car_keyop:/home/mario/Driverless/install/ackermann_drive_teleop:/opt/ros/galactic /usr/bin/cmake --build /home/mario/Driverless/build/path_followers -- -j4 -l4
+[22.472s] [35m[1mScanning dependencies of target ament_cmake_python_symlink_path_followers_setup[0m
+[22.493s] [35m[1mScanning dependencies of target ament_cmake_python_build_path_followers_scripts[0m
+[22.515s] [35m[1mScanning dependencies of target pure_pursuit_edit[0m
+[22.520s] [35m[1mScanning dependencies of target ament_cmake_python_symlink_path_followers[0m
+[22.584s] [  0%] Built target ament_cmake_python_symlink_path_followers_setup
+[22.644s] [ 12%] [32mBuilding CXX object CMakeFiles/pure_pursuit_edit.dir/src/pure_pursuit_edit.cpp.o[0m
+[22.648s] [ 12%] Built target ament_cmake_python_symlink_path_followers
+[22.667s] [35m[1mScanning dependencies of target ament_cmake_python_build_path_followers_egg[0m
+[23.280s] running egg_info
+[23.284s] creating path_followers.egg-info
+[23.284s] writing path_followers.egg-info/PKG-INFO
+[23.284s] writing dependency_links to path_followers.egg-info/dependency_links.txt
+[23.284s] writing entry points to path_followers.egg-info/entry_points.txt
+[23.284s] writing top-level names to path_followers.egg-info/top_level.txt
+[23.285s] writing manifest file 'path_followers.egg-info/SOURCES.txt'
+[23.378s] reading manifest file 'path_followers.egg-info/SOURCES.txt'
+[23.379s] writing manifest file 'path_followers.egg-info/SOURCES.txt'
+[23.429s] [ 12%] Built target ament_cmake_python_build_path_followers_egg
+[23.438s] running install_scripts
+[23.486s] running egg_info
+[23.488s] writing path_followers.egg-info/PKG-INFO
+[23.488s] writing dependency_links to path_followers.egg-info/dependency_links.txt
+[23.488s] writing entry points to path_followers.egg-info/entry_points.txt
+[23.489s] writing top-level names to path_followers.egg-info/top_level.txt
+[23.566s] reading manifest file 'path_followers.egg-info/SOURCES.txt'
+[23.567s] writing manifest file 'path_followers.egg-info/SOURCES.txt'
+[23.571s] Installing example_follower script to scripts
+[23.571s] Installing pure_pursuit_f1tenth script to scripts
+[23.627s] [ 12%] Built target ament_cmake_python_build_path_followers_scripts
+[28.835s] [01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_edit.cpp:[m[K In member function ‘[01m[Kvirtual void pure_pursuit_edit::RegulatedPurePursuitController::configure(const WeakPtr&, std::string, const std::shared_ptr<tf2_ros::Buffer>&, const std::shared_ptr<nav2_costmap_2d::Costmap2DROS>&)[m[K’:
+[28.835s] [01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_edit.cpp:43:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcostmap_ros[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[28.835s]    43 |   [01;35m[Kconst std::shared_ptr<nav2_costmap_2d::Costmap2DROS> & costmap_ros[m[K)
+[28.835s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[28.894s] [01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_edit.cpp:[m[K In member function ‘[01m[Kvirtual geometry_msgs::msg::TwistStamped pure_pursuit_edit::RegulatedPurePursuitController::computeVelocityCommands(const PoseStamped&, const Twist&, nav2_core::GoalChecker*)[m[K’:
+[28.894s] [01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_edit.cpp:243:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_checker[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[28.894s]   243 |   [01;35m[Knav2_core::GoalChecker * goal_checker[m[K)
+[28.894s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[28.897s] [01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_edit.cpp:[m[K In member function ‘[01m[Kbool pure_pursuit_edit::RegulatedPurePursuitController::isCollisionImminent(const PoseStamped&, const double&, const double&, const double&)[m[K’:
+[28.897s] [01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_edit.cpp:370:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krobot_pose[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[28.897s]   370 |   [01;35m[Kconst geometry_msgs::msg::PoseStamped & robot_pose[m[K,
+[28.897s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[28.897s] [01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_edit.cpp:371:18:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klinear_vel[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[28.897s]   371 |   [01;35m[Kconst double & linear_vel[m[K, const double & angular_vel,
+[28.898s]       |   [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[28.898s] [01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_edit.cpp:371:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kangular_vel[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[28.898s]   371 |   const double & linear_vel, [01;35m[Kconst double & angular_vel[m[K,
+[28.898s]       |                              [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[28.898s] [01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_edit.cpp:372:18:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcarrot_dist[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[28.898s]   372 |   [01;35m[Kconst double & carrot_dist[m[K)
+[28.898s]       |   [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[28.900s] [01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_edit.cpp:[m[K In member function ‘[01m[Kbool pure_pursuit_edit::RegulatedPurePursuitController::inCollision(const double&, const double&, const double&)[m[K’:
+[28.901s] [01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_edit.cpp:382:18:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[28.901s]   382 |   [01;35m[Kconst double & x[m[K,
+[28.901s]       |   [01;35m[K~~~~~~~~~~~~~~~^[m[K
+[28.901s] [01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_edit.cpp:383:18:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ky[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[28.901s]   383 |   [01;35m[Kconst double & y[m[K,
+[28.901s]       |   [01;35m[K~~~~~~~~~~~~~~~^[m[K
+[28.902s] [01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_edit.cpp:384:18:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktheta[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[28.902s]   384 |   [01;35m[Kconst double & theta[m[K)
+[28.902s]       |   [01;35m[K~~~~~~~~~~~~~~~^~~~~[m[K
+[28.902s] [01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_edit.cpp:[m[K In member function ‘[01m[Kdouble pure_pursuit_edit::RegulatedPurePursuitController::costAtPose(const double&, const double&)[m[K’:
+[28.902s] [01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_edit.cpp:389:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[28.902s]   389 | double RegulatedPurePursuitController::costAtPose([01;35m[Kconst double & x[m[K, const double & y)
+[28.902s]       |                                                   [01;35m[K~~~~~~~~~~~~~~~^[m[K
+[28.903s] [01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_edit.cpp:389:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ky[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[28.903s]   389 | double RegulatedPurePursuitController::costAtPose(const double & x, [01;35m[Kconst double & y[m[K)
+[28.903s]       |                                                                     [01;35m[K~~~~~~~~~~~~~~~^[m[K
+[28.903s] [01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_edit.cpp:[m[K In member function ‘[01m[Kvoid pure_pursuit_edit::RegulatedPurePursuitController::applyConstraints(const double&, const double&, const double&, const Twist&, const double&, double&, double&)[m[K’:
+[28.903s] [01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_edit.cpp:401:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kapproach_vel[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[28.903s]   401 |   double [01;35m[Kapproach_vel[m[K = linear_vel;
+[28.903s]       |          [01;35m[K^~~~~~~~~~~~[m[K
+[28.904s] [01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_edit.cpp:395:18:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdist_error[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[28.904s]   395 |   [01;35m[Kconst double & dist_error[m[K, const double & lookahead_dist,
+[28.904s]       |   [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[28.904s] [01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_edit.cpp:395:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klookahead_dist[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[28.904s]   395 |   const double & dist_error, [01;35m[Kconst double & lookahead_dist[m[K,
+[28.904s]       |                              [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[28.904s] [01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_edit.cpp:397:18:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpose_cost[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[28.905s]   397 |   [01;35m[Kconst double & pose_cost[m[K, double & linear_vel, double & sign)
+[28.905s]       |   [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[35.516s] [ 25%] [32m[1mLinking CXX shared library libpure_pursuit_edit.so[0m
+[36.230s] [ 25%] Built target pure_pursuit_edit
+[36.250s] [35m[1mScanning dependencies of target pure_pursuit_custom_lib[0m
+[36.364s] [ 37%] [32mBuilding CXX object CMakeFiles/pure_pursuit_custom_lib.dir/src/pure_pursuit_custom.cpp.o[0m
+[41.124s] [01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_custom.cpp:[m[K In member function ‘[01m[Kvirtual void pure_pursuit_edit::RegulatedPurePursuitController::configure(const WeakPtr&, std::string, const std::shared_ptr<tf2_ros::Buffer>&, const std::shared_ptr<nav2_costmap_2d::Costmap2DROS>&)[m[K’:
+[41.124s] [01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_custom.cpp:43:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcostmap_ros[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[41.124s]    43 |   [01;35m[Kconst std::shared_ptr<nav2_costmap_2d::Costmap2DROS> & costmap_ros[m[K)
+[41.124s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[41.170s] [01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_custom.cpp:[m[K In member function ‘[01m[Kvirtual geometry_msgs::msg::TwistStamped pure_pursuit_edit::RegulatedPurePursuitController::computeVelocityCommands(const PoseStamped&, const Twist&, nav2_core::GoalChecker*)[m[K’:
+[41.170s] [01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_custom.cpp:262:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_checker[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[41.170s]   262 |   [01;35m[Knav2_core::GoalChecker * goal_checker[m[K)
+[41.170s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[41.173s] [01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_custom.cpp:[m[K In member function ‘[01m[Kbool pure_pursuit_edit::RegulatedPurePursuitController::isCollisionImminent(const PoseStamped&, const double&, const double&, const double&)[m[K’:
+[41.174s] [01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_custom.cpp:395:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krobot_pose[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[41.174s]   395 |   [01;35m[Kconst geometry_msgs::msg::PoseStamped & robot_pose[m[K,
+[41.174s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[41.174s] [01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_custom.cpp:396:18:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klinear_vel[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[41.174s]   396 |   [01;35m[Kconst double & linear_vel[m[K, const double & angular_vel,
+[41.174s]       |   [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[41.175s] [01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_custom.cpp:396:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kangular_vel[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[41.175s]   396 |   const double & linear_vel, [01;35m[Kconst double & angular_vel[m[K,
+[41.175s]       |                              [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[41.175s] [01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_custom.cpp:397:18:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcarrot_dist[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[41.175s]   397 |   [01;35m[Kconst double & carrot_dist[m[K)
+[41.175s]       |   [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[41.175s] [01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_custom.cpp:[m[K In member function ‘[01m[Kbool pure_pursuit_edit::RegulatedPurePursuitController::inCollision(const double&, const double&, const double&)[m[K’:
+[41.176s] [01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_custom.cpp:407:18:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[41.176s]   407 |   [01;35m[Kconst double & x[m[K,
+[41.176s]       |   [01;35m[K~~~~~~~~~~~~~~~^[m[K
+[41.176s] [01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_custom.cpp:408:18:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ky[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[41.176s]   408 |   [01;35m[Kconst double & y[m[K,
+[41.176s]       |   [01;35m[K~~~~~~~~~~~~~~~^[m[K
+[41.176s] [01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_custom.cpp:409:18:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktheta[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[41.176s]   409 |   [01;35m[Kconst double & theta[m[K)
+[41.177s]       |   [01;35m[K~~~~~~~~~~~~~~~^~~~~[m[K
+[41.177s] [01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_custom.cpp:[m[K In member function ‘[01m[Kdouble pure_pursuit_edit::RegulatedPurePursuitController::costAtPose(const double&, const double&)[m[K’:
+[41.177s] [01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_custom.cpp:414:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[41.177s]   414 | double RegulatedPurePursuitController::costAtPose([01;35m[Kconst double & x[m[K, const double & y)
+[41.177s]       |                                                   [01;35m[K~~~~~~~~~~~~~~~^[m[K
+[41.177s] [01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_custom.cpp:414:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ky[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[41.177s]   414 | double RegulatedPurePursuitController::costAtPose(const double & x, [01;35m[Kconst double & y[m[K)
+[41.177s]       |                                                                     [01;35m[K~~~~~~~~~~~~~~~^[m[K
+[41.178s] [01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_custom.cpp:[m[K In member function ‘[01m[Kvoid pure_pursuit_edit::RegulatedPurePursuitController::applyConstraints(const double&, const double&, const double&, const Twist&, const double&, double&, double&)[m[K’:
+[41.178s] [01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_custom.cpp:430:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kapproach_vel[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[41.178s]   430 |   double [01;35m[Kapproach_vel[m[K = linear_vel;
+[41.178s]       |          [01;35m[K^~~~~~~~~~~~[m[K
+[41.178s] [01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_custom.cpp:420:18:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdist_error[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[41.178s]   420 |   [01;35m[Kconst double & dist_error[m[K, const double & lookahead_dist,
+[41.178s]       |   [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[41.178s] [01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_custom.cpp:420:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klookahead_dist[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[41.179s]   420 |   const double & dist_error, [01;35m[Kconst double & lookahead_dist[m[K,
+[41.179s]       |                              [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[41.179s] [01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_custom.cpp:422:18:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpose_cost[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[41.179s]   422 |   [01;35m[Kconst double & pose_cost[m[K, double & linear_vel, double & sign)
+[41.179s]       |   [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[46.294s] [ 50%] [32m[1mLinking CXX shared library libpure_pursuit_custom_lib.so[0m
+[46.731s] [ 50%] Built target pure_pursuit_custom_lib
+[46.745s] [35m[1mScanning dependencies of target nav2_regulated_pure_pursuit[0m
+[46.745s] [35m[1mScanning dependencies of target pure_pursuit_custom[0m
+[46.821s] [ 75%] [32mBuilding CXX object CMakeFiles/pure_pursuit_custom.dir/src/pure_pursuit_custom_node.cpp.o[0m
+[46.821s] [ 75%] [32mBuilding CXX object CMakeFiles/nav2_regulated_pure_pursuit.dir/src/nav2_regulated_pure_pursuit.cpp.o[0m
+[60.711s] [ 87%] [32m[1mLinking CXX executable nav2_regulated_pure_pursuit[0m
+[60.737s] [100%] [32m[1mLinking CXX executable pure_pursuit_custom[0m
+[62.599s] [100%] Built target nav2_regulated_pure_pursuit
+[62.622s] [100%] Built target pure_pursuit_custom
+[62.636s] Invoked command in '/home/mario/Driverless/build/path_followers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mario/Driverless/install/lidar_camera_fusion:/home/mario/Driverless/install/vehicle_controllers:/home/mario/Driverless/install/path_generators:/home/mario/Driverless/install/lidar_only_cone_detector:/home/mario/Driverless/install/id_track_utils:/home/mario/Driverless/install/car_keyop:/home/mario/Driverless/install/ackermann_drive_teleop:/opt/ros/galactic /usr/bin/cmake --build /home/mario/Driverless/build/path_followers -- -j4 -l4
+[62.678s] Invoking command in '/home/mario/Driverless/build/path_followers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mario/Driverless/install/lidar_camera_fusion:/home/mario/Driverless/install/vehicle_controllers:/home/mario/Driverless/install/path_generators:/home/mario/Driverless/install/lidar_only_cone_detector:/home/mario/Driverless/install/id_track_utils:/home/mario/Driverless/install/car_keyop:/home/mario/Driverless/install/ackermann_drive_teleop:/opt/ros/galactic /usr/bin/cmake --install /home/mario/Driverless/build/path_followers
+[62.689s] -- Install configuration: ""
+[62.689s] -- Installing: /home/mario/Driverless/install/path_followers/share/path_followers/environment/pythonpath.sh
+[62.689s] -- Installing: /home/mario/Driverless/install/path_followers/share/path_followers/environment/pythonpath.dsv
+[62.689s] -- Installing: /home/mario/Driverless/install/path_followers/lib/python3.8/site-packages//path_followers.egg-info
+[62.689s] -- Installing: /home/mario/Driverless/install/path_followers/lib/python3.8/site-packages//path_followers.egg-info/entry_points.txt
+[62.690s] -- Installing: /home/mario/Driverless/install/path_followers/lib/python3.8/site-packages//path_followers.egg-info/dependency_links.txt
+[62.690s] -- Installing: /home/mario/Driverless/install/path_followers/lib/python3.8/site-packages//path_followers.egg-info/PKG-INFO
+[62.690s] -- Installing: /home/mario/Driverless/install/path_followers/lib/python3.8/site-packages//path_followers.egg-info/top_level.txt
+[62.690s] -- Installing: /home/mario/Driverless/install/path_followers/lib/python3.8/site-packages//path_followers.egg-info/SOURCES.txt
+[62.690s] -- Installing: /home/mario/Driverless/install/path_followers/lib/python3.8/site-packages/path_followers
+[62.690s] -- Installing: /home/mario/Driverless/install/path_followers/lib/python3.8/site-packages/path_followers/example_follower.py
+[62.690s] -- Installing: /home/mario/Driverless/install/path_followers/lib/python3.8/site-packages/path_followers/__init__.py
+[62.690s] -- Installing: /home/mario/Driverless/install/path_followers/lib/python3.8/site-packages/path_followers/path_follower_base.py
+[62.690s] -- Installing: /home/mario/Driverless/install/path_followers/lib/python3.8/site-packages/path_followers/setup.cfg
+[62.691s] -- Installing: /home/mario/Driverless/install/path_followers/lib/python3.8/site-packages/path_followers/pure_pursuit_f1tenth.py
+[62.691s] -- Installing: /home/mario/Driverless/install/path_followers/lib/python3.8/site-packages/path_followers/ros_node.py
+[62.738s] Listing '/home/mario/Driverless/install/path_followers/lib/python3.8/site-packages/path_followers'...
+[62.738s] Compiling '/home/mario/Driverless/install/path_followers/lib/python3.8/site-packages/path_followers/__init__.py'...
+[62.738s] Compiling '/home/mario/Driverless/install/path_followers/lib/python3.8/site-packages/path_followers/example_follower.py'...
+[62.738s] Compiling '/home/mario/Driverless/install/path_followers/lib/python3.8/site-packages/path_followers/path_follower_base.py'...
+[62.738s] Compiling '/home/mario/Driverless/install/path_followers/lib/python3.8/site-packages/path_followers/pure_pursuit_f1tenth.py'...
+[62.738s] Compiling '/home/mario/Driverless/install/path_followers/lib/python3.8/site-packages/path_followers/ros_node.py'...
+[62.743s] -- Installing: /home/mario/Driverless/install/path_followers/lib/path_followers/
+[62.743s] -- Installing: /home/mario/Driverless/install/path_followers/lib/path_followers//pure_pursuit_f1tenth
+[62.743s] -- Installing: /home/mario/Driverless/install/path_followers/lib/path_followers//example_follower
+[62.743s] -- Installing: /home/mario/Driverless/install/path_followers/include
+[62.743s] -- Installing: /home/mario/Driverless/install/path_followers/include/pure_pursuit_edit
+[62.743s] -- Installing: /home/mario/Driverless/install/path_followers/include/pure_pursuit_edit/pure_pursuit_edit.hpp
+[62.744s] -- Installing: /home/mario/Driverless/install/path_followers/include/pure_pursuit_edit/pure_pursuit_custom.hpp
+[62.744s] -- Installing: /home/mario/Driverless/install/path_followers/share/path_followers/environment/library_path.sh
+[62.744s] -- Installing: /home/mario/Driverless/install/path_followers/share/path_followers/environment/library_path.dsv
+[62.744s] -- Installing: /home/mario/Driverless/install/path_followers/lib/libpure_pursuit_edit.so
+[62.747s] -- Set runtime path of "/home/mario/Driverless/install/path_followers/lib/libpure_pursuit_edit.so" to ""
+[62.747s] -- Installing: /home/mario/Driverless/install/path_followers/lib/libpure_pursuit_custom_lib.so
+[62.749s] -- Set runtime path of "/home/mario/Driverless/install/path_followers/lib/libpure_pursuit_custom_lib.so" to ""
+[62.749s] -- Installing: /home/mario/Driverless/install/path_followers/lib/path_followers/nav2_regulated_pure_pursuit
+[62.754s] -- Set runtime path of "/home/mario/Driverless/install/path_followers/lib/path_followers/nav2_regulated_pure_pursuit" to ""
+[62.754s] -- Installing: /home/mario/Driverless/install/path_followers/lib/path_followers/pure_pursuit_custom
+[62.759s] -- Set runtime path of "/home/mario/Driverless/install/path_followers/lib/path_followers/pure_pursuit_custom" to ""
+[62.760s] -- Installing: /home/mario/Driverless/install/path_followers/share/ament_index/resource_index/package_run_dependencies/path_followers
+[62.760s] -- Installing: /home/mario/Driverless/install/path_followers/share/ament_index/resource_index/parent_prefix_path/path_followers
+[62.760s] -- Installing: /home/mario/Driverless/install/path_followers/share/path_followers/environment/ament_prefix_path.sh
+[62.760s] -- Installing: /home/mario/Driverless/install/path_followers/share/path_followers/environment/ament_prefix_path.dsv
+[62.760s] -- Installing: /home/mario/Driverless/install/path_followers/share/path_followers/environment/path.sh
+[62.760s] -- Installing: /home/mario/Driverless/install/path_followers/share/path_followers/environment/path.dsv
+[62.760s] -- Installing: /home/mario/Driverless/install/path_followers/share/path_followers/local_setup.bash
+[62.761s] -- Installing: /home/mario/Driverless/install/path_followers/share/path_followers/local_setup.sh
+[62.761s] -- Installing: /home/mario/Driverless/install/path_followers/share/path_followers/local_setup.zsh
+[62.761s] -- Installing: /home/mario/Driverless/install/path_followers/share/path_followers/local_setup.dsv
+[62.761s] -- Installing: /home/mario/Driverless/install/path_followers/share/path_followers/package.dsv
+[62.761s] -- Installing: /home/mario/Driverless/install/path_followers/share/ament_index/resource_index/packages/path_followers
+[62.761s] -- Installing: /home/mario/Driverless/install/path_followers/share/path_followers/cmake/ament_cmake_export_dependencies-extras.cmake
+[62.762s] -- Installing: /home/mario/Driverless/install/path_followers/share/path_followers/cmake/ament_cmake_export_include_directories-extras.cmake
+[62.762s] -- Installing: /home/mario/Driverless/install/path_followers/share/path_followers/cmake/ament_cmake_export_libraries-extras.cmake
+[62.762s] -- Installing: /home/mario/Driverless/install/path_followers/share/path_followers/cmake/path_followersConfig.cmake
+[62.762s] -- Installing: /home/mario/Driverless/install/path_followers/share/path_followers/cmake/path_followersConfig-version.cmake
+[62.762s] -- Installing: /home/mario/Driverless/install/path_followers/share/path_followers/package.xml
+[62.766s] Invoked command in '/home/mario/Driverless/build/path_followers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mario/Driverless/install/lidar_camera_fusion:/home/mario/Driverless/install/vehicle_controllers:/home/mario/Driverless/install/path_generators:/home/mario/Driverless/install/lidar_only_cone_detector:/home/mario/Driverless/install/id_track_utils:/home/mario/Driverless/install/car_keyop:/home/mario/Driverless/install/ackermann_drive_teleop:/opt/ros/galactic /usr/bin/cmake --install /home/mario/Driverless/build/path_followers

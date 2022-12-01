@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>ackermann_drive_teleop</name>
+  <version>1.0.1</version>
+  <description>The ackermann_drive_teleop package</description>
+
+  <maintainer email="mateusz@lichota.net">Mateusz Lichota</maintainer>
+
+  <license>GPLv3</license>
+
+  <author email="mateusz@lichota.net">Mateusz Lichota</author>
+
+  <depend>rclpy</depend>
+  <depend>ackermann_msgs</depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

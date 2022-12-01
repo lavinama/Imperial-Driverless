@@ -1,0 +1,24 @@
+[1.456s] Invoking command in '/home/mario/Driverless/src/Data_from_Sim': PYTHONPATH=/home/mario/Driverless/build/camera_cone_detector/prefix_override:/home/mario/Driverless/install/camera_cone_detector/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/camera_cone_detector build --build-base /home/mario/Driverless/build/camera_cone_detector/build install --record /home/mario/Driverless/build/camera_cone_detector/install.log --single-version-externally-managed
+[1.868s] running egg_info
+[1.870s] creating ../../build/camera_cone_detector/camera_cone_detector.egg-info
+[1.870s] writing ../../build/camera_cone_detector/camera_cone_detector.egg-info/PKG-INFO
+[1.870s] writing dependency_links to ../../build/camera_cone_detector/camera_cone_detector.egg-info/dependency_links.txt
+[1.870s] writing entry points to ../../build/camera_cone_detector/camera_cone_detector.egg-info/entry_points.txt
+[1.871s] writing requirements to ../../build/camera_cone_detector/camera_cone_detector.egg-info/requires.txt
+[1.871s] writing top-level names to ../../build/camera_cone_detector/camera_cone_detector.egg-info/top_level.txt
+[1.873s] writing manifest file '../../build/camera_cone_detector/camera_cone_detector.egg-info/SOURCES.txt'
+[1.934s] package init file 'camera_cone_detector/__init__.py' not found (or not a regular file)
+[1.934s] reading manifest file '../../build/camera_cone_detector/camera_cone_detector.egg-info/SOURCES.txt'
+[1.936s] writing manifest file '../../build/camera_cone_detector/camera_cone_detector.egg-info/SOURCES.txt'
+[1.936s] running build
+[1.936s] running build_py
+[1.937s] running install
+[1.939s] running install_lib
+[1.940s] warning: install_lib: '/home/mario/Driverless/build/camera_cone_detector/build/lib' does not exist -- no Python modules to install
+[1.940s] 
+[1.940s] running install_data
+[1.941s] creating /home/mario/Driverless/install/camera_cone_detector/share/ament_index
+[1.942s] creating /home/mario/Driverless/install/camera_cone_detector/share/ament_index/resource_index
+[1.942s] creating /home/mario/Driverless/install/camera_cone_detector/share/ament_index/resource_index/packages
+[1.942s] error: can't copy 'resource/camera_cone_detector': doesn't exist or not a regular file
+[1.975s] Invoked command in '/home/mario/Driverless/src/Data_from_Sim' returned '1': PYTHONPATH=/home/mario/Driverless/build/camera_cone_detector/prefix_override:/home/mario/Driverless/install/camera_cone_detector/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/camera_cone_detector build --build-base /home/mario/Driverless/build/camera_cone_detector/build install --record /home/mario/Driverless/build/camera_cone_detector/install.log --single-version-externally-managed

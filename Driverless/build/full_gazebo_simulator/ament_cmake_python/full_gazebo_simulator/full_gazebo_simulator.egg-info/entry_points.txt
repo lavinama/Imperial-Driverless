@@ -1,0 +1,3 @@
+[console_scripts]
+id_interface = full_gazebo_simulator.gazebo_simulation_interface:main
+

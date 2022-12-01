@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<robot name="vehicle" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:arg name="config_file_path" default="not set"/>
+<xacro:property name="config_file_path_arg_value" value="$(arg config_file_path)"/>
+
+<xacro:property 
+    name="config" 
+    value="${load_yaml(config_file_path_arg_value)}"/>
+/>
+
+<gazebo reference="chassis">
+  <mu1 value="0.0"/>
+  <mu2 value="0.0"/>
+  <kp  value="10000000.0" />
+  <kd  value="1.0" />
+  <material>Gazebo/Blue</material>
+</gazebo>
+
+<gazebo>
+  <!-- Simulated vehicle interface -->
+  <plugin name="race_car" filename="libgazebo_racecar_interface_plugin.so">
+    <update_rate>1000.0</update_rate>
+    <publish_rate>200.0</publish_rate>
+
+    <referenceFrame>map</referenceFrame>
+    <robotFrame>base_link</robotFrame>
+
+    <publishTransform>true</publishTransform>
+
+    <controlDelay>0.0</controlDelay>
+    <!-- The time in seconds it takes for the car to go from lock to lock -->
+    <steeringLockTime>0.0001</steeringLockTime>
+  </plugin>
+</gazebo>
+
+<gazebo>
+  <plugin name="p3d_base_controller" filename="libgazebo_ros_p3d.so">
+    <update_rate>50.0</update_rate>
+    <body_name>base_link</body_name>
+    <gaussian_noise>0.00</gaussian_noise>
+    <frame_name>map</frame_name>
+  </plugin>
+</gazebo>
+
+<gazebo>
+  <plugin name="joint_state_publisher" filename="libgazebo_ros_joint_state_publisher.so">
+      <joint_name>left_steering_hinge_joint</joint_name>
+      <joint_name>right_steering_hinge_joint</joint_name>
+      <joint_name>left_front_wheel_joint</joint_name>
+      <joint_name>left_rear_wheel_joint</joint_name>
+      <joint_name>right_front_wheel_joint</joint_name>
+      <joint_name>right_rear_wheel_joint</joint_name>
+      <update_rate>100</update_rate>
+
+      <ros>
+        <namespace>/ground_truth</namespace>
+      </ros>
+  </plugin>
+</gazebo>
+
+<gazebo reference="laser">
+  <material>Gazebo/Grey</material>
+  <sensor name="lidar" type="ray">
+    <pose>0 0 0 0 0 0</pose>
+    <always_on>true</always_on>
+    <visualize>true</visualize>
+    <update_rate>${config['sensors']['lidar']['update_rate']}</update_rate>
+    <ray>
+      <scan>
+        <horizontal>
+          <samples>${config['sensors']['lidar']['num_beams']}</samples>
+          <resolution>1.00000</resolution>
+          <min_angle>${-config['sensors']['lidar']['fov']/2}</min_angle>
+          <max_angle>${config['sensors']['lidar']['fov']/2}</max_angle>
+        </horizontal>
+      </scan>
+      <range>
+        <min>0.120000</min>
+        <max>20</max>
+        <resolution>0.015000</resolution>
+      </range>
+      <noise>
+        <type>gaussian</type>
+        <mean>0.0</mean>
+        <stddev>${config['sensors']['lidar']['noise_std_dev']}</stddev>
+      </noise>
+    </ray>
+    <plugin name="bytes_laserscan" filename="libgazebo_ros_ray_sensor.so">
+      <ros>
+        <remapping>~/out:=/scan</remapping>
+      </ros>
+      <output_type>sensor_msgs/LaserScan</output_type>
+      <frame_name>laser</frame_name>
+    </plugin>
+  </sensor>
+</gazebo>
+
+<gazebo reference="base_link">
+  <sensor name="imu_sensor" type="imu">
+    <always_on>true</always_on>
+    <update_rate>100</update_rate>
+    <imu>
+      <angular_velocity>
+        <x>
+          <noise type="gaussian">
+            <mean>0.0</mean>
+            <stddev>2e-4</stddev>
+          </noise>
+        </x>
+        <y>
+          <noise type="gaussian">
+            <mean>0.0</mean>
+            <stddev>2e-4</stddev>
+          </noise>
+        </y>
+        <z>
+          <noise type="gaussian">
+            <mean>0.0</mean>
+            <stddev>2e-4</stddev>
+          </noise>
+        </z>
+      </angular_velocity>
+      <linear_acceleration>
+        <x>
+          <noise type="gaussian">
+            <mean>0.0</mean>
+            <stddev>1.7e-2</stddev>
+          </noise>
+        </x>
+        <y>
+          <noise type="gaussian">
+            <mean>0.0</mean>
+            <stddev>1.7e-2</stddev>
+          </noise>
+        </y>
+        <z>
+          <noise type="gaussian">
+            <mean>0.0</mean>
+            <stddev>1.7e-2</stddev>
+          </noise>
+        </z>
+      </linear_acceleration>
+    </imu>
+    <plugin filename="libgazebo_ros_imu_sensor.so" name="imu_plugin">
+      <initial_orientation_as_reference>false</initial_orientation_as_reference>
+      <ros>
+        <namespace>imu</namespace>
+        <remapping>~/out:=data</remapping>
+      </ros>
+    </plugin>
+    <pose>0 0 0 0 0 0</pose>
+  </sensor>
+</gazebo>
+
+</robot>

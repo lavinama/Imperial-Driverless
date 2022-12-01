@@ -1,0 +1,24 @@
+<package format="2">
+  <name>lightweight_lidar_only_simulator</name>
+  <version>2.8.0</version>
+  <description>A lightweight simulator for a car with lidar</description>
+
+  <maintainer email="imperial.driverless@gmail.com">Imperial Driverless</maintainer>
+
+  <license>MIT</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend>
+  <depend>tf2</depend>
+  <depend>tf2_ros</depend>
+  <depend>tf2_geometry_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>imperial_driverless_interfaces</depend>
+
+  <exec_depend>nav2_map_server</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

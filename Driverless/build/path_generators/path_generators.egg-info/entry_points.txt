@@ -1,0 +1,4 @@
+[console_scripts]
+example_generator = path_generators.example_generator:main
+triangulation = path_generators.triangulation:main
+

@@ -1,0 +1,1 @@
+Invoking command in '/home/mario/Driverless/build/imperial_driverless_gazebo_plugins': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/mario/Driverless/build/imperial_driverless_gazebo_plugins -- -j4 -l4

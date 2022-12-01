@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+full_gazebo_simulator/__init__.py
+full_gazebo_simulator/gazebo_simulation_interface.py
+full_gazebo_simulator.egg-info/PKG-INFO
+full_gazebo_simulator.egg-info/SOURCES.txt
+full_gazebo_simulator.egg-info/dependency_links.txt
+full_gazebo_simulator.egg-info/entry_points.txt
+full_gazebo_simulator.egg-info/top_level.txt

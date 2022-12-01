@@ -1,0 +1,11 @@
+README.md
+package.xml
+setup.cfg
+setup.py
+../../build/camera_cone_detector/camera_cone_detector.egg-info/PKG-INFO
+../../build/camera_cone_detector/camera_cone_detector.egg-info/SOURCES.txt
+../../build/camera_cone_detector/camera_cone_detector.egg-info/dependency_links.txt
+../../build/camera_cone_detector/camera_cone_detector.egg-info/entry_points.txt
+../../build/camera_cone_detector/camera_cone_detector.egg-info/requires.txt
+../../build/camera_cone_detector/camera_cone_detector.egg-info/top_level.txt
+../../build/camera_cone_detector/camera_cone_detector.egg-info/zip-safe

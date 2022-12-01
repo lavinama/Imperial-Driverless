@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>imperial_driverless_utils</name>
+  <version>0.13.1</version>
+  <description>Utilities for Imperial Driverless developers</description>
+
+  <maintainer email="imperial.driverless@gmail.com">Imperial Driverless</maintainer>
+
+  <license>TODO</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rviz2</depend>
+  <depend>car_keyop</depend>
+  <depend>vehicle_descriptions</depend>
+  <depend>id_track_utils</depend>
+  <depend>id_rviz_plugins</depend>
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

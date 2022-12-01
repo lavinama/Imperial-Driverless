@@ -1,0 +1,12 @@
+setup.cfg
+setup.py
+path_followers/__init__.py
+path_followers/example_follower.py
+path_followers/path_follower_base.py
+path_followers/pure_pursuit_f1tenth.py
+path_followers/ros_node.py
+path_followers.egg-info/PKG-INFO
+path_followers.egg-info/SOURCES.txt
+path_followers.egg-info/dependency_links.txt
+path_followers.egg-info/entry_points.txt
+path_followers.egg-info/top_level.txt

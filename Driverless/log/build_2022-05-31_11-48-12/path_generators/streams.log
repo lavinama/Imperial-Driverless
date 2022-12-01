@@ -1,0 +1,48 @@
+[1.509s] Invoking command in '/home/mario/Driverless/src/path_generators': PYTHONPATH=/home/mario/Driverless/install/path_generators/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/path_generators build --build-base /home/mario/Driverless/build/path_generators/build install --prefix /home/mario/Driverless/install/path_generators --record /home/mario/Driverless/build/path_generators/install.log --single-version-externally-managed
+[2.053s] running egg_info
+[2.055s] creating ../../build/path_generators/path_generators.egg-info
+[2.055s] writing ../../build/path_generators/path_generators.egg-info/PKG-INFO
+[2.056s] writing dependency_links to ../../build/path_generators/path_generators.egg-info/dependency_links.txt
+[2.057s] writing entry points to ../../build/path_generators/path_generators.egg-info/entry_points.txt
+[2.057s] writing top-level names to ../../build/path_generators/path_generators.egg-info/top_level.txt
+[2.060s] writing manifest file '../../build/path_generators/path_generators.egg-info/SOURCES.txt'
+[2.132s] reading manifest file '../../build/path_generators/path_generators.egg-info/SOURCES.txt'
+[2.134s] writing manifest file '../../build/path_generators/path_generators.egg-info/SOURCES.txt'
+[2.135s] running build
+[2.135s] running build_py
+[2.136s] creating /home/mario/Driverless/build/path_generators/build
+[2.136s] creating /home/mario/Driverless/build/path_generators/build/lib
+[2.136s] creating /home/mario/Driverless/build/path_generators/build/lib/path_generators
+[2.137s] copying path_generators/example_generator.py -> /home/mario/Driverless/build/path_generators/build/lib/path_generators
+[2.137s] copying path_generators/__init__.py -> /home/mario/Driverless/build/path_generators/build/lib/path_generators
+[2.138s] copying path_generators/triangulation.py -> /home/mario/Driverless/build/path_generators/build/lib/path_generators
+[2.138s] copying path_generators/ros_node.py -> /home/mario/Driverless/build/path_generators/build/lib/path_generators
+[2.139s] copying path_generators/path_generator_base.py -> /home/mario/Driverless/build/path_generators/build/lib/path_generators
+[2.140s] running install
+[2.142s] running install_lib
+[2.144s] creating /home/mario/Driverless/install/path_generators/lib/python3.8/site-packages/path_generators
+[2.145s] copying /home/mario/Driverless/build/path_generators/build/lib/path_generators/example_generator.py -> /home/mario/Driverless/install/path_generators/lib/python3.8/site-packages/path_generators
+[2.145s] copying /home/mario/Driverless/build/path_generators/build/lib/path_generators/__init__.py -> /home/mario/Driverless/install/path_generators/lib/python3.8/site-packages/path_generators
+[2.146s] copying /home/mario/Driverless/build/path_generators/build/lib/path_generators/triangulation.py -> /home/mario/Driverless/install/path_generators/lib/python3.8/site-packages/path_generators
+[2.146s] copying /home/mario/Driverless/build/path_generators/build/lib/path_generators/ros_node.py -> /home/mario/Driverless/install/path_generators/lib/python3.8/site-packages/path_generators
+[2.147s] copying /home/mario/Driverless/build/path_generators/build/lib/path_generators/path_generator_base.py -> /home/mario/Driverless/install/path_generators/lib/python3.8/site-packages/path_generators
+[2.148s] byte-compiling /home/mario/Driverless/install/path_generators/lib/python3.8/site-packages/path_generators/example_generator.py to example_generator.cpython-38.pyc
+[2.151s] byte-compiling /home/mario/Driverless/install/path_generators/lib/python3.8/site-packages/path_generators/__init__.py to __init__.cpython-38.pyc
+[2.152s] byte-compiling /home/mario/Driverless/install/path_generators/lib/python3.8/site-packages/path_generators/triangulation.py to triangulation.cpython-38.pyc
+[2.155s] byte-compiling /home/mario/Driverless/install/path_generators/lib/python3.8/site-packages/path_generators/ros_node.py to ros_node.cpython-38.pyc
+[2.157s] byte-compiling /home/mario/Driverless/install/path_generators/lib/python3.8/site-packages/path_generators/path_generator_base.py to path_generator_base.cpython-38.pyc
+[2.158s] running install_data
+[2.160s] creating /home/mario/Driverless/install/path_generators/share/ament_index
+[2.160s] creating /home/mario/Driverless/install/path_generators/share/ament_index/resource_index
+[2.160s] creating /home/mario/Driverless/install/path_generators/share/ament_index/resource_index/packages
+[2.161s] copying resource/path_generators -> /home/mario/Driverless/install/path_generators/share/ament_index/resource_index/packages
+[2.161s] copying package.xml -> /home/mario/Driverless/install/path_generators/share/path_generators
+[2.162s] creating /home/mario/Driverless/install/path_generators/share/path_generators/launch
+[2.162s] copying launch/triangulation_gt.launch.py -> /home/mario/Driverless/install/path_generators/share/path_generators/launch
+[2.163s] running install_egg_info
+[2.166s] Copying ../../build/path_generators/path_generators.egg-info to /home/mario/Driverless/install/path_generators/lib/python3.8/site-packages/path_generators-1.2.2-py3.8.egg-info
+[2.168s] running install_scripts
+[2.202s] Installing example_generator script to /home/mario/Driverless/install/path_generators/lib/path_generators
+[2.203s] Installing triangulation script to /home/mario/Driverless/install/path_generators/lib/path_generators
+[2.204s] writing list of installed files to '/home/mario/Driverless/build/path_generators/install.log'
+[2.252s] Invoked command in '/home/mario/Driverless/src/path_generators' returned '0': PYTHONPATH=/home/mario/Driverless/install/path_generators/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/path_generators build --build-base /home/mario/Driverless/build/path_generators/build install --prefix /home/mario/Driverless/install/path_generators --record /home/mario/Driverless/build/path_generators/install.log --single-version-externally-managed

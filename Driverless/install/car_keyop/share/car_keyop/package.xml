@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>car_keyop</name>
+  <version>2.0.0</version>
+  <description>Package for controlling a car using keyboard</description>
+
+  <maintainer email="mateusz@lichota.net">Mateusz Lichota</maintainer>
+
+  <license>GPLv3</license>
+
+  <author email="mateusz@lichota.net">Mateusz Lichota</author>
+
+  <depend>rclpy</depend>
+  <depend>ackermann_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>python3-pygame</depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

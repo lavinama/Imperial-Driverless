@@ -1,0 +1,4 @@
+Invoking command in '/home/mario/Driverless/build/fsds_simulator': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/mario/Driverless/build/fsds_simulator -- -j4 -l4
+Invoked command in '/home/mario/Driverless/build/fsds_simulator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/mario/Driverless/build/fsds_simulator -- -j4 -l4
+Invoking command in '/home/mario/Driverless/build/fsds_simulator': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/mario/Driverless/build/fsds_simulator
+Invoked command in '/home/mario/Driverless/build/fsds_simulator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/mario/Driverless/build/fsds_simulator

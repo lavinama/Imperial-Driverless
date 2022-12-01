@@ -1,0 +1,4 @@
+Invoking command in '/home/mario/Driverless/build/velodyne_laserscan': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/mario/Driverless/build/velodyne_laserscan -- -j4 -l4
+Invoked command in '/home/mario/Driverless/build/velodyne_laserscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/mario/Driverless/build/velodyne_laserscan -- -j4 -l4
+Invoking command in '/home/mario/Driverless/build/velodyne_laserscan': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/mario/Driverless/build/velodyne_laserscan
+Invoked command in '/home/mario/Driverless/build/velodyne_laserscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/mario/Driverless/build/velodyne_laserscan

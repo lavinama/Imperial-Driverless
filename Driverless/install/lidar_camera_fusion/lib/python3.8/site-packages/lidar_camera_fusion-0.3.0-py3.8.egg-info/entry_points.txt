@@ -1,0 +1,4 @@
+[console_scripts]
+gt_perception = lidar_camera_fusion.ground_truth_perception:main
+sensor_fusion = lidar_camera_fusion.sensor_fusion:main
+

@@ -1,0 +1,82 @@
+[1.567s] Invoking command in '/home/mario/Driverless/src/id_track_utils': PYTHONPATH=/home/mario/Driverless/install/id_track_utils/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/id_track_utils build --build-base /home/mario/Driverless/build/id_track_utils/build install --prefix /home/mario/Driverless/install/id_track_utils --record /home/mario/Driverless/build/id_track_utils/install.log --single-version-externally-managed
+[2.066s] running egg_info
+[2.067s] creating ../../build/id_track_utils/id_track_utils.egg-info
+[2.067s] writing ../../build/id_track_utils/id_track_utils.egg-info/PKG-INFO
+[2.068s] writing dependency_links to ../../build/id_track_utils/id_track_utils.egg-info/dependency_links.txt
+[2.069s] writing requirements to ../../build/id_track_utils/id_track_utils.egg-info/requires.txt
+[2.069s] writing top-level names to ../../build/id_track_utils/id_track_utils.egg-info/top_level.txt
+[2.072s] writing manifest file '../../build/id_track_utils/id_track_utils.egg-info/SOURCES.txt'
+[2.156s] reading manifest file '../../build/id_track_utils/id_track_utils.egg-info/SOURCES.txt'
+[2.157s] writing manifest file '../../build/id_track_utils/id_track_utils.egg-info/SOURCES.txt'
+[2.157s] running build
+[2.157s] running build_py
+[2.158s] creating /home/mario/Driverless/build/id_track_utils/build
+[2.158s] creating /home/mario/Driverless/build/id_track_utils/build/lib
+[2.158s] creating /home/mario/Driverless/build/id_track_utils/build/lib/id_track_utils
+[2.158s] copying src/id_track_utils/_math_utilities.py -> /home/mario/Driverless/build/id_track_utils/build/lib/id_track_utils
+[2.159s] copying src/id_track_utils/__init__.py -> /home/mario/Driverless/build/id_track_utils/build/lib/id_track_utils
+[2.160s] copying src/id_track_utils/track.py -> /home/mario/Driverless/build/id_track_utils/build/lib/id_track_utils
+[2.161s] copying src/id_track_utils/track_generator.py -> /home/mario/Driverless/build/id_track_utils/build/lib/id_track_utils
+[2.161s] copying src/id_track_utils/track_generator_qt_plugin.py -> /home/mario/Driverless/build/id_track_utils/build/lib/id_track_utils
+[2.161s] running install
+[2.161s] running install_lib
+[2.162s] creating /home/mario/Driverless/install/id_track_utils/lib/python3.8/site-packages/id_track_utils
+[2.163s] copying /home/mario/Driverless/build/id_track_utils/build/lib/id_track_utils/_math_utilities.py -> /home/mario/Driverless/install/id_track_utils/lib/python3.8/site-packages/id_track_utils
+[2.163s] copying /home/mario/Driverless/build/id_track_utils/build/lib/id_track_utils/__init__.py -> /home/mario/Driverless/install/id_track_utils/lib/python3.8/site-packages/id_track_utils
+[2.163s] copying /home/mario/Driverless/build/id_track_utils/build/lib/id_track_utils/track.py -> /home/mario/Driverless/install/id_track_utils/lib/python3.8/site-packages/id_track_utils
+[2.163s] copying /home/mario/Driverless/build/id_track_utils/build/lib/id_track_utils/track_generator.py -> /home/mario/Driverless/install/id_track_utils/lib/python3.8/site-packages/id_track_utils
+[2.163s] copying /home/mario/Driverless/build/id_track_utils/build/lib/id_track_utils/track_generator_qt_plugin.py -> /home/mario/Driverless/install/id_track_utils/lib/python3.8/site-packages/id_track_utils
+[2.168s] byte-compiling /home/mario/Driverless/install/id_track_utils/lib/python3.8/site-packages/id_track_utils/_math_utilities.py to _math_utilities.cpython-38.pyc
+[2.169s] byte-compiling /home/mario/Driverless/install/id_track_utils/lib/python3.8/site-packages/id_track_utils/__init__.py to __init__.cpython-38.pyc
+[2.169s] byte-compiling /home/mario/Driverless/install/id_track_utils/lib/python3.8/site-packages/id_track_utils/track.py to track.cpython-38.pyc
+[2.175s] byte-compiling /home/mario/Driverless/install/id_track_utils/lib/python3.8/site-packages/id_track_utils/track_generator.py to track_generator.cpython-38.pyc
+[2.194s] byte-compiling /home/mario/Driverless/install/id_track_utils/lib/python3.8/site-packages/id_track_utils/track_generator_qt_plugin.py to track_generator_qt_plugin.cpython-38.pyc
+[2.199s] running install_data
+[2.200s] copying package.xml -> /home/mario/Driverless/install/id_track_utils/share/id_track_utils
+[2.200s] copying plugin.xml -> /home/mario/Driverless/install/id_track_utils/share/id_track_utils
+[2.201s] creating /home/mario/Driverless/install/id_track_utils/share/ament_index
+[2.201s] creating /home/mario/Driverless/install/id_track_utils/share/ament_index/resource_index
+[2.201s] creating /home/mario/Driverless/install/id_track_utils/share/ament_index/resource_index/packages
+[2.201s] copying resource/id_track_utils -> /home/mario/Driverless/install/id_track_utils/share/ament_index/resource_index/packages
+[2.201s] creating /home/mario/Driverless/install/id_track_utils/share/id_track_utils/csv
+[2.201s] copying csv/rand.csv -> /home/mario/Driverless/install/id_track_utils/share/id_track_utils/csv
+[2.202s] copying csv/skidpad.csv -> /home/mario/Driverless/install/id_track_utils/share/id_track_utils/csv
+[2.202s] copying csv/acceleration.csv -> /home/mario/Driverless/install/id_track_utils/share/id_track_utils/csv
+[2.202s] copying csv/small_track.csv -> /home/mario/Driverless/install/id_track_utils/share/id_track_utils/csv
+[2.202s] creating /home/mario/Driverless/install/id_track_utils/share/id_track_utils/image
+[2.202s] creating /home/mario/Driverless/install/id_track_utils/share/id_track_utils/materials
+[2.202s] copying materials/asphalt.jpg -> /home/mario/Driverless/install/id_track_utils/share/id_track_utils/materials
+[2.223s] creating /home/mario/Driverless/install/id_track_utils/share/id_track_utils/meshes
+[2.223s] copying meshes/cone_big.dae -> /home/mario/Driverless/install/id_track_utils/share/id_track_utils/meshes
+[2.224s] copying meshes/cone.dae -> /home/mario/Driverless/install/id_track_utils/share/id_track_utils/meshes
+[2.224s] copying meshes/MonkeyNoise.dae -> /home/mario/Driverless/install/id_track_utils/share/id_track_utils/meshes
+[2.224s] copying meshes/NoiseCube.dae -> /home/mario/Driverless/install/id_track_utils/share/id_track_utils/meshes
+[2.224s] copying meshes/cone_yellow.dae -> /home/mario/Driverless/install/id_track_utils/share/id_track_utils/meshes
+[2.224s] copying meshes/cone_blue.dae -> /home/mario/Driverless/install/id_track_utils/share/id_track_utils/meshes
+[2.224s] creating /home/mario/Driverless/install/id_track_utils/share/id_track_utils/models
+[2.224s] creating /home/mario/Driverless/install/id_track_utils/share/id_track_utils/models/acceleration
+[2.225s] creating /home/mario/Driverless/install/id_track_utils/share/id_track_utils/models/big_cone
+[2.225s] copying models/big_cone/model.sdf -> /home/mario/Driverless/install/id_track_utils/share/id_track_utils/models/big_cone
+[2.225s] copying models/big_cone/model.config -> /home/mario/Driverless/install/id_track_utils/share/id_track_utils/models/big_cone
+[2.225s] creating /home/mario/Driverless/install/id_track_utils/share/id_track_utils/models/blue_cone
+[2.225s] copying models/blue_cone/model.sdf -> /home/mario/Driverless/install/id_track_utils/share/id_track_utils/models/blue_cone
+[2.225s] copying models/blue_cone/model.config -> /home/mario/Driverless/install/id_track_utils/share/id_track_utils/models/blue_cone
+[2.225s] creating /home/mario/Driverless/install/id_track_utils/share/id_track_utils/models/ground_plane
+[2.225s] creating /home/mario/Driverless/install/id_track_utils/share/id_track_utils/models/orange_cone
+[2.226s] copying models/orange_cone/model.sdf -> /home/mario/Driverless/install/id_track_utils/share/id_track_utils/models/orange_cone
+[2.226s] copying models/orange_cone/model.config -> /home/mario/Driverless/install/id_track_utils/share/id_track_utils/models/orange_cone
+[2.226s] creating /home/mario/Driverless/install/id_track_utils/share/id_track_utils/models/rand
+[2.226s] creating /home/mario/Driverless/install/id_track_utils/share/id_track_utils/models/skidpad
+[2.226s] creating /home/mario/Driverless/install/id_track_utils/share/id_track_utils/models/small_track
+[2.227s] creating /home/mario/Driverless/install/id_track_utils/share/id_track_utils/models/yellow_cone
+[2.227s] copying models/yellow_cone/model.sdf -> /home/mario/Driverless/install/id_track_utils/share/id_track_utils/models/yellow_cone
+[2.227s] copying models/yellow_cone/model.config -> /home/mario/Driverless/install/id_track_utils/share/id_track_utils/models/yellow_cone
+[2.228s] creating /home/mario/Driverless/install/id_track_utils/share/id_track_utils/worlds
+[2.228s] creating /home/mario/Driverless/install/id_track_utils/share/id_track_utils/resource
+[2.228s] copying resource/noiseFiles.txt -> /home/mario/Driverless/install/id_track_utils/share/id_track_utils/resource
+[2.228s] copying resource/track_generator.ui -> /home/mario/Driverless/install/id_track_utils/share/id_track_utils/resource
+[2.228s] running install_egg_info
+[2.229s] Copying ../../build/id_track_utils/id_track_utils.egg-info to /home/mario/Driverless/install/id_track_utils/lib/python3.8/site-packages/id_track_utils-0.5.3-py3.8.egg-info
+[2.229s] running install_scripts
+[2.260s] writing list of installed files to '/home/mario/Driverless/build/id_track_utils/install.log'
+[2.708s] Invoked command in '/home/mario/Driverless/src/id_track_utils' returned '0': PYTHONPATH=/home/mario/Driverless/install/id_track_utils/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/id_track_utils build --build-base /home/mario/Driverless/build/id_track_utils/build install --prefix /home/mario/Driverless/install/id_track_utils --record /home/mario/Driverless/build/id_track_utils/install.log --single-version-externally-managed

@@ -1,0 +1,20 @@
+[1.548s] Invoking command in '/home/mario/Driverless/src/car_keyop': PYTHONPATH=/home/mario/Driverless/build/car_keyop/prefix_override:/home/mario/Driverless/install/car_keyop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/car_keyop build --build-base /home/mario/Driverless/build/car_keyop/build install --record /home/mario/Driverless/build/car_keyop/install.log --single-version-externally-managed
+[2.014s] running egg_info
+[2.015s] writing ../../build/car_keyop/car_keyop.egg-info/PKG-INFO
+[2.015s] writing dependency_links to ../../build/car_keyop/car_keyop.egg-info/dependency_links.txt
+[2.015s] writing entry points to ../../build/car_keyop/car_keyop.egg-info/entry_points.txt
+[2.015s] writing top-level names to ../../build/car_keyop/car_keyop.egg-info/top_level.txt
+[2.084s] reading manifest file '../../build/car_keyop/car_keyop.egg-info/SOURCES.txt'
+[2.085s] writing manifest file '../../build/car_keyop/car_keyop.egg-info/SOURCES.txt'
+[2.085s] running build
+[2.085s] running build_py
+[2.085s] running install
+[2.088s] running install_lib
+[2.090s] running install_data
+[2.091s] running install_egg_info
+[2.096s] removing '/home/mario/Driverless/install/car_keyop/lib/python3.8/site-packages/car_keyop-2.0.0-py3.8.egg-info' (and everything under it)
+[2.096s] Copying ../../build/car_keyop/car_keyop.egg-info to /home/mario/Driverless/install/car_keyop/lib/python3.8/site-packages/car_keyop-2.0.0-py3.8.egg-info
+[2.104s] running install_scripts
+[2.131s] Installing twist script to /home/mario/Driverless/install/car_keyop/lib/car_keyop
+[2.131s] writing list of installed files to '/home/mario/Driverless/build/car_keyop/install.log'
+[2.197s] Invoked command in '/home/mario/Driverless/src/car_keyop' returned '0': PYTHONPATH=/home/mario/Driverless/build/car_keyop/prefix_override:/home/mario/Driverless/install/car_keyop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/car_keyop build --build-base /home/mario/Driverless/build/car_keyop/build install --record /home/mario/Driverless/build/car_keyop/install.log --single-version-externally-managed

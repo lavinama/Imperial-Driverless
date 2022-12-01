@@ -1,0 +1,45 @@
+[0.023s] Invoking command in '/home/mario/Driverless/build/vehicle_descriptions': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/mario/Driverless/build/vehicle_descriptions -- -j4 -l4
+[0.079s] Invoked command in '/home/mario/Driverless/build/vehicle_descriptions' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/mario/Driverless/build/vehicle_descriptions -- -j4 -l4
+[0.115s] Invoking command in '/home/mario/Driverless/build/vehicle_descriptions': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/mario/Driverless/build/vehicle_descriptions
+[0.128s] -- Install configuration: ""
+[0.128s] -- Up-to-date: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/launch
+[0.129s] -- Up-to-date: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/launch/simple.launch.py
+[0.129s] -- Up-to-date: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/launch/view_vehicle.launch.py
+[0.129s] -- Up-to-date: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/rviz
+[0.130s] -- Up-to-date: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/rviz/urdf.rviz
+[0.130s] -- Up-to-date: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/urdf
+[0.131s] -- Up-to-date: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/urdf/chassis.urdf.xacro
+[0.131s] -- Up-to-date: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/urdf/main.urdf.xacro
+[0.131s] -- Up-to-date: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/urdf/wheels.urdf.xacro
+[0.131s] -- Up-to-date: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/vehicles
+[0.132s] -- Up-to-date: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/vehicles/mit_racecar
+[0.133s] -- Up-to-date: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/vehicles/mit_racecar/meshes
+[0.133s] -- Up-to-date: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/vehicles/mit_racecar/meshes/wheel.dae
+[0.133s] -- Up-to-date: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/vehicles/mit_racecar/meshes/chassis.dae
+[0.134s] -- Up-to-date: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/vehicles/mit_racecar/config.yaml
+[0.134s] -- Up-to-date: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/vehicles/ads_dv
+[0.134s] -- Up-to-date: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/vehicles/ads_dv/meshes
+[0.135s] -- Up-to-date: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/vehicles/ads_dv/meshes/old_wheel.dae
+[0.135s] -- Up-to-date: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/vehicles/ads_dv/meshes/wheel.dae
+[0.135s] -- Up-to-date: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/vehicles/ads_dv/meshes/AFS_RaceCar.jpg
+[0.135s] -- Up-to-date: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/vehicles/ads_dv/meshes/chassis.dae
+[0.136s] -- Up-to-date: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/vehicles/ads_dv/meshes/old_chassis.dae
+[0.136s] -- Up-to-date: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/vehicles/ads_dv/config.yaml
+[0.136s] -- Up-to-date: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/common_meshes
+[0.137s] -- Up-to-date: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/common_meshes/hokuyo.dae
+[0.137s] -- Up-to-date: /home/mario/Driverless/install/vehicle_descriptions/share/ament_index/resource_index/package_run_dependencies/vehicle_descriptions
+[0.138s] -- Up-to-date: /home/mario/Driverless/install/vehicle_descriptions/share/ament_index/resource_index/parent_prefix_path/vehicle_descriptions
+[0.138s] -- Installing: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/environment/ament_prefix_path.sh
+[0.139s] -- Up-to-date: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/environment/ament_prefix_path.dsv
+[0.139s] -- Installing: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/environment/path.sh
+[0.140s] -- Up-to-date: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/environment/path.dsv
+[0.140s] -- Up-to-date: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/local_setup.bash
+[0.140s] -- Up-to-date: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/local_setup.sh
+[0.141s] -- Up-to-date: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/local_setup.zsh
+[0.141s] -- Up-to-date: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/local_setup.dsv
+[0.141s] -- Up-to-date: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/package.dsv
+[0.142s] -- Up-to-date: /home/mario/Driverless/install/vehicle_descriptions/share/ament_index/resource_index/packages/vehicle_descriptions
+[0.142s] -- Up-to-date: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/cmake/vehicle_descriptionsConfig.cmake
+[0.143s] -- Up-to-date: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/cmake/vehicle_descriptionsConfig-version.cmake
+[0.143s] -- Up-to-date: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/package.xml
+[0.149s] Invoked command in '/home/mario/Driverless/build/vehicle_descriptions' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/mario/Driverless/build/vehicle_descriptions

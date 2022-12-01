@@ -1,0 +1,3 @@
+[console_scripts]
+basic_pid = vehicle_controllers.basic_pid:main
+

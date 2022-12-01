@@ -1,0 +1,43 @@
+[1.328s] Invoking command in '/home/mario/Driverless/src/vehicle_controllers': PYTHONPATH=/home/mario/Driverless/install/vehicle_controllers/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/vehicle_controllers build --build-base /home/mario/Driverless/build/vehicle_controllers/build install --prefix /home/mario/Driverless/install/vehicle_controllers --record /home/mario/Driverless/build/vehicle_controllers/install.log --single-version-externally-managed
+[1.839s] running egg_info
+[1.840s] creating ../../build/vehicle_controllers/vehicle_controllers.egg-info
+[1.841s] writing ../../build/vehicle_controllers/vehicle_controllers.egg-info/PKG-INFO
+[1.841s] writing dependency_links to ../../build/vehicle_controllers/vehicle_controllers.egg-info/dependency_links.txt
+[1.841s] writing entry points to ../../build/vehicle_controllers/vehicle_controllers.egg-info/entry_points.txt
+[1.841s] writing top-level names to ../../build/vehicle_controllers/vehicle_controllers.egg-info/top_level.txt
+[1.844s] writing manifest file '../../build/vehicle_controllers/vehicle_controllers.egg-info/SOURCES.txt'
+[1.916s] reading manifest file '../../build/vehicle_controllers/vehicle_controllers.egg-info/SOURCES.txt'
+[1.917s] writing manifest file '../../build/vehicle_controllers/vehicle_controllers.egg-info/SOURCES.txt'
+[1.918s] running build
+[1.918s] running build_py
+[1.918s] creating /home/mario/Driverless/build/vehicle_controllers/build
+[1.918s] creating /home/mario/Driverless/build/vehicle_controllers/build/lib
+[1.918s] creating /home/mario/Driverless/build/vehicle_controllers/build/lib/vehicle_controllers
+[1.919s] copying vehicle_controllers/basic_pid.py -> /home/mario/Driverless/build/vehicle_controllers/build/lib/vehicle_controllers
+[1.919s] copying vehicle_controllers/vehicle_controller_base.py -> /home/mario/Driverless/build/vehicle_controllers/build/lib/vehicle_controllers
+[1.919s] copying vehicle_controllers/__init__.py -> /home/mario/Driverless/build/vehicle_controllers/build/lib/vehicle_controllers
+[1.919s] copying vehicle_controllers/ros_node.py -> /home/mario/Driverless/build/vehicle_controllers/build/lib/vehicle_controllers
+[1.919s] running install
+[1.920s] running install_lib
+[1.922s] creating /home/mario/Driverless/install/vehicle_controllers/lib/python3.8/site-packages/vehicle_controllers
+[1.922s] copying /home/mario/Driverless/build/vehicle_controllers/build/lib/vehicle_controllers/basic_pid.py -> /home/mario/Driverless/install/vehicle_controllers/lib/python3.8/site-packages/vehicle_controllers
+[1.922s] copying /home/mario/Driverless/build/vehicle_controllers/build/lib/vehicle_controllers/vehicle_controller_base.py -> /home/mario/Driverless/install/vehicle_controllers/lib/python3.8/site-packages/vehicle_controllers
+[1.922s] copying /home/mario/Driverless/build/vehicle_controllers/build/lib/vehicle_controllers/__init__.py -> /home/mario/Driverless/install/vehicle_controllers/lib/python3.8/site-packages/vehicle_controllers
+[1.922s] copying /home/mario/Driverless/build/vehicle_controllers/build/lib/vehicle_controllers/ros_node.py -> /home/mario/Driverless/install/vehicle_controllers/lib/python3.8/site-packages/vehicle_controllers
+[1.923s] byte-compiling /home/mario/Driverless/install/vehicle_controllers/lib/python3.8/site-packages/vehicle_controllers/basic_pid.py to basic_pid.cpython-38.pyc
+[1.926s] byte-compiling /home/mario/Driverless/install/vehicle_controllers/lib/python3.8/site-packages/vehicle_controllers/vehicle_controller_base.py to vehicle_controller_base.cpython-38.pyc
+[1.927s] byte-compiling /home/mario/Driverless/install/vehicle_controllers/lib/python3.8/site-packages/vehicle_controllers/__init__.py to __init__.cpython-38.pyc
+[1.927s] byte-compiling /home/mario/Driverless/install/vehicle_controllers/lib/python3.8/site-packages/vehicle_controllers/ros_node.py to ros_node.cpython-38.pyc
+[1.928s] running install_data
+[1.932s] creating /home/mario/Driverless/install/vehicle_controllers/share/ament_index
+[1.932s] creating /home/mario/Driverless/install/vehicle_controllers/share/ament_index/resource_index
+[1.932s] creating /home/mario/Driverless/install/vehicle_controllers/share/ament_index/resource_index/packages
+[1.932s] copying this_has_to_contain_an_empty_file_named_vehicle_controllers_for_setup_py_to_work/vehicle_controllers -> /home/mario/Driverless/install/vehicle_controllers/share/ament_index/resource_index/packages
+[1.932s] copying package.xml -> /home/mario/Driverless/install/vehicle_controllers/share/vehicle_controllers
+[1.932s] creating /home/mario/Driverless/install/vehicle_controllers/share/vehicle_controllers/launch
+[1.933s] running install_egg_info
+[1.933s] Copying ../../build/vehicle_controllers/vehicle_controllers.egg-info to /home/mario/Driverless/install/vehicle_controllers/lib/python3.8/site-packages/vehicle_controllers-0.0.1-py3.8.egg-info
+[1.934s] running install_scripts
+[1.967s] Installing basic_pid script to /home/mario/Driverless/install/vehicle_controllers/lib/vehicle_controllers
+[1.967s] writing list of installed files to '/home/mario/Driverless/build/vehicle_controllers/install.log'
+[2.014s] Invoked command in '/home/mario/Driverless/src/vehicle_controllers' returned '0': PYTHONPATH=/home/mario/Driverless/install/vehicle_controllers/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/vehicle_controllers build --build-base /home/mario/Driverless/build/vehicle_controllers/build install --prefix /home/mario/Driverless/install/vehicle_controllers --record /home/mario/Driverless/build/vehicle_controllers/install.log --single-version-externally-managed

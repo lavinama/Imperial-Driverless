@@ -1,0 +1,98 @@
+[35m[1mScanning dependencies of target gtest[0m
+[35m[1mScanning dependencies of target velodyne_rawdata[0m
+[35m[1mScanning dependencies of target velodyne_cloud_types[0m
+[35m[1mScanning dependencies of target gtest_main[0m
+[  5%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 10%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 15%] [32mBuilding CXX object src/lib/CMakeFiles/velodyne_cloud_types.dir/pointcloudXYZIRT.cpp.o[0m
+[ 20%] [32mBuilding CXX object src/lib/CMakeFiles/velodyne_rawdata.dir/rawdata.cpp.o[0m
+[ 25%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 25%] Built target gtest_main
+[ 30%] [32mBuilding CXX object src/lib/CMakeFiles/velodyne_cloud_types.dir/organized_cloudXYZIRT.cpp.o[0m
+[ 35%] [32mBuilding CXX object src/lib/CMakeFiles/velodyne_rawdata.dir/calibration.cpp.o[0m
+[ 40%] [32m[1mLinking CXX shared library libvelodyne_cloud_types.so[0m
+[ 40%] Built target velodyne_cloud_types
+[ 45%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 45%] Built target gtest
+[35m[1mScanning dependencies of target test_row_step[0m
+[ 50%] [32mBuilding CXX object tests/CMakeFiles/test_row_step.dir/test_row_step.cpp.o[0m
+[ 55%] [32m[1mLinking CXX shared library libvelodyne_rawdata.so[0m
+[ 55%] Built target velodyne_rawdata
+[35m[1mScanning dependencies of target transform[0m
+[35m[1mScanning dependencies of target convert[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/transform.dir/src/conversions/transform.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/convert.dir/src/conversions/convert.cpp.o[0m
+[ 70%] [32m[1mLinking CXX executable test_row_step[0m
+[ 70%] Built target test_row_step
+[ 75%] [32m[1mLinking CXX shared library libconvert.so[0m
+[ 75%] Built target convert
+[35m[1mScanning dependencies of target velodyne_convert_node[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/velodyne_convert_node.dir/src/conversions/convert_node.cpp.o[0m
+[ 85%] [32m[1mLinking CXX shared library libtransform.so[0m
+[ 85%] Built target transform
+[35m[1mScanning dependencies of target velodyne_transform_node[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/velodyne_transform_node.dir/src/conversions/transform_node.cpp.o[0m
+[ 95%] [32m[1mLinking CXX executable velodyne_convert_node[0m
+[ 95%] Built target velodyne_convert_node
+[100%] [32m[1mLinking CXX executable velodyne_transform_node[0m
+[100%] Built target velodyne_transform_node
+-- Install configuration: ""
+-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/lib/libconvert.so
+-- Set runtime path of "/home/mario/Driverless/install/velodyne_pointcloud/lib/libconvert.so" to ""
+-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/lib/velodyne_pointcloud/velodyne_convert_node
+-- Set runtime path of "/home/mario/Driverless/install/velodyne_pointcloud/lib/velodyne_pointcloud/velodyne_convert_node" to ""
+-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/lib/libtransform.so
+-- Set runtime path of "/home/mario/Driverless/install/velodyne_pointcloud/lib/libtransform.so" to ""
+-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/lib/velodyne_pointcloud/velodyne_transform_node
+-- Set runtime path of "/home/mario/Driverless/install/velodyne_pointcloud/lib/velodyne_pointcloud/velodyne_transform_node" to ""
+-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/include/velodyne_pointcloud
+-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/include/velodyne_pointcloud/datacontainerbase.hpp
+-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/include/velodyne_pointcloud/convert.hpp
+-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/include/velodyne_pointcloud/transform.hpp
+-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/include/velodyne_pointcloud/rawdata.hpp
+-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/include/velodyne_pointcloud/pointcloudXYZIRT.hpp
+-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/include/velodyne_pointcloud/organized_cloudXYZIRT.hpp
+-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/include/velodyne_pointcloud/calibration.hpp
+-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/config
+-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/config/VLP32C-velodyne_transform_node-params.yaml
+-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/config/VLP16-velodyne_convert_node-params.yaml
+-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/config/VLP16-velodyne_transform_node-params.yaml
+-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/config/VLP32C-velodyne_convert_node-params.yaml
+-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/launch
+-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_convert_node-VLP16-launch.py
+-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_transform_node-VLP16-launch.py
+-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_transform_node-VLP32C-composed-launch.py
+-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_convert_node-VLP32C-launch.py
+-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_convert_node-VLP32C-composed-launch.py
+-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_transform_node-VLP32C-launch.py
+-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_convert_node-VLP16-composed-launch.py
+-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/launch/velodyne_transform_node-VLP16-composed-launch.py
+-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/params
+-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/params/rviz_points.vcg
+-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/params/VLP16_hires_db.yaml
+-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/params/VeloView-VLP-32C.yaml
+-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/params/64e_utexas.yaml
+-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/params/32db.yaml
+-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/params/64e_s3-xiesc.yaml
+-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/params/64e_s2.1-sztaki.yaml
+-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/params/VLP16db.yaml
+-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/ament_index/resource_index/package_run_dependencies/velodyne_pointcloud
+-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/ament_index/resource_index/parent_prefix_path/velodyne_pointcloud
+-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/ament_prefix_path.sh
+-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/ament_prefix_path.dsv
+-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/path.sh
+-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/environment/path.dsv
+-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/local_setup.bash
+-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/local_setup.sh
+-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/local_setup.zsh
+-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/local_setup.dsv
+-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/package.dsv
+-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/ament_index/resource_index/packages/velodyne_pointcloud
+-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/ament_index/resource_index/rclcpp_components/velodyne_pointcloud
+-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/cmake/velodyne_pointcloudConfig.cmake
+-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/cmake/velodyne_pointcloudConfig-version.cmake
+-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/share/velodyne_pointcloud/package.xml
+-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/lib/libvelodyne_cloud_types.so
+-- Set runtime path of "/home/mario/Driverless/install/velodyne_pointcloud/lib/libvelodyne_cloud_types.so" to ""
+-- Installing: /home/mario/Driverless/install/velodyne_pointcloud/lib/libvelodyne_rawdata.so
+-- Set runtime path of "/home/mario/Driverless/install/velodyne_pointcloud/lib/libvelodyne_rawdata.so" to ""

@@ -1,0 +1,3 @@
+[console_scripts]
+twist = car_keyop.twist:main
+

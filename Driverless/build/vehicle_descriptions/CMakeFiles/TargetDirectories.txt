@@ -1,0 +1,9 @@
+/home/mario/Driverless/build/vehicle_descriptions/CMakeFiles/install/strip.dir
+/home/mario/Driverless/build/vehicle_descriptions/CMakeFiles/install/local.dir
+/home/mario/Driverless/build/vehicle_descriptions/CMakeFiles/edit_cache.dir
+/home/mario/Driverless/build/vehicle_descriptions/CMakeFiles/test.dir
+/home/mario/Driverless/build/vehicle_descriptions/CMakeFiles/install.dir
+/home/mario/Driverless/build/vehicle_descriptions/CMakeFiles/list_install_components.dir
+/home/mario/Driverless/build/vehicle_descriptions/CMakeFiles/rebuild_cache.dir
+/home/mario/Driverless/build/vehicle_descriptions/CMakeFiles/vehicle_descriptions_uninstall.dir
+/home/mario/Driverless/build/vehicle_descriptions/CMakeFiles/uninstall.dir

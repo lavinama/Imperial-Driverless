@@ -1,0 +1,13 @@
+/home/mario/Driverless/build/fsds_simulator/CMakeFiles/install/strip.dir
+/home/mario/Driverless/build/fsds_simulator/CMakeFiles/install/local.dir
+/home/mario/Driverless/build/fsds_simulator/CMakeFiles/install.dir
+/home/mario/Driverless/build/fsds_simulator/CMakeFiles/list_install_components.dir
+/home/mario/Driverless/build/fsds_simulator/CMakeFiles/rebuild_cache.dir
+/home/mario/Driverless/build/fsds_simulator/CMakeFiles/ament_cmake_python_build_fsds_simulator_scripts.dir
+/home/mario/Driverless/build/fsds_simulator/CMakeFiles/ament_cmake_python_build_fsds_simulator_egg.dir
+/home/mario/Driverless/build/fsds_simulator/CMakeFiles/edit_cache.dir
+/home/mario/Driverless/build/fsds_simulator/CMakeFiles/test.dir
+/home/mario/Driverless/build/fsds_simulator/CMakeFiles/ament_cmake_python_symlink_fsds_simulator_setup.dir
+/home/mario/Driverless/build/fsds_simulator/CMakeFiles/ament_cmake_python_symlink_fsds_simulator.dir
+/home/mario/Driverless/build/fsds_simulator/CMakeFiles/fsds_simulator_uninstall.dir
+/home/mario/Driverless/build/fsds_simulator/CMakeFiles/uninstall.dir

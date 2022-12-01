@@ -1,0 +1,62 @@
+# NOTE: This data is not correct, it has to be calibrated
+
+kinematics:
+  com:              # centre of mass position, with respect to the centre of the rear axle
+    x:        0.0   # [m] should be around 1/2 * wheelbase
+    y:        0.0   # [m] this should ideally be zero
+    z:        0.0   # [m] 
+  wheelbase:  0.325 # [m]
+  axle_width: 0.20 # separation between the centres of the front wheels
+
+sensors:
+  lidar:
+    position_relative_to_base_link:
+      x:     0.265     # [m]
+      y:     0.0       # [m]
+      z:     0.105     # [m]
+    num_beams: 1000    # [natural number]
+    fov: 4.7           # [radians]
+    noise_std_dev: 0.0 # [m]
+    update_rate: 10    # [Hz]
+
+chassis:
+  mass: 1.0
+  inertia:
+    ixx: 0.5
+    ixy: 0.0
+    ixz: 0.0
+    iyy: 0.5
+    iyz: 0.0
+    izz: 0.5
+
+wheel:
+  mass: 0.03
+  radius: 0.05
+  width: 0.045
+  inertia:
+    ixx: 0.2
+    ixy: 0.0
+    ixz: 0.0
+    iyy: 0.25
+    iyz: 0.0
+    izz: 0.25
+  friction:
+    mu1: 2
+    mu2: 2
+    kp: 1e8
+    kd: 100
+
+aero:
+  C_Down: 1.9 # F_Downforce = C_Downforce*v_x^2
+  C_drag: 1 # F_Drag = C_Drag*v_x^2
+
+input_ranges:
+  acceleration:
+    max: 3
+    min: -5
+  velocity:
+    max: 30
+    min: 0
+  steering:
+    max: 0.52
+    min: -0.52

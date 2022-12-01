@@ -1,0 +1,19 @@
+[1.844s] Invoking command in '/home/mario/Driverless/src/Data_from_Sim': PYTHONPATH=/home/mario/Driverless/build/camera_cone_detector/prefix_override:/home/mario/Driverless/install/camera_cone_detector/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/camera_cone_detector build --build-base /home/mario/Driverless/build/camera_cone_detector/build install --record /home/mario/Driverless/build/camera_cone_detector/install.log --single-version-externally-managed
+[2.299s] running egg_info
+[2.300s] writing ../../build/camera_cone_detector/camera_cone_detector.egg-info/PKG-INFO
+[2.301s] writing dependency_links to ../../build/camera_cone_detector/camera_cone_detector.egg-info/dependency_links.txt
+[2.301s] writing entry points to ../../build/camera_cone_detector/camera_cone_detector.egg-info/entry_points.txt
+[2.302s] writing requirements to ../../build/camera_cone_detector/camera_cone_detector.egg-info/requires.txt
+[2.302s] writing top-level names to ../../build/camera_cone_detector/camera_cone_detector.egg-info/top_level.txt
+[2.389s] package init file 'camera_cone_detector/__init__.py' not found (or not a regular file)
+[2.390s] reading manifest file '../../build/camera_cone_detector/camera_cone_detector.egg-info/SOURCES.txt'
+[2.392s] writing manifest file '../../build/camera_cone_detector/camera_cone_detector.egg-info/SOURCES.txt'
+[2.393s] running build
+[2.393s] running build_py
+[2.393s] running install
+[2.395s] running install_lib
+[2.396s] warning: install_lib: '/home/mario/Driverless/build/camera_cone_detector/build/lib' does not exist -- no Python modules to install
+[2.397s] 
+[2.397s] running install_data
+[2.398s] error: can't copy 'resource/camera_cone_detector': doesn't exist or not a regular file
+[2.430s] Invoked command in '/home/mario/Driverless/src/Data_from_Sim' returned '1': PYTHONPATH=/home/mario/Driverless/build/camera_cone_detector/prefix_override:/home/mario/Driverless/install/camera_cone_detector/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/camera_cone_detector build --build-base /home/mario/Driverless/build/camera_cone_detector/build install --record /home/mario/Driverless/build/camera_cone_detector/install.log --single-version-externally-managed

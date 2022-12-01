@@ -1,0 +1,12 @@
+#!/usr/bin/python3
+# EASY-INSTALL-ENTRY-SCRIPT: 'imperial-driverless-utils==0.13.1','console_scripts','gt_cone_map_visualisation_publisher'
+__requires__ = 'imperial-driverless-utils==0.13.1'
+import re
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
+    sys.exit(
+        load_entry_point('imperial-driverless-utils==0.13.1', 'console_scripts', 'gt_cone_map_visualisation_publisher')()
+    )

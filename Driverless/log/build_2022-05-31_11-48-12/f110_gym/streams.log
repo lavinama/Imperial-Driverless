@@ -1,0 +1,17 @@
+[1.420s] Invoking command in '/home/mario/Driverless/src/f1tenth_gym/gym': PYTHONPATH=/home/mario/Driverless/install/f110_gym/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/f110_gym build --build-base /home/mario/Driverless/build/f110_gym/build install --prefix /home/mario/Driverless/install/f110_gym --record /home/mario/Driverless/build/f110_gym/install.log --single-version-externally-managed
+[1.897s] running egg_info
+[1.898s] creating ../../../build/f110_gym/f110_gym.egg-info
+[1.898s] writing ../../../build/f110_gym/f110_gym.egg-info/PKG-INFO
+[1.899s] writing dependency_links to ../../../build/f110_gym/f110_gym.egg-info/dependency_links.txt
+[1.899s] writing requirements to ../../../build/f110_gym/f110_gym.egg-info/requires.txt
+[1.899s] writing top-level names to ../../../build/f110_gym/f110_gym.egg-info/top_level.txt
+[1.902s] writing manifest file '../../../build/f110_gym/f110_gym.egg-info/SOURCES.txt'
+[1.903s] reading manifest file '../../../build/f110_gym/f110_gym.egg-info/SOURCES.txt'
+[1.904s] writing manifest file '../../../build/f110_gym/f110_gym.egg-info/SOURCES.txt'
+[1.904s] running build
+[1.905s] running install
+[1.906s] running install_egg_info
+[1.910s] Copying ../../../build/f110_gym/f110_gym.egg-info to /home/mario/Driverless/install/f110_gym/lib/python3.8/site-packages/f110_gym-0.2.1-py3.8.egg-info
+[1.911s] running install_scripts
+[1.945s] writing list of installed files to '/home/mario/Driverless/build/f110_gym/install.log'
+[1.983s] Invoked command in '/home/mario/Driverless/src/f1tenth_gym/gym' returned '0': PYTHONPATH=/home/mario/Driverless/install/f110_gym/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/f110_gym build --build-base /home/mario/Driverless/build/f110_gym/build install --prefix /home/mario/Driverless/install/f110_gym --record /home/mario/Driverless/build/f110_gym/install.log --single-version-externally-managed

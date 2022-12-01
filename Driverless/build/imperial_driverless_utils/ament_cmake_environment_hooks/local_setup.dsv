@@ -1,0 +1,3 @@
+source;share/imperial_driverless_utils/environment/ament_prefix_path.sh
+source;share/imperial_driverless_utils/environment/path.sh
+source;share/imperial_driverless_utils/environment/pythonpath.sh

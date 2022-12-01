@@ -1,0 +1,5 @@
+[console_scripts]
+joyop = ackermann_drive_teleop.joyop:main
+keyop = ackermann_drive_teleop.keyop:main
+keyop_legacy = ackermann_drive_teleop.keyop_legacy:main
+

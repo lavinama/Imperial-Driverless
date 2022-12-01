@@ -1,0 +1,42 @@
+[1.455s] Invoking command in '/home/mario/Driverless/src/lidar_only_cone_detector': PYTHONPATH=/home/mario/Driverless/install/lidar_only_cone_detector/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lidar_only_cone_detector build --build-base /home/mario/Driverless/build/lidar_only_cone_detector/build install --prefix /home/mario/Driverless/install/lidar_only_cone_detector --record /home/mario/Driverless/build/lidar_only_cone_detector/install.log --single-version-externally-managed
+[2.077s] running egg_info
+[2.078s] creating ../../build/lidar_only_cone_detector/lidar_only_cone_detector.egg-info
+[2.079s] writing ../../build/lidar_only_cone_detector/lidar_only_cone_detector.egg-info/PKG-INFO
+[2.080s] writing dependency_links to ../../build/lidar_only_cone_detector/lidar_only_cone_detector.egg-info/dependency_links.txt
+[2.080s] writing entry points to ../../build/lidar_only_cone_detector/lidar_only_cone_detector.egg-info/entry_points.txt
+[2.081s] writing top-level names to ../../build/lidar_only_cone_detector/lidar_only_cone_detector.egg-info/top_level.txt
+[2.083s] writing manifest file '../../build/lidar_only_cone_detector/lidar_only_cone_detector.egg-info/SOURCES.txt'
+[2.158s] reading manifest file '../../build/lidar_only_cone_detector/lidar_only_cone_detector.egg-info/SOURCES.txt'
+[2.159s] writing manifest file '../../build/lidar_only_cone_detector/lidar_only_cone_detector.egg-info/SOURCES.txt'
+[2.160s] running build
+[2.160s] running build_py
+[2.161s] creating /home/mario/Driverless/build/lidar_only_cone_detector/build
+[2.161s] creating /home/mario/Driverless/build/lidar_only_cone_detector/build/lib
+[2.161s] creating /home/mario/Driverless/build/lidar_only_cone_detector/build/lib/lidar_only_cone_detector
+[2.162s] copying lidar_only_cone_detector/circle_approximation_detector.py -> /home/mario/Driverless/build/lidar_only_cone_detector/build/lib/lidar_only_cone_detector
+[2.162s] copying lidar_only_cone_detector/__init__.py -> /home/mario/Driverless/build/lidar_only_cone_detector/build/lib/lidar_only_cone_detector
+[2.163s] copying lidar_only_cone_detector/ros_node.py -> /home/mario/Driverless/build/lidar_only_cone_detector/build/lib/lidar_only_cone_detector
+[2.163s] copying lidar_only_cone_detector/cone_detector_base.py -> /home/mario/Driverless/build/lidar_only_cone_detector/build/lib/lidar_only_cone_detector
+[2.164s] running install
+[2.166s] running install_lib
+[2.168s] creating /home/mario/Driverless/install/lidar_only_cone_detector/lib/python3.8/site-packages/lidar_only_cone_detector
+[2.168s] copying /home/mario/Driverless/build/lidar_only_cone_detector/build/lib/lidar_only_cone_detector/circle_approximation_detector.py -> /home/mario/Driverless/install/lidar_only_cone_detector/lib/python3.8/site-packages/lidar_only_cone_detector
+[2.169s] copying /home/mario/Driverless/build/lidar_only_cone_detector/build/lib/lidar_only_cone_detector/__init__.py -> /home/mario/Driverless/install/lidar_only_cone_detector/lib/python3.8/site-packages/lidar_only_cone_detector
+[2.169s] copying /home/mario/Driverless/build/lidar_only_cone_detector/build/lib/lidar_only_cone_detector/ros_node.py -> /home/mario/Driverless/install/lidar_only_cone_detector/lib/python3.8/site-packages/lidar_only_cone_detector
+[2.170s] copying /home/mario/Driverless/build/lidar_only_cone_detector/build/lib/lidar_only_cone_detector/cone_detector_base.py -> /home/mario/Driverless/install/lidar_only_cone_detector/lib/python3.8/site-packages/lidar_only_cone_detector
+[2.171s] byte-compiling /home/mario/Driverless/install/lidar_only_cone_detector/lib/python3.8/site-packages/lidar_only_cone_detector/circle_approximation_detector.py to circle_approximation_detector.cpython-38.pyc
+[2.176s] byte-compiling /home/mario/Driverless/install/lidar_only_cone_detector/lib/python3.8/site-packages/lidar_only_cone_detector/__init__.py to __init__.cpython-38.pyc
+[2.176s] byte-compiling /home/mario/Driverless/install/lidar_only_cone_detector/lib/python3.8/site-packages/lidar_only_cone_detector/ros_node.py to ros_node.cpython-38.pyc
+[2.178s] byte-compiling /home/mario/Driverless/install/lidar_only_cone_detector/lib/python3.8/site-packages/lidar_only_cone_detector/cone_detector_base.py to cone_detector_base.cpython-38.pyc
+[2.178s] running install_data
+[2.180s] creating /home/mario/Driverless/install/lidar_only_cone_detector/share/ament_index
+[2.180s] creating /home/mario/Driverless/install/lidar_only_cone_detector/share/ament_index/resource_index
+[2.180s] creating /home/mario/Driverless/install/lidar_only_cone_detector/share/ament_index/resource_index/packages
+[2.181s] copying resource/lidar_only_cone_detector -> /home/mario/Driverless/install/lidar_only_cone_detector/share/ament_index/resource_index/packages
+[2.181s] copying package.xml -> /home/mario/Driverless/install/lidar_only_cone_detector/share/lidar_only_cone_detector
+[2.182s] running install_egg_info
+[2.185s] Copying ../../build/lidar_only_cone_detector/lidar_only_cone_detector.egg-info to /home/mario/Driverless/install/lidar_only_cone_detector/lib/python3.8/site-packages/lidar_only_cone_detector-0.1.2-py3.8.egg-info
+[2.187s] running install_scripts
+[2.221s] Installing circle_approximation_detector script to /home/mario/Driverless/install/lidar_only_cone_detector/lib/lidar_only_cone_detector
+[2.222s] writing list of installed files to '/home/mario/Driverless/build/lidar_only_cone_detector/install.log'
+[2.299s] Invoked command in '/home/mario/Driverless/src/lidar_only_cone_detector' returned '0': PYTHONPATH=/home/mario/Driverless/install/lidar_only_cone_detector/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lidar_only_cone_detector build --build-base /home/mario/Driverless/build/lidar_only_cone_detector/build install --prefix /home/mario/Driverless/install/lidar_only_cone_detector --record /home/mario/Driverless/build/lidar_only_cone_detector/install.log --single-version-externally-managed

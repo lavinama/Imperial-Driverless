@@ -1,0 +1,63 @@
+[0.013s] Invoking command in '/home/mario/Driverless/build/fsds_simulator': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/mario/Driverless/build/fsds_simulator -- -j4 -l4
+[0.070s] Built target ament_cmake_python_symlink_fsds_simulator
+[0.080s] Built target ament_cmake_python_symlink_fsds_simulator_setup
+[0.287s] running install_scripts
+[0.308s] running egg_info
+[0.308s] writing fsds_simulator.egg-info/PKG-INFO
+[0.309s] writing dependency_links to fsds_simulator.egg-info/dependency_links.txt
+[0.309s] writing entry points to fsds_simulator.egg-info/entry_points.txt
+[0.309s] writing top-level names to fsds_simulator.egg-info/top_level.txt
+[0.315s] running egg_info
+[0.316s] writing fsds_simulator.egg-info/PKG-INFO
+[0.316s] writing dependency_links to fsds_simulator.egg-info/dependency_links.txt
+[0.316s] writing entry points to fsds_simulator.egg-info/entry_points.txt
+[0.317s] writing top-level names to fsds_simulator.egg-info/top_level.txt
+[0.341s] reading manifest file 'fsds_simulator.egg-info/SOURCES.txt'
+[0.342s] writing manifest file 'fsds_simulator.egg-info/SOURCES.txt'
+[0.343s] Installing control_command_converter script to scripts
+[0.343s] Installing fs_track_to_conemap script to scripts
+[0.344s] Installing grab_cone_gt script to scripts
+[0.350s] reading manifest file 'fsds_simulator.egg-info/SOURCES.txt'
+[0.351s] writing manifest file 'fsds_simulator.egg-info/SOURCES.txt'
+[0.378s] Built target ament_cmake_python_build_fsds_simulator_scripts
+[0.383s] Built target ament_cmake_python_build_fsds_simulator_egg
+[0.393s] Invoked command in '/home/mario/Driverless/build/fsds_simulator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/mario/Driverless/build/fsds_simulator -- -j4 -l4
+[0.425s] Invoking command in '/home/mario/Driverless/build/fsds_simulator': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/mario/Driverless/build/fsds_simulator
+[0.433s] -- Install configuration: ""
+[0.434s] -- Up-to-date: /home/mario/Driverless/install/fsds_simulator/share/fsds_simulator/environment/pythonpath.sh
+[0.434s] -- Up-to-date: /home/mario/Driverless/install/fsds_simulator/share/fsds_simulator/environment/pythonpath.dsv
+[0.434s] -- Up-to-date: /home/mario/Driverless/install/fsds_simulator/lib/python3.8/site-packages//fsds_simulator.egg-info
+[0.434s] -- Installing: /home/mario/Driverless/install/fsds_simulator/lib/python3.8/site-packages//fsds_simulator.egg-info/entry_points.txt
+[0.434s] -- Installing: /home/mario/Driverless/install/fsds_simulator/lib/python3.8/site-packages//fsds_simulator.egg-info/dependency_links.txt
+[0.434s] -- Installing: /home/mario/Driverless/install/fsds_simulator/lib/python3.8/site-packages//fsds_simulator.egg-info/PKG-INFO
+[0.434s] -- Installing: /home/mario/Driverless/install/fsds_simulator/lib/python3.8/site-packages//fsds_simulator.egg-info/top_level.txt
+[0.434s] -- Installing: /home/mario/Driverless/install/fsds_simulator/lib/python3.8/site-packages//fsds_simulator.egg-info/SOURCES.txt
+[0.434s] -- Up-to-date: /home/mario/Driverless/install/fsds_simulator/lib/python3.8/site-packages/fsds_simulator
+[0.435s] -- Up-to-date: /home/mario/Driverless/install/fsds_simulator/lib/python3.8/site-packages/fsds_simulator/fs_track_to_conemap.py
+[0.435s] -- Up-to-date: /home/mario/Driverless/install/fsds_simulator/lib/python3.8/site-packages/fsds_simulator/grab_cone_gt.py
+[0.435s] -- Up-to-date: /home/mario/Driverless/install/fsds_simulator/lib/python3.8/site-packages/fsds_simulator/__init__.py
+[0.435s] -- Up-to-date: /home/mario/Driverless/install/fsds_simulator/lib/python3.8/site-packages/fsds_simulator/control_command_converter.py
+[0.462s] Listing '/home/mario/Driverless/install/fsds_simulator/lib/python3.8/site-packages/fsds_simulator'...
+[0.466s] -- Up-to-date: /home/mario/Driverless/install/fsds_simulator/lib/fsds_simulator/
+[0.466s] -- Installing: /home/mario/Driverless/install/fsds_simulator/lib/fsds_simulator//control_command_converter
+[0.466s] -- Installing: /home/mario/Driverless/install/fsds_simulator/lib/fsds_simulator//grab_cone_gt
+[0.466s] -- Installing: /home/mario/Driverless/install/fsds_simulator/lib/fsds_simulator//fs_track_to_conemap
+[0.466s] -- Up-to-date: /home/mario/Driverless/install/fsds_simulator/share/fsds_simulator/launch
+[0.466s] -- Up-to-date: /home/mario/Driverless/install/fsds_simulator/share/fsds_simulator/launch/simulate_with_twist_interface.launch.py
+[0.466s] -- Up-to-date: /home/mario/Driverless/install/fsds_simulator/share/fsds_simulator/launch/simulate_with_vcu_interface.launch.py
+[0.466s] -- Up-to-date: /home/mario/Driverless/install/fsds_simulator/share/ament_index/resource_index/package_run_dependencies/fsds_simulator
+[0.467s] -- Up-to-date: /home/mario/Driverless/install/fsds_simulator/share/ament_index/resource_index/parent_prefix_path/fsds_simulator
+[0.467s] -- Up-to-date: /home/mario/Driverless/install/fsds_simulator/share/fsds_simulator/environment/ament_prefix_path.sh
+[0.467s] -- Up-to-date: /home/mario/Driverless/install/fsds_simulator/share/fsds_simulator/environment/ament_prefix_path.dsv
+[0.467s] -- Up-to-date: /home/mario/Driverless/install/fsds_simulator/share/fsds_simulator/environment/path.sh
+[0.467s] -- Up-to-date: /home/mario/Driverless/install/fsds_simulator/share/fsds_simulator/environment/path.dsv
+[0.467s] -- Up-to-date: /home/mario/Driverless/install/fsds_simulator/share/fsds_simulator/local_setup.bash
+[0.467s] -- Up-to-date: /home/mario/Driverless/install/fsds_simulator/share/fsds_simulator/local_setup.sh
+[0.467s] -- Up-to-date: /home/mario/Driverless/install/fsds_simulator/share/fsds_simulator/local_setup.zsh
+[0.467s] -- Up-to-date: /home/mario/Driverless/install/fsds_simulator/share/fsds_simulator/local_setup.dsv
+[0.467s] -- Installing: /home/mario/Driverless/install/fsds_simulator/share/fsds_simulator/package.dsv
+[0.467s] -- Up-to-date: /home/mario/Driverless/install/fsds_simulator/share/ament_index/resource_index/packages/fsds_simulator
+[0.467s] -- Up-to-date: /home/mario/Driverless/install/fsds_simulator/share/fsds_simulator/cmake/fsds_simulatorConfig.cmake
+[0.467s] -- Up-to-date: /home/mario/Driverless/install/fsds_simulator/share/fsds_simulator/cmake/fsds_simulatorConfig-version.cmake
+[0.467s] -- Up-to-date: /home/mario/Driverless/install/fsds_simulator/share/fsds_simulator/package.xml
+[0.469s] Invoked command in '/home/mario/Driverless/build/fsds_simulator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/mario/Driverless/build/fsds_simulator

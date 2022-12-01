@@ -1,0 +1,91 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_auto: 1.1.4 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/galactic/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 0.22.4 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.3.7") 
+-- Found ament_lint_auto: 0.10.6 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mario/Driverless/build/lightweight_lidar_only_simulator
+[35m[1mScanning dependencies of target lightweight_lidar_only_simulator[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/lightweight_lidar_only_simulator.dir/src/ackermann_kinematics.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/lightweight_lidar_only_simulator.dir/src/distance_transform.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/lightweight_lidar_only_simulator.dir/src/scan_simulator_2d.cpp.o[0m
+[ 66%] [32m[1mLinking CXX static library liblightweight_lidar_only_simulator.a[0m
+[ 66%] Built target lightweight_lidar_only_simulator
+[35m[1mScanning dependencies of target simulate[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/simulate.dir/node/simulate.cpp.o[0m
+[100%] [32m[1mLinking CXX executable simulate[0m
+[100%] Built target simulate
+-- Install configuration: ""
+-- Installing: /home/mario/Driverless/install/lightweight_lidar_only_simulator/lib/liblightweight_lidar_only_simulator.a
+-- Installing: /home/mario/Driverless/install/lightweight_lidar_only_simulator/include/lightweight_lidar_only_simulator
+-- Installing: /home/mario/Driverless/install/lightweight_lidar_only_simulator/include/lightweight_lidar_only_simulator/wheel_state.hpp
+-- Installing: /home/mario/Driverless/install/lightweight_lidar_only_simulator/include/lightweight_lidar_only_simulator/motion_model.hpp
+-- Installing: /home/mario/Driverless/install/lightweight_lidar_only_simulator/include/lightweight_lidar_only_simulator/scan_simulator_2d.hpp
+-- Installing: /home/mario/Driverless/install/lightweight_lidar_only_simulator/include/lightweight_lidar_only_simulator/distance_transform.hpp
+-- Installing: /home/mario/Driverless/install/lightweight_lidar_only_simulator/include/lightweight_lidar_only_simulator/ackermann_kinematics.hpp
+-- Installing: /home/mario/Driverless/install/lightweight_lidar_only_simulator/include/lightweight_lidar_only_simulator/pose_2d.hpp
+-- Installing: /home/mario/Driverless/install/lightweight_lidar_only_simulator/include/lightweight_lidar_only_simulator/imu_simulator.hpp
+-- Up-to-date: /home/mario/Driverless/install/lightweight_lidar_only_simulator/include
+-- Up-to-date: /home/mario/Driverless/install/lightweight_lidar_only_simulator/include/lightweight_lidar_only_simulator
+-- Up-to-date: /home/mario/Driverless/install/lightweight_lidar_only_simulator/include/lightweight_lidar_only_simulator/wheel_state.hpp
+-- Up-to-date: /home/mario/Driverless/install/lightweight_lidar_only_simulator/include/lightweight_lidar_only_simulator/motion_model.hpp
+-- Up-to-date: /home/mario/Driverless/install/lightweight_lidar_only_simulator/include/lightweight_lidar_only_simulator/scan_simulator_2d.hpp
+-- Up-to-date: /home/mario/Driverless/install/lightweight_lidar_only_simulator/include/lightweight_lidar_only_simulator/distance_transform.hpp
+-- Up-to-date: /home/mario/Driverless/install/lightweight_lidar_only_simulator/include/lightweight_lidar_only_simulator/ackermann_kinematics.hpp
+-- Up-to-date: /home/mario/Driverless/install/lightweight_lidar_only_simulator/include/lightweight_lidar_only_simulator/pose_2d.hpp
+-- Up-to-date: /home/mario/Driverless/install/lightweight_lidar_only_simulator/include/lightweight_lidar_only_simulator/imu_simulator.hpp
+-- Installing: /home/mario/Driverless/install/lightweight_lidar_only_simulator/lib/lightweight_lidar_only_simulator/simulate
+-- Set runtime path of "/home/mario/Driverless/install/lightweight_lidar_only_simulator/lib/lightweight_lidar_only_simulator/simulate" to ""
+-- Installing: /home/mario/Driverless/install/lightweight_lidar_only_simulator/share/lightweight_lidar_only_simulator/launch
+-- Installing: /home/mario/Driverless/install/lightweight_lidar_only_simulator/share/lightweight_lidar_only_simulator/launch/simulate_with_twist_interface.launch.py
+-- Installing: /home/mario/Driverless/install/lightweight_lidar_only_simulator/share/lightweight_lidar_only_simulator/launch/simulate_with_vcu_interface.launch.py
+-- Installing: /home/mario/Driverless/install/lightweight_lidar_only_simulator/share/ament_index/resource_index/package_run_dependencies/lightweight_lidar_only_simulator
+-- Installing: /home/mario/Driverless/install/lightweight_lidar_only_simulator/share/ament_index/resource_index/parent_prefix_path/lightweight_lidar_only_simulator
+-- Installing: /home/mario/Driverless/install/lightweight_lidar_only_simulator/share/lightweight_lidar_only_simulator/environment/ament_prefix_path.sh
+-- Installing: /home/mario/Driverless/install/lightweight_lidar_only_simulator/share/lightweight_lidar_only_simulator/environment/ament_prefix_path.dsv
+-- Installing: /home/mario/Driverless/install/lightweight_lidar_only_simulator/share/lightweight_lidar_only_simulator/environment/path.sh
+-- Installing: /home/mario/Driverless/install/lightweight_lidar_only_simulator/share/lightweight_lidar_only_simulator/environment/path.dsv
+-- Installing: /home/mario/Driverless/install/lightweight_lidar_only_simulator/share/lightweight_lidar_only_simulator/local_setup.bash
+-- Installing: /home/mario/Driverless/install/lightweight_lidar_only_simulator/share/lightweight_lidar_only_simulator/local_setup.sh
+-- Installing: /home/mario/Driverless/install/lightweight_lidar_only_simulator/share/lightweight_lidar_only_simulator/local_setup.zsh
+-- Installing: /home/mario/Driverless/install/lightweight_lidar_only_simulator/share/lightweight_lidar_only_simulator/local_setup.dsv
+-- Installing: /home/mario/Driverless/install/lightweight_lidar_only_simulator/share/lightweight_lidar_only_simulator/package.dsv
+-- Installing: /home/mario/Driverless/install/lightweight_lidar_only_simulator/share/ament_index/resource_index/packages/lightweight_lidar_only_simulator
+-- Installing: /home/mario/Driverless/install/lightweight_lidar_only_simulator/share/lightweight_lidar_only_simulator/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/mario/Driverless/install/lightweight_lidar_only_simulator/share/lightweight_lidar_only_simulator/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/mario/Driverless/install/lightweight_lidar_only_simulator/share/lightweight_lidar_only_simulator/cmake/lightweight_lidar_only_simulatorConfig.cmake
+-- Installing: /home/mario/Driverless/install/lightweight_lidar_only_simulator/share/lightweight_lidar_only_simulator/cmake/lightweight_lidar_only_simulatorConfig-version.cmake
+-- Installing: /home/mario/Driverless/install/lightweight_lidar_only_simulator/share/lightweight_lidar_only_simulator/package.xml

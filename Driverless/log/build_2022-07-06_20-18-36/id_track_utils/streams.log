@@ -1,0 +1,28 @@
+[1.826s] Invoking command in '/home/mario/Driverless/src/id_track_utils': PYTHONPATH=/home/mario/Driverless/build/id_track_utils/prefix_override:/home/mario/Driverless/install/id_track_utils/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/id_track_utils build --build-base /home/mario/Driverless/build/id_track_utils/build install --record /home/mario/Driverless/build/id_track_utils/install.log --single-version-externally-managed
+[2.227s] running egg_info
+[2.228s] writing ../../build/id_track_utils/id_track_utils.egg-info/PKG-INFO
+[2.228s] writing dependency_links to ../../build/id_track_utils/id_track_utils.egg-info/dependency_links.txt
+[2.229s] writing requirements to ../../build/id_track_utils/id_track_utils.egg-info/requires.txt
+[2.229s] writing top-level names to ../../build/id_track_utils/id_track_utils.egg-info/top_level.txt
+[2.301s] reading manifest file '../../build/id_track_utils/id_track_utils.egg-info/SOURCES.txt'
+[2.304s] writing manifest file '../../build/id_track_utils/id_track_utils.egg-info/SOURCES.txt'
+[2.304s] running build
+[2.304s] running build_py
+[2.304s] copying src/id_track_utils/__init__.py -> /home/mario/Driverless/build/id_track_utils/build/lib/id_track_utils
+[2.305s] copying src/id_track_utils/track.py -> /home/mario/Driverless/build/id_track_utils/build/lib/id_track_utils
+[2.305s] copying src/id_track_utils/track_generator.py -> /home/mario/Driverless/build/id_track_utils/build/lib/id_track_utils
+[2.312s] running install
+[2.314s] running install_lib
+[2.316s] copying /home/mario/Driverless/build/id_track_utils/build/lib/id_track_utils/__init__.py -> /home/mario/Driverless/install/id_track_utils/lib/python3.8/site-packages/id_track_utils
+[2.316s] copying /home/mario/Driverless/build/id_track_utils/build/lib/id_track_utils/track.py -> /home/mario/Driverless/install/id_track_utils/lib/python3.8/site-packages/id_track_utils
+[2.317s] copying /home/mario/Driverless/build/id_track_utils/build/lib/id_track_utils/track_generator.py -> /home/mario/Driverless/install/id_track_utils/lib/python3.8/site-packages/id_track_utils
+[2.319s] byte-compiling /home/mario/Driverless/install/id_track_utils/lib/python3.8/site-packages/id_track_utils/__init__.py to __init__.cpython-38.pyc
+[2.321s] byte-compiling /home/mario/Driverless/install/id_track_utils/lib/python3.8/site-packages/id_track_utils/track.py to track.cpython-38.pyc
+[2.331s] byte-compiling /home/mario/Driverless/install/id_track_utils/lib/python3.8/site-packages/id_track_utils/track_generator.py to track_generator.cpython-38.pyc
+[2.344s] running install_data
+[2.358s] running install_egg_info
+[2.359s] removing '/home/mario/Driverless/install/id_track_utils/lib/python3.8/site-packages/id_track_utils-0.5.3-py3.8.egg-info' (and everything under it)
+[2.360s] Copying ../../build/id_track_utils/id_track_utils.egg-info to /home/mario/Driverless/install/id_track_utils/lib/python3.8/site-packages/id_track_utils-0.5.3-py3.8.egg-info
+[2.362s] running install_scripts
+[2.395s] writing list of installed files to '/home/mario/Driverless/build/id_track_utils/install.log'
+[2.446s] Invoked command in '/home/mario/Driverless/src/id_track_utils' returned '0': PYTHONPATH=/home/mario/Driverless/build/id_track_utils/prefix_override:/home/mario/Driverless/install/id_track_utils/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/id_track_utils build --build-base /home/mario/Driverless/build/id_track_utils/build install --record /home/mario/Driverless/build/id_track_utils/install.log --single-version-externally-managed

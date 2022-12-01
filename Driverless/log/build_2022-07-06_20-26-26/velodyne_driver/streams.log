@@ -1,0 +1,25 @@
+[0.030s] Invoking command in '/home/mario/Driverless/build/velodyne_driver': AMENT_PREFIX_PATH=/home/mario/Driverless/install/velodyne_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/opt/ros/galactic:/home/mario/Driverless/install/velodyne_msgs LD_LIBRARY_PATH=/home/mario/Driverless/install/velodyne_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mario/Driverless/install/velodyne_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mario/Driverless/build/velodyne_driver -- -j4 -l4
+[0.121s] [35m[1mScanning dependencies of target gtest[0m
+[0.128s] [35m[1mScanning dependencies of target velodyne_input[0m
+[0.136s] [35m[1mScanning dependencies of target gtest_main[0m
+[0.175s] [  8%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.190s] [ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[0.201s] [ 25%] [32mBuilding CXX object src/lib/CMakeFiles/velodyne_input.dir/input.cpp.o[0m
+[1.980s] [ 33%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[2.100s] [ 33%] Built target gtest_main
+[5.271s] [ 41%] [32m[1mLinking CXX shared library libvelodyne_input.so[0m
+[5.478s] [ 41%] Built target velodyne_input
+[5.493s] [35m[1mScanning dependencies of target velodyne_driver[0m
+[5.571s] [ 50%] [32mBuilding CXX object CMakeFiles/velodyne_driver.dir/src/driver/driver.cpp.o[0m
+[6.075s] [ 58%] [32m[1mLinking CXX static library libgtest.a[0m
+[6.130s] [ 58%] Built target gtest
+[6.140s] [35m[1mScanning dependencies of target time_test[0m
+[6.183s] [ 66%] [32mBuilding CXX object CMakeFiles/time_test.dir/tests/timeconversiontest.cpp.o[0m
+[9.201s] [ 75%] [32m[1mLinking CXX executable time_test[0m
+[9.427s] [ 75%] Built target time_test
+[11.327s] [ 83%] [32m[1mLinking CXX shared library libvelodyne_driver.so[0m
+[11.680s] [ 83%] Built target velodyne_driver
+[11.690s] [35m[1mScanning dependencies of target velodyne_driver_node[0m
+[11.728s] [ 91%] [32mBuilding CXX object CMakeFiles/velodyne_driver_node.dir/src/driver/velodyne_node.cpp.o[0m
+[14.526s] [100%] [32m[1mLinking CXX executable velodyne_driver_node[0m
+[14.743s] [100%] Built target velodyne_driver_node

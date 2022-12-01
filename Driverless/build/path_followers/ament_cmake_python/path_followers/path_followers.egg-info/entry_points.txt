@@ -1,0 +1,4 @@
+[console_scripts]
+example_follower = path_followers.example_follower:main
+pure_pursuit_f1tenth = path_followers.pure_pursuit_f1tenth:main
+

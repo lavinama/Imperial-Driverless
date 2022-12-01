@@ -1,0 +1,2 @@
+Invoking command in '/home/mario/Driverless/build/velodyne_msgs': /usr/bin/cmake /home/mario/Driverless/src/velodyne/velodyne_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/mario/Driverless/install/velodyne_msgs
+Invoked command in '/home/mario/Driverless/build/velodyne_msgs' returned '1': /usr/bin/cmake /home/mario/Driverless/src/velodyne/velodyne_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/mario/Driverless/install/velodyne_msgs

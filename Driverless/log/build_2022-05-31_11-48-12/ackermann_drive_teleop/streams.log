@@ -1,0 +1,46 @@
+[1.410s] Invoking command in '/home/mario/Driverless/src/ackermann_drive_teleop': PYTHONPATH=/home/mario/Driverless/install/ackermann_drive_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ackermann_drive_teleop build --build-base /home/mario/Driverless/build/ackermann_drive_teleop/build install --prefix /home/mario/Driverless/install/ackermann_drive_teleop --record /home/mario/Driverless/build/ackermann_drive_teleop/install.log --single-version-externally-managed
+[1.988s] running egg_info
+[1.989s] creating ../../build/ackermann_drive_teleop/ackermann_drive_teleop.egg-info
+[1.989s] writing ../../build/ackermann_drive_teleop/ackermann_drive_teleop.egg-info/PKG-INFO
+[1.989s] writing dependency_links to ../../build/ackermann_drive_teleop/ackermann_drive_teleop.egg-info/dependency_links.txt
+[1.990s] writing entry points to ../../build/ackermann_drive_teleop/ackermann_drive_teleop.egg-info/entry_points.txt
+[1.990s] writing top-level names to ../../build/ackermann_drive_teleop/ackermann_drive_teleop.egg-info/top_level.txt
+[1.992s] writing manifest file '../../build/ackermann_drive_teleop/ackermann_drive_teleop.egg-info/SOURCES.txt'
+[2.060s] reading manifest file '../../build/ackermann_drive_teleop/ackermann_drive_teleop.egg-info/SOURCES.txt'
+[2.062s] writing manifest file '../../build/ackermann_drive_teleop/ackermann_drive_teleop.egg-info/SOURCES.txt'
+[2.062s] running build
+[2.062s] running build_py
+[2.063s] creating /home/mario/Driverless/build/ackermann_drive_teleop/build
+[2.063s] creating /home/mario/Driverless/build/ackermann_drive_teleop/build/lib
+[2.064s] creating /home/mario/Driverless/build/ackermann_drive_teleop/build/lib/ackermann_drive_teleop
+[2.064s] copying ackermann_drive_teleop/joyop.py -> /home/mario/Driverless/build/ackermann_drive_teleop/build/lib/ackermann_drive_teleop
+[2.064s] copying ackermann_drive_teleop/__init__.py -> /home/mario/Driverless/build/ackermann_drive_teleop/build/lib/ackermann_drive_teleop
+[2.065s] copying ackermann_drive_teleop/keyop.py -> /home/mario/Driverless/build/ackermann_drive_teleop/build/lib/ackermann_drive_teleop
+[2.065s] copying ackermann_drive_teleop/keyop_legacy.py -> /home/mario/Driverless/build/ackermann_drive_teleop/build/lib/ackermann_drive_teleop
+[2.066s] running install
+[2.067s] running install_lib
+[2.069s] creating /home/mario/Driverless/install/ackermann_drive_teleop/lib/python3.8/site-packages/ackermann_drive_teleop
+[2.070s] copying /home/mario/Driverless/build/ackermann_drive_teleop/build/lib/ackermann_drive_teleop/joyop.py -> /home/mario/Driverless/install/ackermann_drive_teleop/lib/python3.8/site-packages/ackermann_drive_teleop
+[2.070s] copying /home/mario/Driverless/build/ackermann_drive_teleop/build/lib/ackermann_drive_teleop/__init__.py -> /home/mario/Driverless/install/ackermann_drive_teleop/lib/python3.8/site-packages/ackermann_drive_teleop
+[2.071s] copying /home/mario/Driverless/build/ackermann_drive_teleop/build/lib/ackermann_drive_teleop/keyop.py -> /home/mario/Driverless/install/ackermann_drive_teleop/lib/python3.8/site-packages/ackermann_drive_teleop
+[2.071s] copying /home/mario/Driverless/build/ackermann_drive_teleop/build/lib/ackermann_drive_teleop/keyop_legacy.py -> /home/mario/Driverless/install/ackermann_drive_teleop/lib/python3.8/site-packages/ackermann_drive_teleop
+[2.072s] byte-compiling /home/mario/Driverless/install/ackermann_drive_teleop/lib/python3.8/site-packages/ackermann_drive_teleop/joyop.py to joyop.cpython-38.pyc
+[2.075s] byte-compiling /home/mario/Driverless/install/ackermann_drive_teleop/lib/python3.8/site-packages/ackermann_drive_teleop/__init__.py to __init__.cpython-38.pyc
+[2.076s] byte-compiling /home/mario/Driverless/install/ackermann_drive_teleop/lib/python3.8/site-packages/ackermann_drive_teleop/keyop.py to keyop.cpython-38.pyc
+[2.078s] byte-compiling /home/mario/Driverless/install/ackermann_drive_teleop/lib/python3.8/site-packages/ackermann_drive_teleop/keyop_legacy.py to keyop_legacy.cpython-38.pyc
+[2.080s] running install_data
+[2.081s] creating /home/mario/Driverless/install/ackermann_drive_teleop/share/ament_index
+[2.082s] creating /home/mario/Driverless/install/ackermann_drive_teleop/share/ament_index/resource_index
+[2.082s] creating /home/mario/Driverless/install/ackermann_drive_teleop/share/ament_index/resource_index/packages
+[2.083s] copying resource/ackermann_drive_teleop -> /home/mario/Driverless/install/ackermann_drive_teleop/share/ament_index/resource_index/packages
+[2.083s] copying package.xml -> /home/mario/Driverless/install/ackermann_drive_teleop/share/ackermann_drive_teleop
+[2.083s] creating /home/mario/Driverless/install/ackermann_drive_teleop/share/ackermann_drive_teleop/launch
+[2.084s] copying launch/ackermann_drive_joyop.launch.py -> /home/mario/Driverless/install/ackermann_drive_teleop/share/ackermann_drive_teleop/launch
+[2.084s] running install_egg_info
+[2.087s] Copying ../../build/ackermann_drive_teleop/ackermann_drive_teleop.egg-info to /home/mario/Driverless/install/ackermann_drive_teleop/lib/python3.8/site-packages/ackermann_drive_teleop-1.0.1-py3.8.egg-info
+[2.088s] running install_scripts
+[2.119s] Installing joyop script to /home/mario/Driverless/install/ackermann_drive_teleop/lib/ackermann_drive_teleop
+[2.119s] Installing keyop script to /home/mario/Driverless/install/ackermann_drive_teleop/lib/ackermann_drive_teleop
+[2.119s] Installing keyop_legacy script to /home/mario/Driverless/install/ackermann_drive_teleop/lib/ackermann_drive_teleop
+[2.120s] writing list of installed files to '/home/mario/Driverless/build/ackermann_drive_teleop/install.log'
+[2.178s] Invoked command in '/home/mario/Driverless/src/ackermann_drive_teleop' returned '0': PYTHONPATH=/home/mario/Driverless/install/ackermann_drive_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ackermann_drive_teleop build --build-base /home/mario/Driverless/build/ackermann_drive_teleop/build install --prefix /home/mario/Driverless/install/ackermann_drive_teleop --record /home/mario/Driverless/build/ackermann_drive_teleop/install.log --single-version-externally-managed

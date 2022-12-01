@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: car-keyop
+Version: 2.0.0
+Summary: Package for controlling a car using keyboard
+Home-page: UNKNOWN
+Author: Mateusz Lichota
+Author-email: mateusz@lichota.net
+Maintainer: Mateusz Lichota
+Maintainer-email: mateusz@lichota.net
+License: GPLv3
+Description: UNKNOWN
+Platform: UNKNOWN

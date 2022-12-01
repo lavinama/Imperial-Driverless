@@ -1,0 +1,102 @@
+[01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_edit.cpp:[m[K In member function ‘[01m[Kvirtual void pure_pursuit_edit::RegulatedPurePursuitController::configure(const WeakPtr&, std::string, const std::shared_ptr<tf2_ros::Buffer>&, const std::shared_ptr<nav2_costmap_2d::Costmap2DROS>&)[m[K’:
+[01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_edit.cpp:43:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcostmap_ros[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   43 |   [01;35m[Kconst std::shared_ptr<nav2_costmap_2d::Costmap2DROS> & costmap_ros[m[K)
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_edit.cpp:[m[K In member function ‘[01m[Kvirtual geometry_msgs::msg::TwistStamped pure_pursuit_edit::RegulatedPurePursuitController::computeVelocityCommands(const PoseStamped&, const Twist&, nav2_core::GoalChecker*)[m[K’:
+[01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_edit.cpp:243:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_checker[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  243 |   [01;35m[Knav2_core::GoalChecker * goal_checker[m[K)
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_edit.cpp:[m[K In member function ‘[01m[Kbool pure_pursuit_edit::RegulatedPurePursuitController::isCollisionImminent(const PoseStamped&, const double&, const double&, const double&)[m[K’:
+[01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_edit.cpp:370:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krobot_pose[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  370 |   [01;35m[Kconst geometry_msgs::msg::PoseStamped & robot_pose[m[K,
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_edit.cpp:371:18:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klinear_vel[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  371 |   [01;35m[Kconst double & linear_vel[m[K, const double & angular_vel,
+      |   [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_edit.cpp:371:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kangular_vel[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  371 |   const double & linear_vel, [01;35m[Kconst double & angular_vel[m[K,
+      |                              [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_edit.cpp:372:18:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcarrot_dist[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  372 |   [01;35m[Kconst double & carrot_dist[m[K)
+      |   [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_edit.cpp:[m[K In member function ‘[01m[Kbool pure_pursuit_edit::RegulatedPurePursuitController::inCollision(const double&, const double&, const double&)[m[K’:
+[01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_edit.cpp:382:18:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  382 |   [01;35m[Kconst double & x[m[K,
+      |   [01;35m[K~~~~~~~~~~~~~~~^[m[K
+[01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_edit.cpp:383:18:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ky[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  383 |   [01;35m[Kconst double & y[m[K,
+      |   [01;35m[K~~~~~~~~~~~~~~~^[m[K
+[01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_edit.cpp:384:18:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktheta[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  384 |   [01;35m[Kconst double & theta[m[K)
+      |   [01;35m[K~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_edit.cpp:[m[K In member function ‘[01m[Kdouble pure_pursuit_edit::RegulatedPurePursuitController::costAtPose(const double&, const double&)[m[K’:
+[01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_edit.cpp:389:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  389 | double RegulatedPurePursuitController::costAtPose([01;35m[Kconst double & x[m[K, const double & y)
+      |                                                   [01;35m[K~~~~~~~~~~~~~~~^[m[K
+[01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_edit.cpp:389:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ky[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  389 | double RegulatedPurePursuitController::costAtPose(const double & x, [01;35m[Kconst double & y[m[K)
+      |                                                                     [01;35m[K~~~~~~~~~~~~~~~^[m[K
+[01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_edit.cpp:[m[K In member function ‘[01m[Kvoid pure_pursuit_edit::RegulatedPurePursuitController::applyConstraints(const double&, const double&, const double&, const Twist&, const double&, double&, double&)[m[K’:
+[01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_edit.cpp:401:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kapproach_vel[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  401 |   double [01;35m[Kapproach_vel[m[K = linear_vel;
+      |          [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_edit.cpp:395:18:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdist_error[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  395 |   [01;35m[Kconst double & dist_error[m[K, const double & lookahead_dist,
+      |   [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_edit.cpp:395:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klookahead_dist[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  395 |   const double & dist_error, [01;35m[Kconst double & lookahead_dist[m[K,
+      |                              [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_edit.cpp:397:18:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpose_cost[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  397 |   [01;35m[Kconst double & pose_cost[m[K, double & linear_vel, double & sign)
+      |   [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_custom.cpp:[m[K In member function ‘[01m[Kvirtual void pure_pursuit_edit::RegulatedPurePursuitController::configure(const WeakPtr&, std::string, const std::shared_ptr<tf2_ros::Buffer>&, const std::shared_ptr<nav2_costmap_2d::Costmap2DROS>&)[m[K’:
+[01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_custom.cpp:43:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcostmap_ros[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   43 |   [01;35m[Kconst std::shared_ptr<nav2_costmap_2d::Costmap2DROS> & costmap_ros[m[K)
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_custom.cpp:[m[K In member function ‘[01m[Kvirtual geometry_msgs::msg::TwistStamped pure_pursuit_edit::RegulatedPurePursuitController::computeVelocityCommands(const PoseStamped&, const Twist&, nav2_core::GoalChecker*)[m[K’:
+[01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_custom.cpp:262:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_checker[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  262 |   [01;35m[Knav2_core::GoalChecker * goal_checker[m[K)
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_custom.cpp:[m[K In member function ‘[01m[Kbool pure_pursuit_edit::RegulatedPurePursuitController::isCollisionImminent(const PoseStamped&, const double&, const double&, const double&)[m[K’:
+[01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_custom.cpp:395:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krobot_pose[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  395 |   [01;35m[Kconst geometry_msgs::msg::PoseStamped & robot_pose[m[K,
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_custom.cpp:396:18:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klinear_vel[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  396 |   [01;35m[Kconst double & linear_vel[m[K, const double & angular_vel,
+      |   [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_custom.cpp:396:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kangular_vel[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  396 |   const double & linear_vel, [01;35m[Kconst double & angular_vel[m[K,
+      |                              [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_custom.cpp:397:18:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcarrot_dist[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  397 |   [01;35m[Kconst double & carrot_dist[m[K)
+      |   [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_custom.cpp:[m[K In member function ‘[01m[Kbool pure_pursuit_edit::RegulatedPurePursuitController::inCollision(const double&, const double&, const double&)[m[K’:
+[01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_custom.cpp:407:18:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  407 |   [01;35m[Kconst double & x[m[K,
+      |   [01;35m[K~~~~~~~~~~~~~~~^[m[K
+[01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_custom.cpp:408:18:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ky[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  408 |   [01;35m[Kconst double & y[m[K,
+      |   [01;35m[K~~~~~~~~~~~~~~~^[m[K
+[01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_custom.cpp:409:18:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktheta[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  409 |   [01;35m[Kconst double & theta[m[K)
+      |   [01;35m[K~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_custom.cpp:[m[K In member function ‘[01m[Kdouble pure_pursuit_edit::RegulatedPurePursuitController::costAtPose(const double&, const double&)[m[K’:
+[01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_custom.cpp:414:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  414 | double RegulatedPurePursuitController::costAtPose([01;35m[Kconst double & x[m[K, const double & y)
+      |                                                   [01;35m[K~~~~~~~~~~~~~~~^[m[K
+[01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_custom.cpp:414:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ky[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  414 | double RegulatedPurePursuitController::costAtPose(const double & x, [01;35m[Kconst double & y[m[K)
+      |                                                                     [01;35m[K~~~~~~~~~~~~~~~^[m[K
+[01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_custom.cpp:[m[K In member function ‘[01m[Kvoid pure_pursuit_edit::RegulatedPurePursuitController::applyConstraints(const double&, const double&, const double&, const Twist&, const double&, double&, double&)[m[K’:
+[01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_custom.cpp:430:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kapproach_vel[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  430 |   double [01;35m[Kapproach_vel[m[K = linear_vel;
+      |          [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_custom.cpp:420:18:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdist_error[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  420 |   [01;35m[Kconst double & dist_error[m[K, const double & lookahead_dist,
+      |   [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_custom.cpp:420:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klookahead_dist[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  420 |   const double & dist_error, [01;35m[Kconst double & lookahead_dist[m[K,
+      |                              [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/mario/Driverless/src/path_followers/src/pure_pursuit_custom.cpp:422:18:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpose_cost[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  422 |   [01;35m[Kconst double & pose_cost[m[K, double & linear_vel, double & sign)
+      |   [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~[m[K

@@ -1,0 +1,67 @@
+[0.693s] Invoking command in '/home/mario/Driverless/build/vehicle_descriptions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mario/Driverless/install/lidar_camera_fusion:/home/mario/Driverless/install/vehicle_controllers:/home/mario/Driverless/install/path_generators:/home/mario/Driverless/install/lidar_only_cone_detector:/home/mario/Driverless/install/id_track_utils:/home/mario/Driverless/install/car_keyop:/home/mario/Driverless/install/ackermann_drive_teleop:/opt/ros/galactic /usr/bin/cmake /home/mario/Driverless/src/vehicle_descriptions -DCMAKE_INSTALL_PREFIX=/home/mario/Driverless/install/vehicle_descriptions
+[0.790s] -- The C compiler identification is GNU 9.4.0
+[0.897s] -- The CXX compiler identification is GNU 9.4.0
+[0.907s] -- Check for working C compiler: /usr/bin/cc
+[1.041s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.041s] -- Detecting C compiler ABI info
+[1.165s] -- Detecting C compiler ABI info - done
+[1.187s] -- Detecting C compile features
+[1.188s] -- Detecting C compile features - done
+[1.193s] -- Check for working CXX compiler: /usr/bin/c++
+[1.345s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.347s] -- Detecting CXX compiler ABI info
+[1.502s] -- Detecting CXX compiler ABI info - done
+[1.527s] -- Detecting CXX compile features
+[1.528s] -- Detecting CXX compile features - done
+[1.536s] -- Found ament_cmake: 1.1.4 (/opt/ros/galactic/share/ament_cmake/cmake)
+[1.586s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.586s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.881s] -- Configuring done
+[1.884s] -- Generating done
+[1.886s] -- Build files have been written to: /home/mario/Driverless/build/vehicle_descriptions
+[1.896s] Invoked command in '/home/mario/Driverless/build/vehicle_descriptions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mario/Driverless/install/lidar_camera_fusion:/home/mario/Driverless/install/vehicle_controllers:/home/mario/Driverless/install/path_generators:/home/mario/Driverless/install/lidar_only_cone_detector:/home/mario/Driverless/install/id_track_utils:/home/mario/Driverless/install/car_keyop:/home/mario/Driverless/install/ackermann_drive_teleop:/opt/ros/galactic /usr/bin/cmake /home/mario/Driverless/src/vehicle_descriptions -DCMAKE_INSTALL_PREFIX=/home/mario/Driverless/install/vehicle_descriptions
+[1.898s] Invoking command in '/home/mario/Driverless/build/vehicle_descriptions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mario/Driverless/install/lidar_camera_fusion:/home/mario/Driverless/install/vehicle_controllers:/home/mario/Driverless/install/path_generators:/home/mario/Driverless/install/lidar_only_cone_detector:/home/mario/Driverless/install/id_track_utils:/home/mario/Driverless/install/car_keyop:/home/mario/Driverless/install/ackermann_drive_teleop:/opt/ros/galactic /usr/bin/cmake --build /home/mario/Driverless/build/vehicle_descriptions -- -j4 -l4
+[1.976s] Invoked command in '/home/mario/Driverless/build/vehicle_descriptions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mario/Driverless/install/lidar_camera_fusion:/home/mario/Driverless/install/vehicle_controllers:/home/mario/Driverless/install/path_generators:/home/mario/Driverless/install/lidar_only_cone_detector:/home/mario/Driverless/install/id_track_utils:/home/mario/Driverless/install/car_keyop:/home/mario/Driverless/install/ackermann_drive_teleop:/opt/ros/galactic /usr/bin/cmake --build /home/mario/Driverless/build/vehicle_descriptions -- -j4 -l4
+[2.042s] Invoking command in '/home/mario/Driverless/build/vehicle_descriptions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mario/Driverless/install/lidar_camera_fusion:/home/mario/Driverless/install/vehicle_controllers:/home/mario/Driverless/install/path_generators:/home/mario/Driverless/install/lidar_only_cone_detector:/home/mario/Driverless/install/id_track_utils:/home/mario/Driverless/install/car_keyop:/home/mario/Driverless/install/ackermann_drive_teleop:/opt/ros/galactic /usr/bin/cmake --install /home/mario/Driverless/build/vehicle_descriptions
+[2.061s] -- Install configuration: ""
+[2.061s] -- Installing: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/launch
+[2.061s] -- Installing: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/launch/simple.launch.py
+[2.062s] -- Installing: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/launch/view_vehicle.launch.py
+[2.062s] -- Installing: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/rviz
+[2.062s] -- Installing: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/rviz/urdf.rviz
+[2.062s] -- Installing: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/urdf
+[2.063s] -- Installing: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/urdf/chassis.urdf.xacro
+[2.063s] -- Installing: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/urdf/main.urdf.xacro
+[2.063s] -- Installing: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/urdf/wheels.urdf.xacro
+[2.063s] -- Installing: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/vehicles
+[2.063s] -- Installing: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/vehicles/mit_racecar
+[2.064s] -- Installing: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/vehicles/mit_racecar/meshes
+[2.064s] -- Installing: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/vehicles/mit_racecar/meshes/wheel.dae
+[2.064s] -- Installing: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/vehicles/mit_racecar/meshes/chassis.dae
+[2.064s] -- Installing: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/vehicles/mit_racecar/config.yaml
+[2.065s] -- Installing: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/vehicles/ads_dv
+[2.065s] -- Installing: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/vehicles/ads_dv/meshes
+[2.065s] -- Installing: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/vehicles/ads_dv/meshes/old_wheel.dae
+[2.066s] -- Installing: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/vehicles/ads_dv/meshes/wheel.dae
+[2.068s] -- Installing: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/vehicles/ads_dv/meshes/AFS_RaceCar.jpg
+[2.069s] -- Installing: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/vehicles/ads_dv/meshes/chassis.dae
+[2.072s] -- Installing: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/vehicles/ads_dv/meshes/old_chassis.dae
+[2.080s] -- Installing: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/vehicles/ads_dv/config.yaml
+[2.080s] -- Installing: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/common_meshes
+[2.080s] -- Installing: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/common_meshes/hokuyo.dae
+[2.080s] -- Installing: /home/mario/Driverless/install/vehicle_descriptions/share/ament_index/resource_index/package_run_dependencies/vehicle_descriptions
+[2.081s] -- Installing: /home/mario/Driverless/install/vehicle_descriptions/share/ament_index/resource_index/parent_prefix_path/vehicle_descriptions
+[2.081s] -- Installing: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/environment/ament_prefix_path.sh
+[2.081s] -- Installing: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/environment/ament_prefix_path.dsv
+[2.082s] -- Installing: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/environment/path.sh
+[2.082s] -- Installing: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/environment/path.dsv
+[2.082s] -- Installing: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/local_setup.bash
+[2.082s] -- Installing: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/local_setup.sh
+[2.083s] -- Installing: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/local_setup.zsh
+[2.083s] -- Installing: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/local_setup.dsv
+[2.083s] -- Installing: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/package.dsv
+[2.083s] -- Installing: /home/mario/Driverless/install/vehicle_descriptions/share/ament_index/resource_index/packages/vehicle_descriptions
+[2.084s] -- Installing: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/cmake/vehicle_descriptionsConfig.cmake
+[2.084s] -- Installing: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/cmake/vehicle_descriptionsConfig-version.cmake
+[2.084s] -- Installing: /home/mario/Driverless/install/vehicle_descriptions/share/vehicle_descriptions/package.xml
+[2.093s] Invoked command in '/home/mario/Driverless/build/vehicle_descriptions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mario/Driverless/install/lidar_camera_fusion:/home/mario/Driverless/install/vehicle_controllers:/home/mario/Driverless/install/path_generators:/home/mario/Driverless/install/lidar_only_cone_detector:/home/mario/Driverless/install/id_track_utils:/home/mario/Driverless/install/car_keyop:/home/mario/Driverless/install/ackermann_drive_teleop:/opt/ros/galactic /usr/bin/cmake --install /home/mario/Driverless/build/vehicle_descriptions

@@ -1,0 +1,80 @@
+[0.069s] Invoking command in '/home/mario/Driverless/build/imperial_driverless_utils': AMENT_PREFIX_PATH=/home/mario/Driverless/install/vehicle_descriptions:/home/mario/Driverless/install/id_track_utils:/home/mario/Driverless/install/id_rviz_plugins:/home/mario/Driverless/install/car_keyop:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mario/Driverless/install/vehicle_descriptions:/home/mario/Driverless/install/id_rviz_plugins:/opt/ros/galactic LD_LIBRARY_PATH=/home/mario/Driverless/install/id_rviz_plugins/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mario/Driverless/install/id_track_utils/lib/python3.8/site-packages:/home/mario/Driverless/install/car_keyop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mario/Driverless/build/imperial_driverless_utils -- -j4 -l4
+[0.246s] Built target ament_cmake_python_symlink_imperial_driverless_utils_setup
+[0.291s] Built target ament_cmake_python_symlink_imperial_driverless_utils
+[0.723s] running egg_info
+[0.724s] writing imperial_driverless_utils.egg-info/PKG-INFO
+[0.725s] writing dependency_links to imperial_driverless_utils.egg-info/dependency_links.txt
+[0.725s] writing entry points to imperial_driverless_utils.egg-info/entry_points.txt
+[0.726s] writing top-level names to imperial_driverless_utils.egg-info/top_level.txt
+[0.852s] reading manifest file 'imperial_driverless_utils.egg-info/SOURCES.txt'
+[0.853s] writing manifest file 'imperial_driverless_utils.egg-info/SOURCES.txt'
+[0.951s] running install_scripts
+[0.955s] Built target ament_cmake_python_build_imperial_driverless_utils_egg
+[1.031s] running egg_info
+[1.033s] writing imperial_driverless_utils.egg-info/PKG-INFO
+[1.033s] writing dependency_links to imperial_driverless_utils.egg-info/dependency_links.txt
+[1.033s] writing entry points to imperial_driverless_utils.egg-info/entry_points.txt
+[1.034s] writing top-level names to imperial_driverless_utils.egg-info/top_level.txt
+[1.150s] reading manifest file 'imperial_driverless_utils.egg-info/SOURCES.txt'
+[1.151s] writing manifest file 'imperial_driverless_utils.egg-info/SOURCES.txt'
+[1.162s] Installing clock_sync_signal_emitter script to scripts
+[1.163s] Installing gt_cone_map_publisher script to scripts
+[1.163s] Installing gt_cone_map_visualisation_publisher script to scripts
+[1.163s] Installing odometry_noisifier script to scripts
+[1.163s] Installing path_from_odom_history_publisher script to scripts
+[1.263s] Built target ament_cmake_python_build_imperial_driverless_utils_scripts
+[1.800s] Invoked command in '/home/mario/Driverless/build/imperial_driverless_utils' returned '0': AMENT_PREFIX_PATH=/home/mario/Driverless/install/vehicle_descriptions:/home/mario/Driverless/install/id_track_utils:/home/mario/Driverless/install/id_rviz_plugins:/home/mario/Driverless/install/car_keyop:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mario/Driverless/install/vehicle_descriptions:/home/mario/Driverless/install/id_rviz_plugins:/opt/ros/galactic LD_LIBRARY_PATH=/home/mario/Driverless/install/id_rviz_plugins/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mario/Driverless/install/id_track_utils/lib/python3.8/site-packages:/home/mario/Driverless/install/car_keyop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mario/Driverless/build/imperial_driverless_utils -- -j4 -l4
+[2.039s] Invoking command in '/home/mario/Driverless/build/imperial_driverless_utils': AMENT_PREFIX_PATH=/home/mario/Driverless/install/vehicle_descriptions:/home/mario/Driverless/install/id_track_utils:/home/mario/Driverless/install/id_rviz_plugins:/home/mario/Driverless/install/car_keyop:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mario/Driverless/install/vehicle_descriptions:/home/mario/Driverless/install/id_rviz_plugins:/opt/ros/galactic LD_LIBRARY_PATH=/home/mario/Driverless/install/id_rviz_plugins/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mario/Driverless/install/id_track_utils/lib/python3.8/site-packages:/home/mario/Driverless/install/car_keyop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mario/Driverless/build/imperial_driverless_utils
+[2.091s] -- Install configuration: ""
+[2.091s] -- Up-to-date: /home/mario/Driverless/install/imperial_driverless_utils/share/imperial_driverless_utils/environment/pythonpath.sh
+[2.091s] -- Up-to-date: /home/mario/Driverless/install/imperial_driverless_utils/share/imperial_driverless_utils/environment/pythonpath.dsv
+[2.091s] -- Up-to-date: /home/mario/Driverless/install/imperial_driverless_utils/lib/python3.8/site-packages//imperial_driverless_utils.egg-info
+[2.091s] -- Installing: /home/mario/Driverless/install/imperial_driverless_utils/lib/python3.8/site-packages//imperial_driverless_utils.egg-info/entry_points.txt
+[2.091s] -- Installing: /home/mario/Driverless/install/imperial_driverless_utils/lib/python3.8/site-packages//imperial_driverless_utils.egg-info/dependency_links.txt
+[2.091s] -- Installing: /home/mario/Driverless/install/imperial_driverless_utils/lib/python3.8/site-packages//imperial_driverless_utils.egg-info/PKG-INFO
+[2.091s] -- Installing: /home/mario/Driverless/install/imperial_driverless_utils/lib/python3.8/site-packages//imperial_driverless_utils.egg-info/top_level.txt
+[2.092s] -- Installing: /home/mario/Driverless/install/imperial_driverless_utils/lib/python3.8/site-packages//imperial_driverless_utils.egg-info/SOURCES.txt
+[2.092s] -- Up-to-date: /home/mario/Driverless/install/imperial_driverless_utils/lib/python3.8/site-packages/imperial_driverless_utils
+[2.092s] -- Up-to-date: /home/mario/Driverless/install/imperial_driverless_utils/lib/python3.8/site-packages/imperial_driverless_utils/odometry_noisifier.py
+[2.092s] -- Up-to-date: /home/mario/Driverless/install/imperial_driverless_utils/lib/python3.8/site-packages/imperial_driverless_utils/__init__.py
+[2.092s] -- Up-to-date: /home/mario/Driverless/install/imperial_driverless_utils/lib/python3.8/site-packages/imperial_driverless_utils/clock_sync_signal_emitter.py
+[2.092s] -- Up-to-date: /home/mario/Driverless/install/imperial_driverless_utils/lib/python3.8/site-packages/imperial_driverless_utils/tf_message_filter
+[2.092s] -- Up-to-date: /home/mario/Driverless/install/imperial_driverless_utils/lib/python3.8/site-packages/imperial_driverless_utils/tf_message_filter/__init__.py
+[2.092s] -- Up-to-date: /home/mario/Driverless/install/imperial_driverless_utils/lib/python3.8/site-packages/imperial_driverless_utils/setup.cfg
+[2.093s] -- Up-to-date: /home/mario/Driverless/install/imperial_driverless_utils/lib/python3.8/site-packages/imperial_driverless_utils/gt_cone_map_publisher.py
+[2.093s] -- Up-to-date: /home/mario/Driverless/install/imperial_driverless_utils/lib/python3.8/site-packages/imperial_driverless_utils/path_from_odom_history_publisher.py
+[2.093s] -- Up-to-date: /home/mario/Driverless/install/imperial_driverless_utils/lib/python3.8/site-packages/imperial_driverless_utils/rviz_config.py
+[2.198s] Listing '/home/mario/Driverless/install/imperial_driverless_utils/lib/python3.8/site-packages/imperial_driverless_utils'...
+[2.198s] Listing '/home/mario/Driverless/install/imperial_driverless_utils/lib/python3.8/site-packages/imperial_driverless_utils/tf_message_filter'...
+[2.212s] -- Up-to-date: /home/mario/Driverless/install/imperial_driverless_utils/lib/imperial_driverless_utils/
+[2.212s] -- Installing: /home/mario/Driverless/install/imperial_driverless_utils/lib/imperial_driverless_utils//gt_cone_map_publisher
+[2.212s] -- Installing: /home/mario/Driverless/install/imperial_driverless_utils/lib/imperial_driverless_utils//clock_sync_signal_emitter
+[2.213s] -- Installing: /home/mario/Driverless/install/imperial_driverless_utils/lib/imperial_driverless_utils//gt_cone_map_visualisation_publisher
+[2.213s] -- Installing: /home/mario/Driverless/install/imperial_driverless_utils/lib/imperial_driverless_utils//path_from_odom_history_publisher
+[2.214s] -- Installing: /home/mario/Driverless/install/imperial_driverless_utils/lib/imperial_driverless_utils//odometry_noisifier
+[2.214s] -- Up-to-date: /home/mario/Driverless/install/imperial_driverless_utils/share/imperial_driverless_utils/launch
+[2.215s] -- Up-to-date: /home/mario/Driverless/install/imperial_driverless_utils/share/imperial_driverless_utils/launch/software_stack.launch.py
+[2.215s] -- Up-to-date: /home/mario/Driverless/install/imperial_driverless_utils/share/imperial_driverless_utils/launch/custom.launch.py
+[2.215s] -- Up-to-date: /home/mario/Driverless/install/imperial_driverless_utils/share/imperial_driverless_utils/launch/setup_simulation_environment.launch.py
+[2.216s] -- Up-to-date: /home/mario/Driverless/install/imperial_driverless_utils/share/imperial_driverless_utils/cone_maps
+[2.216s] -- Up-to-date: /home/mario/Driverless/install/imperial_driverless_utils/share/imperial_driverless_utils/cone_maps/skidpad.csv
+[2.216s] -- Up-to-date: /home/mario/Driverless/install/imperial_driverless_utils/share/imperial_driverless_utils/cone_maps/acceleration.csv
+[2.217s] -- Up-to-date: /home/mario/Driverless/install/imperial_driverless_utils/share/imperial_driverless_utils/cone_maps/small_track.csv
+[2.217s] -- Up-to-date: /home/mario/Driverless/install/imperial_driverless_utils/share/imperial_driverless_utils/cone_maps/example-track.yaml
+[2.217s] -- Up-to-date: /home/mario/Driverless/install/imperial_driverless_utils/share/imperial_driverless_utils/cone_maps/example-track.csv
+[2.217s] -- Up-to-date: /home/mario/Driverless/install/imperial_driverless_utils/share/ament_index/resource_index/package_run_dependencies/imperial_driverless_utils
+[2.217s] -- Up-to-date: /home/mario/Driverless/install/imperial_driverless_utils/share/ament_index/resource_index/parent_prefix_path/imperial_driverless_utils
+[2.218s] -- Up-to-date: /home/mario/Driverless/install/imperial_driverless_utils/share/imperial_driverless_utils/environment/ament_prefix_path.sh
+[2.218s] -- Up-to-date: /home/mario/Driverless/install/imperial_driverless_utils/share/imperial_driverless_utils/environment/ament_prefix_path.dsv
+[2.218s] -- Up-to-date: /home/mario/Driverless/install/imperial_driverless_utils/share/imperial_driverless_utils/environment/path.sh
+[2.219s] -- Up-to-date: /home/mario/Driverless/install/imperial_driverless_utils/share/imperial_driverless_utils/environment/path.dsv
+[2.219s] -- Up-to-date: /home/mario/Driverless/install/imperial_driverless_utils/share/imperial_driverless_utils/local_setup.bash
+[2.220s] -- Up-to-date: /home/mario/Driverless/install/imperial_driverless_utils/share/imperial_driverless_utils/local_setup.sh
+[2.220s] -- Up-to-date: /home/mario/Driverless/install/imperial_driverless_utils/share/imperial_driverless_utils/local_setup.zsh
+[2.220s] -- Up-to-date: /home/mario/Driverless/install/imperial_driverless_utils/share/imperial_driverless_utils/local_setup.dsv
+[2.220s] -- Installing: /home/mario/Driverless/install/imperial_driverless_utils/share/imperial_driverless_utils/package.dsv
+[2.220s] -- Up-to-date: /home/mario/Driverless/install/imperial_driverless_utils/share/ament_index/resource_index/packages/imperial_driverless_utils
+[2.220s] -- Up-to-date: /home/mario/Driverless/install/imperial_driverless_utils/share/imperial_driverless_utils/cmake/imperial_driverless_utilsConfig.cmake
+[2.220s] -- Up-to-date: /home/mario/Driverless/install/imperial_driverless_utils/share/imperial_driverless_utils/cmake/imperial_driverless_utilsConfig-version.cmake
+[2.232s] -- Up-to-date: /home/mario/Driverless/install/imperial_driverless_utils/share/imperial_driverless_utils/package.xml
+[2.232s] Invoked command in '/home/mario/Driverless/build/imperial_driverless_utils' returned '0': AMENT_PREFIX_PATH=/home/mario/Driverless/install/vehicle_descriptions:/home/mario/Driverless/install/id_track_utils:/home/mario/Driverless/install/id_rviz_plugins:/home/mario/Driverless/install/car_keyop:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mario/Driverless/install/vehicle_descriptions:/home/mario/Driverless/install/id_rviz_plugins:/opt/ros/galactic LD_LIBRARY_PATH=/home/mario/Driverless/install/id_rviz_plugins/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mario/Driverless/install/id_track_utils/lib/python3.8/site-packages:/home/mario/Driverless/install/car_keyop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mario/Driverless/build/imperial_driverless_utils

@@ -1,0 +1,18 @@
+running egg_info
+writing ../../build/vehicle_controllers/vehicle_controllers.egg-info/PKG-INFO
+writing dependency_links to ../../build/vehicle_controllers/vehicle_controllers.egg-info/dependency_links.txt
+writing entry points to ../../build/vehicle_controllers/vehicle_controllers.egg-info/entry_points.txt
+writing top-level names to ../../build/vehicle_controllers/vehicle_controllers.egg-info/top_level.txt
+reading manifest file '../../build/vehicle_controllers/vehicle_controllers.egg-info/SOURCES.txt'
+writing manifest file '../../build/vehicle_controllers/vehicle_controllers.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/mario/Driverless/install/vehicle_controllers/lib/python3.8/site-packages/vehicle_controllers-0.0.1-py3.8.egg-info' (and everything under it)
+Copying ../../build/vehicle_controllers/vehicle_controllers.egg-info to /home/mario/Driverless/install/vehicle_controllers/lib/python3.8/site-packages/vehicle_controllers-0.0.1-py3.8.egg-info
+running install_scripts
+Installing basic_pid script to /home/mario/Driverless/install/vehicle_controllers/lib/vehicle_controllers
+writing list of installed files to '/home/mario/Driverless/build/vehicle_controllers/install.log'

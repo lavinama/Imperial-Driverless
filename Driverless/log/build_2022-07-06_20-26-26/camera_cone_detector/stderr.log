@@ -1,0 +1,4 @@
+package init file 'camera_cone_detector/__init__.py' not found (or not a regular file)
+warning: install_lib: '/home/mario/Driverless/build/camera_cone_detector/build/lib' does not exist -- no Python modules to install
+
+error: can't copy 'resource/camera_cone_detector': doesn't exist or not a regular file

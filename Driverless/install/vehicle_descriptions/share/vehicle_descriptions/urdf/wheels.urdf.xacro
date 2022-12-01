@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<robot name="wheels" xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <xacro:macro name="wheels">
+
+    <!-- ********** -->
+    <!-- Parameters -->
+    <!-- ********** -->
+
+    <xacro:property name="degrees_90" value="1.5708"/>
+
+    <xacro:property name="steering_hinge_mass" value="1"/>
+
+    <!-- ***************** -->
+    <!-- Wheel description -->
+    <!-- ***************** -->
+
+    <xacro:macro name="wheel"
+                 params="lr_prefix fr_prefix lr_reflect">
+      <link name="${lr_prefix}_${fr_prefix}_wheel">
+        <inertial>
+          <origin xyz="0 0 0" rpy="0 0 0" />
+          <mass value="${config['wheel']['mass']}"/>
+          <inertia
+              ixx="${config['wheel']['inertia']['ixx']}"
+              ixy="${config['wheel']['inertia']['ixy']}"
+              ixz="${config['wheel']['inertia']['ixz']}"
+              iyy="${config['wheel']['inertia']['iyy']}"
+              iyz="${config['wheel']['inertia']['iyz']}"
+              izz="${config['wheel']['inertia']['izz']}"   />
+        </inertial>
+
+        <visual>
+          <origin xyz="0 0 0" rpy="${degrees_90} 0 ${degrees_90 + lr_reflect * degrees_90}"/>
+          <geometry>
+            <mesh filename="file://${vehicle_dir}/meshes/wheel.dae"/>
+          </geometry>
+          <material name="tire_mat"/>
+        </visual>
+
+        <collision>
+          <origin xyz="0 ${lr_reflect * config['wheel']['width'] / 2} 0" rpy="${degrees_90} 0 0"/>
+          <geometry>
+            <cylinder radius="${config['wheel']['radius']}" length="${config['wheel']['width']}"/>
+          </geometry>
+        </collision>
+      </link>
+
+      <gazebo reference="${lr_prefix}_${fr_prefix}_wheel">
+        <material>Gazebo/Black</material>
+        <mu1>${config['wheel']['friction']['mu1']}</mu1>
+        <mu2>${config['wheel']['friction']['mu2']}</mu2>
+        <!-- <minDepth>0.005</minDepth> -->
+        <kp>${config['wheel']['friction']['kp']}</kp>
+        <kd>${config['wheel']['friction']['kd']}</kd> <!--damping-->
+        <minDepth>0.02</minDepth>
+      </gazebo>
+    </xacro:macro>
+
+    <!-- ********************************* -->
+    <!-- Front and rear wheel descriptions -->
+    <!-- ********************************* -->
+
+    <!-- Description of how a front wheel is connected to the chassis -->
+    <xacro:macro name="front_wheel"
+                 params="lr_prefix lr_reflect">
+
+      <joint name="${lr_prefix}_steering_hinge_joint" type="revolute">
+        <origin xyz="${config['kinematics']['wheelbase']}
+                     ${lr_reflect * config['kinematics']['axle_width'] / 2}
+                     0"
+                rpy="0 0 0"/>
+        <parent link="chassis"/>
+        <child link="${lr_prefix}_steering_hinge"/>
+        <axis xyz="0 0 1"/>
+        <limit lower="${config['input_ranges']['steering']['min']}" upper="${config['input_ranges']['steering']['max']}" effort="10000000" velocity="1000000"/>
+      </joint>
+
+      <link name="${lr_prefix}_steering_hinge">
+        <inertial>
+          <origin xyz="0 0 0" rpy="0 0 0" />
+          <mass value="${steering_hinge_mass}"/>
+          <inertia
+              ixx="0.001"
+              ixy="0.0"
+              ixz="0.0"
+              iyy="0.001"
+              iyz="0.0"
+              izz="0.001"   />
+        </inertial>
+      </link>
+
+      <joint name="${lr_prefix}_front_wheel_joint" type="continuous">
+        <origin xyz="0 0 0"
+                rpy="0 0 0"/>
+        <parent link="${lr_prefix}_steering_hinge"/>
+        <child link="${lr_prefix}_front_wheel"/>
+        <axis xyz="0 1 0"/>
+        <limit lower="0" upper="0" effort="10000000" velocity="1000000"/>
+        <dynamics damping="0.7"/>
+      </joint>
+
+      <xacro:wheel lr_prefix="${lr_prefix}" fr_prefix="front" lr_reflect="${lr_reflect}"/>
+    </xacro:macro>
+
+    <!-- Description of how a rear wheel is connected to the chassis -->
+    <xacro:macro name="rear_wheel"
+                 params="lr_prefix lr_reflect">
+
+      <joint name="${lr_prefix}_rear_wheel_joint" type="continuous">
+        <origin xyz="0
+                     ${lr_reflect * config['kinematics']['axle_width'] / 2}
+                     0"
+                rpy="0 0 0"/>
+        <parent link="chassis"/>
+        <child link="${lr_prefix}_rear_wheel"/>
+        <axis xyz="0 1 0"/>
+        <limit lower="0" upper="0" effort="10000000" velocity="1000000"/>
+        <dynamics damping="0.7"/>
+      </joint>
+
+      <xacro:wheel lr_prefix="${lr_prefix}" fr_prefix="rear" lr_reflect="${lr_reflect}"/>
+    </xacro:macro>
+
+    <!-- ************** -->
+    <!-- Add the wheels -->
+    <!-- ************** -->
+
+    <xacro:front_wheel lr_prefix="left" lr_reflect="1"/>
+    <xacro:front_wheel lr_prefix="right" lr_reflect="-1"/>
+
+    <xacro:rear_wheel lr_prefix="left" lr_reflect="1" />
+    <xacro:rear_wheel lr_prefix="right" lr_reflect="-1" />
+  </xacro:macro>
+
+</robot>

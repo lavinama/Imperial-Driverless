@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package>
+  <name>vehicle_descriptions</name>
+  <version>3.3.3</version>
+  <description>A package containing the descriptions of all vehicles simulated by Imperial Driverless</description>
+
+  <maintainer email="imperial.driverless@gmail.com">Imperial Driverless</maintainer>
+
+  <license>TODO</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <run_depend>joint_state_publisher</run_depend>
+  <run_depend>robot_state_publisher</run_depend>
+  <run_depend>rviz2</run_depend>
+  <run_depend>xacro</run_depend>
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

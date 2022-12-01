@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/lidar_camera_fusion/lidar_camera_fusion.egg-info
+writing ../../build/lidar_camera_fusion/lidar_camera_fusion.egg-info/PKG-INFO
+writing dependency_links to ../../build/lidar_camera_fusion/lidar_camera_fusion.egg-info/dependency_links.txt
+writing entry points to ../../build/lidar_camera_fusion/lidar_camera_fusion.egg-info/entry_points.txt
+writing top-level names to ../../build/lidar_camera_fusion/lidar_camera_fusion.egg-info/top_level.txt
+writing manifest file '../../build/lidar_camera_fusion/lidar_camera_fusion.egg-info/SOURCES.txt'
+reading manifest file '../../build/lidar_camera_fusion/lidar_camera_fusion.egg-info/SOURCES.txt'
+writing manifest file '../../build/lidar_camera_fusion/lidar_camera_fusion.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/mario/Driverless/build/lidar_camera_fusion/build
+creating /home/mario/Driverless/build/lidar_camera_fusion/build/lib
+creating /home/mario/Driverless/build/lidar_camera_fusion/build/lib/lidar_camera_fusion
+copying lidar_camera_fusion/__init__.py -> /home/mario/Driverless/build/lidar_camera_fusion/build/lib/lidar_camera_fusion
+copying lidar_camera_fusion/sensor_fusion.py -> /home/mario/Driverless/build/lidar_camera_fusion/build/lib/lidar_camera_fusion
+copying lidar_camera_fusion/ground_truth_perception.py -> /home/mario/Driverless/build/lidar_camera_fusion/build/lib/lidar_camera_fusion
+running install
+running install_lib
+creating /home/mario/Driverless/install/lidar_camera_fusion/lib/python3.8/site-packages/lidar_camera_fusion
+copying /home/mario/Driverless/build/lidar_camera_fusion/build/lib/lidar_camera_fusion/__init__.py -> /home/mario/Driverless/install/lidar_camera_fusion/lib/python3.8/site-packages/lidar_camera_fusion
+copying /home/mario/Driverless/build/lidar_camera_fusion/build/lib/lidar_camera_fusion/sensor_fusion.py -> /home/mario/Driverless/install/lidar_camera_fusion/lib/python3.8/site-packages/lidar_camera_fusion
+copying /home/mario/Driverless/build/lidar_camera_fusion/build/lib/lidar_camera_fusion/ground_truth_perception.py -> /home/mario/Driverless/install/lidar_camera_fusion/lib/python3.8/site-packages/lidar_camera_fusion
+byte-compiling /home/mario/Driverless/install/lidar_camera_fusion/lib/python3.8/site-packages/lidar_camera_fusion/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/mario/Driverless/install/lidar_camera_fusion/lib/python3.8/site-packages/lidar_camera_fusion/sensor_fusion.py to sensor_fusion.cpython-38.pyc
+byte-compiling /home/mario/Driverless/install/lidar_camera_fusion/lib/python3.8/site-packages/lidar_camera_fusion/ground_truth_perception.py to ground_truth_perception.cpython-38.pyc
+running install_data
+creating /home/mario/Driverless/install/lidar_camera_fusion/share/ament_index
+creating /home/mario/Driverless/install/lidar_camera_fusion/share/ament_index/resource_index
+creating /home/mario/Driverless/install/lidar_camera_fusion/share/ament_index/resource_index/packages
+copying resource/lidar_camera_fusion -> /home/mario/Driverless/install/lidar_camera_fusion/share/ament_index/resource_index/packages
+copying package.xml -> /home/mario/Driverless/install/lidar_camera_fusion/share/lidar_camera_fusion
+creating /home/mario/Driverless/install/lidar_camera_fusion/share/lidar_camera_fusion/launch
+running install_egg_info
+Copying ../../build/lidar_camera_fusion/lidar_camera_fusion.egg-info to /home/mario/Driverless/install/lidar_camera_fusion/lib/python3.8/site-packages/lidar_camera_fusion-0.3.0-py3.8.egg-info
+running install_scripts
+Installing gt_perception script to /home/mario/Driverless/install/lidar_camera_fusion/lib/lidar_camera_fusion
+Installing sensor_fusion script to /home/mario/Driverless/install/lidar_camera_fusion/lib/lidar_camera_fusion
+writing list of installed files to '/home/mario/Driverless/build/lidar_camera_fusion/install.log'
